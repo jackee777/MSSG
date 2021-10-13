@@ -1,0 +1,24 @@
+// directories
+.idea
+build/
+dist/
+ms2vec.egg-info/*
+.ipynb_*/
+
+// cache
+*/__pycache__/*
+*/*.log
+
+// corpora
+text8.zip
+text8*
+text8/
+
+// learning vectors
+word2vec_model*
+word2vec_name*
+*.bin
+models/*
+models_word2vec/*
+
+word2vec.ipynb
