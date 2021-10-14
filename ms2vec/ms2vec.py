@@ -200,13 +200,9 @@ from gensim.utils import keep_vocab_item, call_on_class_only, deprecated
 from .keyedvectors import KeyedVectors, pseudorandom_weak_vector
 from gensim import utils, matutils
 
-from sklearn.cluster import KMeans
-from spherecluster import SphericalKMeans
 import faiss
 import bisect
 import pickle
-from scipy.sparse import csr_matrix, lil_matrix
-from sknetwork.clustering import Louvain, modularity, bimodularity
 
 logger = logging.getLogger(__name__)
 
