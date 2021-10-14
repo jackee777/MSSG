@@ -200,9 +200,6 @@ from gensim.utils import keep_vocab_item, call_on_class_only, deprecated
 from .keyedvectors import KeyedVectors, pseudorandom_weak_vector
 from gensim import utils, matutils
 
-import faiss
-import bisect
-import pickle
 
 logger = logging.getLogger(__name__)
 
