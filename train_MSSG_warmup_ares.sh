@@ -1,0 +1,4 @@
+python train_ms2vec.py -s 3 -c "../../data/corpus/ares_dataset/extract_cluster_corpus/ares.cluster_word_with_dataset.txt" --pretrained "../../data/models/ARES_EMBS/SG_Corpus_ares.cluster_word_with_dataset_seed0.bin"
+python train_ms2vec.py -s 5 -c "../../data/corpus/ares_dataset/extract_cluster_corpus/ares.cluster_word_with_dataset.txt" --pretrained "../../data/models/ARES_EMBS/SG_Corpus_ares.cluster_word_with_dataset_seed0.bin"
+python train_ms2vec.py -s 3 -c "../../data/corpus/ares_dataset/extract_cluster_corpus/ares.cluster_lem_with_dataset.txt" --pretrained "../../data/models/ARES_EMBS/SG_Corpus_ares.cluster_lem_with_dataset_seed0.bin"
+python train_ms2vec.py -s 5 -c "../../data/corpus/ares_dataset/extract_cluster_corpus/ares.cluster_lem_with_dataset.txt" --pretrained "../../data/models/ARES_EMBS/SG_Corpus_ares.cluster_lem_with_dataset_seed0.bin"

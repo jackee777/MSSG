@@ -198,8 +198,10 @@ import numpy as np
 
 from gensim.utils import keep_vocab_item, call_on_class_only, deprecated
 from .keyedvectors import KeyedVectors, pseudorandom_weak_vector
+import gensim
 from gensim import utils, matutils
 
+from sklearn.cluster import KMeans
 
 logger = logging.getLogger(__name__)
 
@@ -238,7 +240,7 @@ def print_log(text):
 #     print(text)
     logging.info(text)
 
-class Word2Vec(utils.SaveLoad):
+class MSSG(utils.SaveLoad):
     def __init__(
             self, sentences=None, corpus_file=None, vector_size=100, alpha=0.025, window=5, min_count=5,
             max_vocab_size=None, sample=1e-3, seed=1, workers=4, min_alpha=0.0001,
@@ -247,7 +249,7 @@ class Word2Vec(utils.SaveLoad):
             comment=None, max_final_vocab=None, skip_oov=True, delimiter="--", 
             min_sensecount=100, sense_num=3, clustering_method="simple_kmeans", 
             np_value=-1, global_initialize="random", cluster_initialize="zeros", 
-            analysis_logfile="analysis.log"
+            analysis_logfile="analysis.log", pretrained_path=None, pretrained_topn=50
         ):
         """Train, use and evaluate neural networks described in https://code.google.com/p/word2vec/.
 
@@ -415,6 +417,8 @@ class Word2Vec(utils.SaveLoad):
         self.wv.min_sensecount = min_sensecount
         self.wv.global_initialize = global_initialize
         self.wv.cluster_initialize = cluster_initialize
+        self.wv.pretrained_path = pretrained_path
+        self.wv.pretrained_topn = pretrained_topn
         method_dict = {"dynamic_kmeans":0, "dynamic_kmeans_warmup":1}
         self.method = method_dict[clustering_method]
         self.np_value = np_value
@@ -777,6 +781,8 @@ class Word2Vec(utils.SaveLoad):
 
         for word in ["the", "mouse", "keyboard"]:
             print(word, self.raw_vocab[word])
+            print(f"max sense num {self.wv.index_to_maxsensenum[self.wv.key_to_index[word]]}")
+            print(f"sense num {self.wv.index_to_sensenum[self.wv.key_to_index[word]]}")
 
         if not dry_run and not keep_raw_vocab:
             logger.info("deleting the raw counts dictionary of %i items", len(self.raw_vocab))
@@ -897,6 +903,7 @@ class Word2Vec(utils.SaveLoad):
         logger.info("resetting layer weights")
         self.wv.resize_vectors()
         self.wv.randomly_initialize_vectors(seed=self.seed)        
+
         self.wv.sensevectors = np.zeros((len(self.wv.index_to_sensekey), self.layer1_size), dtype=REAL)
         self.wv.sensecounts = np.zeros(len(self.wv.index_to_sensekey), dtype=np.uint32)        
         self.wv.randomly_initialize_sensevectors(seed=self.seed)
@@ -904,6 +911,41 @@ class Word2Vec(utils.SaveLoad):
             self.wv.clustervectors = np.copy(self.wv.sensevectors)
         elif self.wv.cluster_initialize == "zeros":
             self.wv.clustervectors = np.zeros((len(self.wv.index_to_sensekey), self.layer1_size), dtype=REAL)
+
+        if self.wv.pretrained_path is not None:
+            print("re initialize")
+            if self.wv.pretrained_path[-4:] == ".txt":
+                pretrained_model = gensim.models.KeyedVectors.load_word2vec_format(self.wv.pretrained_path, binary=False)
+            else:
+                pretrained_model = gensim.models.KeyedVectors.load_word2vec_format(self.wv.pretrained_path, binary=True)
+                
+            checkout_dir = "checkout"
+            checkout_vector_dir = os.path.join(checkout_dir, os.path.basename(self.wv.pretrained_path))
+            if checkout_dir not in os.listdir():
+                os.mkdir(checkout_dir)
+            if os.path.basename(self.wv.pretrained_path) not in os.listdir(checkout_dir):
+                os.mkdir(checkout_vector_dir)
+            
+            for index, key in tqdm(self.wv.index_to_key):
+                self.vectors[index] = pretrained_model[key]
+                if f"{key}_kmeans.pkl" not in os.listdir(checkout_vector_dir):
+                    if f"{key}_similar_vectors.pkl" not in os.listdir(checkout_vector_dir):
+                        similars = pretrained_model.most_similar(key, topn=self.wv.pretrained_topn)
+                        similar_vectors = np.asarray([pretrained_model[word] for word, sim in similars])
+                        pickle.dump(similar_vectors, open(os.path.join(checkout_vector_dir, f"{key}_similar_vectors.pkl"), "w"))
+                    else:
+                        similar_vectors = pickle.load(open(os.path.join(checkout_vector_dir, f"{key}_similar_vectors.pkl"), "r"))
+                    
+                    kmeans = KMeans(n_clusters=self.wv.index_to_maxsensenum[index], random_state=self.seed).fit(similar_vectors)
+                    pickle.dump(kmeans, open(os.path.join(checkout_vector_dir, f"{key}_kmeans.pkl"), "w"))
+                else:
+                    kmeans = pickle.load(open(os.path.join(checkout_vector_dir, f"{key}_kmeans.pkl"), "r"))                    
+                
+                for i in range(self.wv.index_to_maxsensenum[index]):
+                    base_index = self.wv.key_to_senseindex[key]
+                    self.wv.clustervectors[base_index+i] = kmeans.cluster_centers_[i]
+
+
 #         from gensim.models.word2vec import Word2Vec
 #         premodel = Word2Vec.load("models_word2vec/word2vec_2021-08-16 21:44:55.226260+09:00")
 #         self.wv.vectors = premodel.wv.vectors
