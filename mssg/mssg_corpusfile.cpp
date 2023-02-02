@@ -4,24 +4,24 @@
 {
     "distutils": {
         "depends": [
-            "/home/server2/.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/home/server2/.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/core/include/numpy/arrayscalars.h",
-            "/home/server2/.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/core/include/numpy/ndarrayobject.h",
-            "/home/server2/.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/core/include/numpy/ndarraytypes.h",
-            "/home/server2/.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/core/include/numpy/ufuncobject.h",
-            "ms2vec/fast_line_sentence.h"
+            "/home/server2/.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/home/server2/.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/core/include/numpy/arrayscalars.h",
+            "/home/server2/.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/core/include/numpy/ndarrayobject.h",
+            "/home/server2/.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/core/include/numpy/ndarraytypes.h",
+            "/home/server2/.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/core/include/numpy/ufuncobject.h",
+            "mssg/fast_line_sentence.h"
         ],
         "include_dirs": [
-            "ms2vec",
-            "/home/server2/.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/core/include"
+            "mssg",
+            "/home/server2/.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/core/include"
         ],
         "language": "c++",
-        "name": "ms2vec_corpusfile",
+        "name": "mssg_corpusfile",
         "sources": [
-            "ms2vec/ms2vec_corpusfile.pyx"
+            "mssg/mssg_corpusfile.pyx"
         ]
     },
-    "module_name": "ms2vec_corpusfile"
+    "module_name": "mssg_corpusfile"
 }
 END: Cython Metadata */
 
@@ -651,8 +651,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__ms2vec_corpusfile
-#define __PYX_HAVE_API__ms2vec_corpusfile
+#define __PYX_HAVE__mssg_corpusfile
+#define __PYX_HAVE_API__mssg_corpusfile
 /* Early includes */
 #include <string.h>
 #include <string>
@@ -916,8 +916,8 @@ static const char *__pyx_filename;
 
 static const char *__pyx_f[] = {
   "stringsource",
-  "ms2vec/ms2vec_corpusfile.pyx",
-  "ms2vec/ms2vec_corpusfile.pxd",
+  "mssg/mssg_corpusfile.pyx",
+  "mssg/mssg_corpusfile.pxd",
   "__init__.pxd",
   "type.pxd",
 };
@@ -934,7 +934,7 @@ static const char *__pyx_f[] = {
 #define __Pyx_FastGilFuncInit()
 
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":690
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":690
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -943,7 +943,7 @@ static const char *__pyx_f[] = {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":691
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":691
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -952,7 +952,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":692
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -961,7 +961,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":693
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":693
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -970,7 +970,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":697
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":697
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -979,7 +979,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":698
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":698
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -988,7 +988,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":699
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -997,7 +997,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":700
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":700
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1006,7 +1006,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":704
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":704
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1015,7 +1015,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":705
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":705
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1024,7 +1024,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":714
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":714
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1033,7 +1033,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":715
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":715
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1042,7 +1042,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":716
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":716
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1051,7 +1051,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":718
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":718
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1060,7 +1060,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":719
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":719
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1069,7 +1069,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":720
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":720
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1078,7 +1078,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":722
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":722
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1087,7 +1087,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":723
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":723
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1096,7 +1096,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":725
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":725
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1105,7 +1105,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":726
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":726
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1114,7 +1114,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":727
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":727
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1123,23 +1123,23 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "ms2vec_inner.pxd":21
+/* "mssg_inner.pxd":21
  *     void* PyCObject_AsVoidPtr(object obj)
  * 
  * ctypedef np.float32_t REAL_t             # <<<<<<<<<<<<<<
  * 
  * # BLAS routine signatures
  */
-typedef __pyx_t_5numpy_float32_t __pyx_t_12ms2vec_inner_REAL_t;
+typedef __pyx_t_5numpy_float32_t __pyx_t_10mssg_inner_REAL_t;
 
-/* "ms2vec_corpusfile.pxd":21
+/* "mssg_corpusfile.pxd":21
  * cimport numpy as np
  * 
  * ctypedef np.float32_t REAL_t             # <<<<<<<<<<<<<<
  * 
  * 
  */
-typedef __pyx_t_5numpy_float32_t __pyx_t_17ms2vec_corpusfile_REAL_t;
+typedef __pyx_t_5numpy_float32_t __pyx_t_15mssg_corpusfile_REAL_t;
 /* Declarations.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1166,11 +1166,11 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence;
-struct __pyx_obj_17ms2vec_corpusfile_CythonVocab;
-struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__;
+struct __pyx_obj_15mssg_corpusfile_CythonLineSentence;
+struct __pyx_obj_15mssg_corpusfile_CythonVocab;
+struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":729
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":729
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1179,7 +1179,7 @@ struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":730
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":730
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1188,7 +1188,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":731
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":731
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1197,7 +1197,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":733
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":733
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1205,89 +1205,89 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_t_12ms2vec_inner_Word2VecConfig;
-struct __pyx_opt_args_12ms2vec_inner_init_w2v_config;
+struct __pyx_t_10mssg_inner_Word2VecConfig;
+struct __pyx_opt_args_10mssg_inner_init_w2v_config;
 
-/* "ms2vec_inner.pxd":24
+/* "mssg_inner.pxd":24
  * 
  * # BLAS routine signatures
  * ctypedef void (*scopy_ptr) (const int *N, const float *X, const int *incX, float *Y, const int *incY) nogil             # <<<<<<<<<<<<<<
  * ctypedef void (*saxpy_ptr) (const int *N, const float *alpha, const float *X, const int *incX, float *Y, const int *incY) nogil
  * ctypedef float (*sdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  */
-typedef void (*__pyx_t_12ms2vec_inner_scopy_ptr)(int const *, float const *, int const *, float *, int const *);
+typedef void (*__pyx_t_10mssg_inner_scopy_ptr)(int const *, float const *, int const *, float *, int const *);
 
-/* "ms2vec_inner.pxd":25
+/* "mssg_inner.pxd":25
  * # BLAS routine signatures
  * ctypedef void (*scopy_ptr) (const int *N, const float *X, const int *incX, float *Y, const int *incY) nogil
  * ctypedef void (*saxpy_ptr) (const int *N, const float *alpha, const float *X, const int *incX, float *Y, const int *incY) nogil             # <<<<<<<<<<<<<<
  * ctypedef float (*sdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef double (*dsdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  */
-typedef void (*__pyx_t_12ms2vec_inner_saxpy_ptr)(int const *, float const *, float const *, int const *, float *, int const *);
+typedef void (*__pyx_t_10mssg_inner_saxpy_ptr)(int const *, float const *, float const *, int const *, float *, int const *);
 
-/* "ms2vec_inner.pxd":26
+/* "mssg_inner.pxd":26
  * ctypedef void (*scopy_ptr) (const int *N, const float *X, const int *incX, float *Y, const int *incY) nogil
  * ctypedef void (*saxpy_ptr) (const int *N, const float *alpha, const float *X, const int *incX, float *Y, const int *incY) nogil
  * ctypedef float (*sdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil             # <<<<<<<<<<<<<<
  * ctypedef double (*dsdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef double (*snrm2_ptr) (const int *N, const float *X, const int *incX) nogil
  */
-typedef float (*__pyx_t_12ms2vec_inner_sdot_ptr)(int const *, float const *, int const *, float const *, int const *);
+typedef float (*__pyx_t_10mssg_inner_sdot_ptr)(int const *, float const *, int const *, float const *, int const *);
 
-/* "ms2vec_inner.pxd":27
+/* "mssg_inner.pxd":27
  * ctypedef void (*saxpy_ptr) (const int *N, const float *alpha, const float *X, const int *incX, float *Y, const int *incY) nogil
  * ctypedef float (*sdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef double (*dsdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil             # <<<<<<<<<<<<<<
  * ctypedef double (*snrm2_ptr) (const int *N, const float *X, const int *incX) nogil
  * ctypedef void (*sscal_ptr) (const int *N, const float *alpha, const float *X, const int *incX) nogil
  */
-typedef double (*__pyx_t_12ms2vec_inner_dsdot_ptr)(int const *, float const *, int const *, float const *, int const *);
+typedef double (*__pyx_t_10mssg_inner_dsdot_ptr)(int const *, float const *, int const *, float const *, int const *);
 
-/* "ms2vec_inner.pxd":28
+/* "mssg_inner.pxd":28
  * ctypedef float (*sdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef double (*dsdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef double (*snrm2_ptr) (const int *N, const float *X, const int *incX) nogil             # <<<<<<<<<<<<<<
  * ctypedef void (*sscal_ptr) (const int *N, const float *alpha, const float *X, const int *incX) nogil
  * 
  */
-typedef double (*__pyx_t_12ms2vec_inner_snrm2_ptr)(int const *, float const *, int const *);
+typedef double (*__pyx_t_10mssg_inner_snrm2_ptr)(int const *, float const *, int const *);
 
-/* "ms2vec_inner.pxd":29
+/* "mssg_inner.pxd":29
  * ctypedef double (*dsdot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef double (*snrm2_ptr) (const int *N, const float *X, const int *incX) nogil
  * ctypedef void (*sscal_ptr) (const int *N, const float *alpha, const float *X, const int *incX) nogil             # <<<<<<<<<<<<<<
  * 
  * cdef scopy_ptr scopy
  */
-typedef void (*__pyx_t_12ms2vec_inner_sscal_ptr)(int const *, float const *, float const *, int const *);
+typedef void (*__pyx_t_10mssg_inner_sscal_ptr)(int const *, float const *, float const *, int const *);
 
-/* "ms2vec_inner.pxd":46
+/* "mssg_inner.pxd":46
  * 
  * # function implementations swapped based on BLAS detected in word2vec_inner.pyx init()
  * ctypedef REAL_t (*our_dot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil             # <<<<<<<<<<<<<<
  * ctypedef void (*our_saxpy_ptr) (const int *N, const float *alpha, const float *X, const int *incX, float *Y, const int *incY) nogil
  * 
  */
-typedef __pyx_t_12ms2vec_inner_REAL_t (*__pyx_t_12ms2vec_inner_our_dot_ptr)(int const *, float const *, int const *, float const *, int const *);
+typedef __pyx_t_10mssg_inner_REAL_t (*__pyx_t_10mssg_inner_our_dot_ptr)(int const *, float const *, int const *, float const *, int const *);
 
-/* "ms2vec_inner.pxd":47
+/* "mssg_inner.pxd":47
  * # function implementations swapped based on BLAS detected in word2vec_inner.pyx init()
  * ctypedef REAL_t (*our_dot_ptr) (const int *N, const float *X, const int *incX, const float *Y, const int *incY) nogil
  * ctypedef void (*our_saxpy_ptr) (const int *N, const float *alpha, const float *X, const int *incX, float *Y, const int *incY) nogil             # <<<<<<<<<<<<<<
  * 
  * cdef our_dot_ptr our_dot
  */
-typedef void (*__pyx_t_12ms2vec_inner_our_saxpy_ptr)(int const *, float const *, float const *, int const *, float *, int const *);
+typedef void (*__pyx_t_10mssg_inner_our_saxpy_ptr)(int const *, float const *, float const *, int const *, float *, int const *);
 
-/* "ms2vec_inner.pxd":53
+/* "mssg_inner.pxd":53
  * 
  * 
  * cdef struct Word2VecConfig:             # <<<<<<<<<<<<<<
  *     int hs, negative, sample, compute_loss, size, window, cbow_mean, workers
  *     REAL_t running_training_loss, alpha
  */
-struct __pyx_t_12ms2vec_inner_Word2VecConfig {
+struct __pyx_t_10mssg_inner_Word2VecConfig {
   int hs;
   int negative;
   int sample;
@@ -1296,63 +1296,57 @@ struct __pyx_t_12ms2vec_inner_Word2VecConfig {
   int window;
   int cbow_mean;
   int workers;
-  __pyx_t_12ms2vec_inner_REAL_t running_training_loss;
-  __pyx_t_12ms2vec_inner_REAL_t alpha;
-  __pyx_t_12ms2vec_inner_REAL_t *syn0;
-  __pyx_t_12ms2vec_inner_REAL_t *words_lockf;
+  __pyx_t_10mssg_inner_REAL_t running_training_loss;
+  __pyx_t_10mssg_inner_REAL_t alpha;
+  __pyx_t_10mssg_inner_REAL_t *syn0;
+  __pyx_t_10mssg_inner_REAL_t *words_lockf;
   __pyx_t_5numpy_uint32_t words_lockf_len;
-  __pyx_t_12ms2vec_inner_REAL_t *work;
-  __pyx_t_12ms2vec_inner_REAL_t *neu1;
-  __pyx_t_12ms2vec_inner_REAL_t *neu2;
-  __pyx_t_12ms2vec_inner_REAL_t *ave_con;
-  __pyx_t_12ms2vec_inner_REAL_t *top_mat;
-  __pyx_t_12ms2vec_inner_REAL_t *exp_topm;
-  __pyx_t_12ms2vec_inner_REAL_t *topic_importance;
-  __pyx_t_12ms2vec_inner_REAL_t *topcontext_emb;
-  __pyx_t_12ms2vec_inner_REAL_t *dtopic_importance;
-  __pyx_t_12ms2vec_inner_REAL_t *dtopcontext;
-  __pyx_t_12ms2vec_inner_REAL_t *dcluster_vectors;
+  __pyx_t_10mssg_inner_REAL_t *work;
+  __pyx_t_10mssg_inner_REAL_t *neu1;
+  __pyx_t_10mssg_inner_REAL_t *neu2;
+  __pyx_t_10mssg_inner_REAL_t *ave_con;
   int codelens[0x2710];
   __pyx_t_5numpy_uint32_t indexes[0x2710];
-  __pyx_t_12ms2vec_inner_REAL_t index_samples[0x2710];
+  __pyx_t_5numpy_uint32_t senseindexes[0x2710];
   __pyx_t_5numpy_uint32_t reduced_windows[0x2710];
   int sentence_idx[(0x2710 + 1)];
-  __pyx_t_12ms2vec_inner_REAL_t *syn1;
+  __pyx_t_10mssg_inner_REAL_t *syn1;
   __pyx_t_5numpy_uint32_t *points[0x2710];
   __pyx_t_5numpy_uint8_t *codes[0x2710];
-  __pyx_t_12ms2vec_inner_REAL_t *syn1neg;
+  __pyx_t_10mssg_inner_REAL_t *syn1neg;
   __pyx_t_5numpy_uint32_t *cum_table;
   unsigned PY_LONG_LONG cum_table_len;
   unsigned PY_LONG_LONG next_random;
-  __pyx_t_12ms2vec_inner_REAL_t *sensevectors;
-  __pyx_t_12ms2vec_inner_REAL_t *clustervectors;
-  __pyx_t_5numpy_uint8_t *used_senseindexes;
+  __pyx_t_10mssg_inner_REAL_t np_value;
+  __pyx_t_10mssg_inner_REAL_t *sensevectors;
+  __pyx_t_10mssg_inner_REAL_t *clustervectors;
   bool skip_oov;
-  __pyx_t_5numpy_uint32_t index_to_sensenums[0x2710];
+  __pyx_t_5numpy_int8_t *index_to_sensenum;
+  __pyx_t_5numpy_int8_t *index_to_maxsensenum;
   __pyx_t_5numpy_uint32_t *sensecounts;
 };
 
-/* "ms2vec_inner.pxd":155
+/* "mssg_inner.pxd":147
  *     const np.uint32_t lockf_len, const int _compute_loss, REAL_t *_running_training_loss_param) nogil
  * 
  * cdef init_w2v_config(Word2VecConfig *c, model, alpha, compute_loss, _work, _neu1=*)             # <<<<<<<<<<<<<<
  * 
- * cdef init_w2s_config(Word2VecConfig *c, model, alpha, compute_loss, _work, _syn1neg, _neu1, _neu2, _ave_con, _top_mat,
+ * cdef init_w2s_config(Word2VecConfig *c, model, alpha, compute_loss, _work, _syn1neg, _neu1, _neu2, _ave_con)
  */
-struct __pyx_opt_args_12ms2vec_inner_init_w2v_config {
+struct __pyx_opt_args_10mssg_inner_init_w2v_config {
   int __pyx_n;
   PyObject *_neu1;
 };
-struct __pyx_t_17ms2vec_corpusfile_VocabItem;
+struct __pyx_t_15mssg_corpusfile_VocabItem;
 
-/* "ms2vec_corpusfile.pxd":47
+/* "mssg_corpusfile.pxd":47
  * 
  * 
  * cdef struct VocabItem:             # <<<<<<<<<<<<<<
  *     long long sample_int
  *     np.uint32_t index
  */
-struct __pyx_t_17ms2vec_corpusfile_VocabItem {
+struct __pyx_t_15mssg_corpusfile_VocabItem {
   PY_LONG_LONG sample_int;
   __pyx_t_5numpy_uint32_t index;
   __pyx_t_5numpy_uint8_t *code;
@@ -1362,25 +1356,25 @@ struct __pyx_t_17ms2vec_corpusfile_VocabItem {
   __pyx_t_5numpy_uint32_t *subword_idx;
 };
 
-/* "ms2vec_corpusfile.pxd":59
+/* "mssg_corpusfile.pxd":59
  * 
  * 
  * ctypedef unordered_map[string, VocabItem] cvocab_t             # <<<<<<<<<<<<<<
  * 
  * cdef class CythonVocab:
  */
-typedef std::unordered_map<std::string,struct __pyx_t_17ms2vec_corpusfile_VocabItem>  __pyx_t_17ms2vec_corpusfile_cvocab_t;
+typedef std::unordered_map<std::string,struct __pyx_t_15mssg_corpusfile_VocabItem>  __pyx_t_15mssg_corpusfile_cvocab_t;
 
-/* "ms2vec_corpusfile.pxd":33
+/* "mssg_corpusfile.pxd":33
  * 
  * 
  * cdef class CythonLineSentence:             # <<<<<<<<<<<<<<
  *     cdef FastLineSentence* _thisptr
  *     cdef public bytes source
  */
-struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence {
+struct __pyx_obj_15mssg_corpusfile_CythonLineSentence {
   PyObject_HEAD
-  struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonLineSentence *__pyx_vtab;
+  struct __pyx_vtabstruct_15mssg_corpusfile_CythonLineSentence *__pyx_vtab;
   FastLineSentence *_thisptr;
   PyObject *source;
   size_t max_sentence_length;
@@ -1390,39 +1384,39 @@ struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence {
 };
 
 
-/* "ms2vec_corpusfile.pxd":61
+/* "mssg_corpusfile.pxd":61
  * ctypedef unordered_map[string, VocabItem] cvocab_t
  * 
  * cdef class CythonVocab:             # <<<<<<<<<<<<<<
  *     cdef cvocab_t vocab
  *     cdef subword_arrays
  */
-struct __pyx_obj_17ms2vec_corpusfile_CythonVocab {
+struct __pyx_obj_15mssg_corpusfile_CythonVocab {
   PyObject_HEAD
-  struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonVocab *__pyx_vtab;
-  __pyx_t_17ms2vec_corpusfile_cvocab_t vocab;
+  struct __pyx_vtabstruct_15mssg_corpusfile_CythonVocab *__pyx_vtab;
+  __pyx_t_15mssg_corpusfile_cvocab_t vocab;
   PyObject *subword_arrays;
 };
 
 
-/* "ms2vec_corpusfile.pyx":126
+/* "mssg_corpusfile.pyx":126
  *         self._thisptr.Reset()
  * 
  *     def __iter__(self):             # <<<<<<<<<<<<<<
  *         self.reset()
  *         while not self.is_eof():
  */
-struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ {
+struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ {
   PyObject_HEAD
   std::vector<std::string>  __pyx_v_chunk;
   std::vector<std::vector<std::string> >  __pyx_v_chunked_sentence;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self;
+  struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self;
   std::vector<std::vector<std::string> > ::iterator __pyx_t_0;
 };
 
 
 
-/* "ms2vec_corpusfile.pyx":81
+/* "mssg_corpusfile.pyx":81
  * 
  * @cython.final
  * cdef class CythonLineSentence:             # <<<<<<<<<<<<<<
@@ -1430,24 +1424,24 @@ struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ {
  *         self._thisptr = new FastLineSentence(to_bytes(source), offset)
  */
 
-struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonLineSentence {
-  bool (*is_eof)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-  std::vector<std::string>  (*read_sentence)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-  std::vector<std::vector<std::string> >  (*_read_chunked_sentence)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-  std::vector<std::vector<std::string> >  (*_chunk_sentence)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, std::vector<std::string> , int __pyx_skip_dispatch);
-  void (*reset)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-  std::vector<std::vector<std::string> >  (*next_batch)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+struct __pyx_vtabstruct_15mssg_corpusfile_CythonLineSentence {
+  bool (*is_eof)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+  std::vector<std::string>  (*read_sentence)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+  std::vector<std::vector<std::string> >  (*_read_chunked_sentence)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+  std::vector<std::vector<std::string> >  (*_chunk_sentence)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, std::vector<std::string> , int __pyx_skip_dispatch);
+  void (*reset)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+  std::vector<std::vector<std::string> >  (*next_batch)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
 };
-static struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonLineSentence *__pyx_vtabptr_17ms2vec_corpusfile_CythonLineSentence;
-static bool __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-static std::vector<std::string>  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__read_chunked_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, std::vector<std::string> , int __pyx_skip_dispatch);
-static void __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+static struct __pyx_vtabstruct_15mssg_corpusfile_CythonLineSentence *__pyx_vtabptr_15mssg_corpusfile_CythonLineSentence;
+static bool __pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+static std::vector<std::string>  __pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence__read_chunked_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, std::vector<std::string> , int __pyx_skip_dispatch);
+static void __pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch);
 
 
-/* "ms2vec_corpusfile.pyx":40
+/* "mssg_corpusfile.pyx":40
  * 
  * @cython.final
  * cdef class CythonVocab:             # <<<<<<<<<<<<<<
@@ -1455,11 +1449,11 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  *         cdef VocabItem word
  */
 
-struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonVocab {
-  __pyx_t_17ms2vec_corpusfile_cvocab_t *(*get_vocab_ptr)(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *);
+struct __pyx_vtabstruct_15mssg_corpusfile_CythonVocab {
+  __pyx_t_15mssg_corpusfile_cvocab_t *(*get_vocab_ptr)(struct __pyx_obj_15mssg_corpusfile_CythonVocab *);
 };
-static struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonVocab *__pyx_vtabptr_17ms2vec_corpusfile_CythonVocab;
-static __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_f_17ms2vec_corpusfile_11CythonVocab_get_vocab_ptr(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *);
+static struct __pyx_vtabstruct_15mssg_corpusfile_CythonVocab *__pyx_vtabptr_15mssg_corpusfile_CythonVocab;
+static __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_f_15mssg_corpusfile_11CythonVocab_get_vocab_ptr(struct __pyx_obj_15mssg_corpusfile_CythonVocab *);
 
 /* --- Runtime support code (head) --- */
 /* Refnanny.proto */
@@ -2151,13 +2145,13 @@ static int __Pyx_ImportFunction(PyObject *module, const char *funcname, void (**
 /* InitStrings.proto */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
-static __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_f_17ms2vec_corpusfile_11CythonVocab_get_vocab_ptr(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self); /* proto*/
-static bool __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
-static std::vector<std::string>  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__read_chunked_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
-static void __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
+static __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_f_15mssg_corpusfile_11CythonVocab_get_vocab_ptr(struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self); /* proto*/
+static bool __pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
+static std::vector<std::string>  __pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence__read_chunked_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
+static void __pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch); /* proto*/
 
 /* Module declarations from 'libc.string' */
 
@@ -2211,40 +2205,40 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 
 /* Module declarations from 'libcpp.pair' */
 
-/* Module declarations from 'ms2vec_inner' */
-static __pyx_t_12ms2vec_inner_scopy_ptr *__pyx_vp_12ms2vec_inner_scopy = 0;
-#define __pyx_v_12ms2vec_inner_scopy (*__pyx_vp_12ms2vec_inner_scopy)
-static __pyx_t_12ms2vec_inner_saxpy_ptr *__pyx_vp_12ms2vec_inner_saxpy = 0;
-#define __pyx_v_12ms2vec_inner_saxpy (*__pyx_vp_12ms2vec_inner_saxpy)
-static __pyx_t_12ms2vec_inner_sdot_ptr *__pyx_vp_12ms2vec_inner_sdot = 0;
-#define __pyx_v_12ms2vec_inner_sdot (*__pyx_vp_12ms2vec_inner_sdot)
-static __pyx_t_12ms2vec_inner_dsdot_ptr *__pyx_vp_12ms2vec_inner_dsdot = 0;
-#define __pyx_v_12ms2vec_inner_dsdot (*__pyx_vp_12ms2vec_inner_dsdot)
-static __pyx_t_12ms2vec_inner_snrm2_ptr *__pyx_vp_12ms2vec_inner_snrm2 = 0;
-#define __pyx_v_12ms2vec_inner_snrm2 (*__pyx_vp_12ms2vec_inner_snrm2)
-static __pyx_t_12ms2vec_inner_sscal_ptr *__pyx_vp_12ms2vec_inner_sscal = 0;
-#define __pyx_v_12ms2vec_inner_sscal (*__pyx_vp_12ms2vec_inner_sscal)
-static __pyx_t_12ms2vec_inner_REAL_t (*__pyx_vp_12ms2vec_inner_EXP_TABLE)[0x3E8] = 0;
-#define __pyx_v_12ms2vec_inner_EXP_TABLE (*__pyx_vp_12ms2vec_inner_EXP_TABLE)
-static __pyx_t_12ms2vec_inner_our_dot_ptr *__pyx_vp_12ms2vec_inner_our_dot = 0;
-#define __pyx_v_12ms2vec_inner_our_dot (*__pyx_vp_12ms2vec_inner_our_dot)
-static __pyx_t_12ms2vec_inner_our_saxpy_ptr *__pyx_vp_12ms2vec_inner_our_saxpy = 0;
-#define __pyx_v_12ms2vec_inner_our_saxpy (*__pyx_vp_12ms2vec_inner_our_saxpy)
-static unsigned PY_LONG_LONG (*__pyx_f_12ms2vec_inner_random_int32)(unsigned PY_LONG_LONG *); /*proto*/
-static void (*__pyx_f_12ms2vec_inner_w2v_fast_sentence_sg_hs)(__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int const , __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *); /*proto*/
-static unsigned PY_LONG_LONG (*__pyx_f_12ms2vec_inner_w2v_fast_sentence_sg_neg)(int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_5numpy_uint32_t const , __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, unsigned PY_LONG_LONG, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *); /*proto*/
-static void (*__pyx_f_12ms2vec_inner_w2v_fast_sentence_cbow_hs)(__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, int, int, int, int, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *); /*proto*/
-static unsigned PY_LONG_LONG (*__pyx_f_12ms2vec_inner_w2v_fast_sentence_cbow_neg)(int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, int *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, int, int, int, int, unsigned PY_LONG_LONG, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *); /*proto*/
-static PyObject *(*__pyx_f_12ms2vec_inner_init_w2v_config)(struct __pyx_t_12ms2vec_inner_Word2VecConfig *, PyObject *, PyObject *, PyObject *, PyObject *, struct __pyx_opt_args_12ms2vec_inner_init_w2v_config *__pyx_optional_args); /*proto*/
+/* Module declarations from 'mssg_inner' */
+static __pyx_t_10mssg_inner_scopy_ptr *__pyx_vp_10mssg_inner_scopy = 0;
+#define __pyx_v_10mssg_inner_scopy (*__pyx_vp_10mssg_inner_scopy)
+static __pyx_t_10mssg_inner_saxpy_ptr *__pyx_vp_10mssg_inner_saxpy = 0;
+#define __pyx_v_10mssg_inner_saxpy (*__pyx_vp_10mssg_inner_saxpy)
+static __pyx_t_10mssg_inner_sdot_ptr *__pyx_vp_10mssg_inner_sdot = 0;
+#define __pyx_v_10mssg_inner_sdot (*__pyx_vp_10mssg_inner_sdot)
+static __pyx_t_10mssg_inner_dsdot_ptr *__pyx_vp_10mssg_inner_dsdot = 0;
+#define __pyx_v_10mssg_inner_dsdot (*__pyx_vp_10mssg_inner_dsdot)
+static __pyx_t_10mssg_inner_snrm2_ptr *__pyx_vp_10mssg_inner_snrm2 = 0;
+#define __pyx_v_10mssg_inner_snrm2 (*__pyx_vp_10mssg_inner_snrm2)
+static __pyx_t_10mssg_inner_sscal_ptr *__pyx_vp_10mssg_inner_sscal = 0;
+#define __pyx_v_10mssg_inner_sscal (*__pyx_vp_10mssg_inner_sscal)
+static __pyx_t_10mssg_inner_REAL_t (*__pyx_vp_10mssg_inner_EXP_TABLE)[0x3E8] = 0;
+#define __pyx_v_10mssg_inner_EXP_TABLE (*__pyx_vp_10mssg_inner_EXP_TABLE)
+static __pyx_t_10mssg_inner_our_dot_ptr *__pyx_vp_10mssg_inner_our_dot = 0;
+#define __pyx_v_10mssg_inner_our_dot (*__pyx_vp_10mssg_inner_our_dot)
+static __pyx_t_10mssg_inner_our_saxpy_ptr *__pyx_vp_10mssg_inner_our_saxpy = 0;
+#define __pyx_v_10mssg_inner_our_saxpy (*__pyx_vp_10mssg_inner_our_saxpy)
+static unsigned PY_LONG_LONG (*__pyx_f_10mssg_inner_random_int32)(unsigned PY_LONG_LONG *); /*proto*/
+static void (*__pyx_f_10mssg_inner_w2v_fast_sentence_sg_hs)(__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int const , __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *); /*proto*/
+static unsigned PY_LONG_LONG (*__pyx_f_10mssg_inner_w2v_fast_sentence_sg_neg)(int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_5numpy_uint32_t const , __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, unsigned PY_LONG_LONG, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *); /*proto*/
+static void (*__pyx_f_10mssg_inner_w2v_fast_sentence_cbow_hs)(__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, int, int, int, int, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *); /*proto*/
+static unsigned PY_LONG_LONG (*__pyx_f_10mssg_inner_w2v_fast_sentence_cbow_neg)(int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, int *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, int, int, int, int, unsigned PY_LONG_LONG, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *); /*proto*/
+static PyObject *(*__pyx_f_10mssg_inner_init_w2v_config)(struct __pyx_t_10mssg_inner_Word2VecConfig *, PyObject *, PyObject *, PyObject *, PyObject *, struct __pyx_opt_args_10mssg_inner_init_w2v_config *__pyx_optional_args); /*proto*/
 
-/* Module declarations from 'ms2vec_corpusfile' */
-static PyTypeObject *__pyx_ptype_17ms2vec_corpusfile_CythonLineSentence = 0;
-static PyTypeObject *__pyx_ptype_17ms2vec_corpusfile_CythonVocab = 0;
-static PyTypeObject *__pyx_ptype_17ms2vec_corpusfile___pyx_scope_struct____iter__ = 0;
-static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_alpha(__pyx_t_17ms2vec_corpusfile_REAL_t, __pyx_t_17ms2vec_corpusfile_REAL_t, int, int); /*proto*/
-static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_alpha(__pyx_t_17ms2vec_corpusfile_REAL_t, __pyx_t_17ms2vec_corpusfile_REAL_t, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, int, int); /*proto*/
-static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *); /*proto*/
-static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vector<std::vector<std::string> >  &, int, int, int, PY_LONG_LONG *, int *, int *, unsigned PY_LONG_LONG *, __pyx_t_17ms2vec_corpusfile_cvocab_t *, int *, __pyx_t_5numpy_uint32_t *, int *, __pyx_t_5numpy_uint8_t **, __pyx_t_5numpy_uint32_t **, __pyx_t_5numpy_uint32_t *); /*proto*/
+/* Module declarations from 'mssg_corpusfile' */
+static PyTypeObject *__pyx_ptype_15mssg_corpusfile_CythonLineSentence = 0;
+static PyTypeObject *__pyx_ptype_15mssg_corpusfile_CythonVocab = 0;
+static PyTypeObject *__pyx_ptype_15mssg_corpusfile___pyx_scope_struct____iter__ = 0;
+static __pyx_t_15mssg_corpusfile_REAL_t __pyx_f_15mssg_corpusfile_get_alpha(__pyx_t_15mssg_corpusfile_REAL_t, __pyx_t_15mssg_corpusfile_REAL_t, int, int); /*proto*/
+static __pyx_t_15mssg_corpusfile_REAL_t __pyx_f_15mssg_corpusfile_get_next_alpha(__pyx_t_15mssg_corpusfile_REAL_t, __pyx_t_15mssg_corpusfile_REAL_t, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, int, int); /*proto*/
+static PyObject *__pyx_f_15mssg_corpusfile_to_bytes(PyObject *); /*proto*/
+static void __pyx_f_15mssg_corpusfile_prepare_c_structures_for_batch(std::vector<std::vector<std::string> >  &, int, int, int, PY_LONG_LONG *, int *, int *, unsigned PY_LONG_LONG *, __pyx_t_15mssg_corpusfile_cvocab_t *, int *, __pyx_t_5numpy_uint32_t *, int *, __pyx_t_5numpy_uint8_t **, __pyx_t_5numpy_uint32_t **, __pyx_t_5numpy_uint32_t *); /*proto*/
 static std::string __pyx_convert_string_from_py_std__in_string(PyObject *); /*proto*/
 static std::vector<std::string>  __pyx_convert_vector_from_py_std_3a__3a_string(PyObject *); /*proto*/
 static CYTHON_INLINE PyObject *__pyx_convert_PyObject_string_to_py_std__in_string(std::string const &); /*proto*/
@@ -2254,11 +2248,11 @@ static CYTHON_INLINE PyObject *__pyx_convert_PyBytes_string_to_py_std__in_string
 static CYTHON_INLINE PyObject *__pyx_convert_PyByteArray_string_to_py_std__in_string(std::string const &); /*proto*/
 static PyObject *__pyx_convert_vector_to_py_std_3a__3a_string(const std::vector<std::string>  &); /*proto*/
 static PyObject *__pyx_convert_vector_to_py_std_3a__3a_vector_3c_std_3a__3a_string_3e___(const std::vector<std::vector<std::string> >  &); /*proto*/
-#define __Pyx_MODULE_NAME "ms2vec_corpusfile"
-extern int __pyx_module_is_main_ms2vec_corpusfile;
-int __pyx_module_is_main_ms2vec_corpusfile = 0;
+#define __Pyx_MODULE_NAME "mssg_corpusfile"
+extern int __pyx_module_is_main_mssg_corpusfile;
+int __pyx_module_is_main_mssg_corpusfile = 0;
 
-/* Implementation of 'ms2vec_corpusfile' */
+/* Implementation of 'mssg_corpusfile' */
 static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ImportError;
@@ -2331,12 +2325,12 @@ static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
 static const char __pyx_k_expected_words[] = "_expected_words";
 static const char __pyx_k_train_epoch_sg[] = "train_epoch_sg";
 static const char __pyx_k_effective_words[] = "effective_words";
+static const char __pyx_k_mssg_corpusfile[] = "mssg_corpusfile";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_total_sentences[] = "total_sentences";
 static const char __pyx_k_expected_words_2[] = "expected_words";
 static const char __pyx_k_train_epoch_cbow[] = "train_epoch_cbow";
 static const char __pyx_k_expected_examples[] = "_expected_examples";
-static const char __pyx_k_ms2vec_corpusfile[] = "ms2vec_corpusfile";
 static const char __pyx_k_CORPUSFILE_VERSION[] = "CORPUSFILE_VERSION";
 static const char __pyx_k_CythonLineSentence[] = "CythonLineSentence";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
@@ -2345,8 +2339,8 @@ static const char __pyx_k_expected_examples_2[] = "expected_examples";
 static const char __pyx_k_max_sentence_length[] = "max_sentence_length";
 static const char __pyx_k_running_training_loss[] = "running_training_loss";
 static const char __pyx_k_total_effective_words[] = "total_effective_words";
+static const char __pyx_k_mssg_mssg_corpusfile_pyx[] = "mssg/mssg_corpusfile.pyx";
 static const char __pyx_k_CythonLineSentence___iter[] = "CythonLineSentence.__iter__";
-static const char __pyx_k_ms2vec_ms2vec_corpusfile_pyx[] = "ms2vec/ms2vec_corpusfile.pyx";
 static const char __pyx_k_rebuild_cython_line_sentence[] = "rebuild_cython_line_sentence";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_Optimized_cython_functions_for_f[] = "Optimized cython functions for file-based training :class:`~gensim.models.word2vec.Word2Vec` model.";
@@ -2402,8 +2396,8 @@ static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_max_sentence_length;
 static PyObject *__pyx_n_s_min_alpha;
 static PyObject *__pyx_n_s_model;
-static PyObject *__pyx_n_s_ms2vec_corpusfile;
-static PyObject *__pyx_kp_s_ms2vec_ms2vec_corpusfile_pyx;
+static PyObject *__pyx_n_s_mssg_corpusfile;
+static PyObject *__pyx_kp_s_mssg_mssg_corpusfile_pyx;
 static PyObject *__pyx_n_s_name;
 static PyObject *__pyx_n_s_neu1;
 static PyObject *__pyx_n_s_np;
@@ -2441,35 +2435,35 @@ static PyObject *__pyx_n_s_utf8;
 static PyObject *__pyx_n_s_vocab;
 static PyObject *__pyx_n_s_work;
 static PyObject *__pyx_n_s_wv;
-static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self, PyObject *__pyx_v_wv, PyObject *__pyx_v_hs, PyObject *__pyx_v_fasttext); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_source, PyObject *__pyx_v_max_sentence_length); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, CYTHON_UNUSED PyObject *__pyx_v_max_sentence_length); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, PyObject *__pyx_v_max_sentence_length); /* proto */
-static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunked_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_14reset(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_16__iter__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_4__del__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, CYTHON_UNUSED PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss); /* proto */
-static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss); /* proto */
-static PyObject *__pyx_tp_new_17ms2vec_corpusfile_CythonLineSentence(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_17ms2vec_corpusfile_CythonVocab(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_17ms2vec_corpusfile___pyx_scope_struct____iter__(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_15mssg_corpusfile_11CythonVocab___init__(struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self, PyObject *__pyx_v_wv, PyObject *__pyx_v_hs, PyObject *__pyx_v_fasttext); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_11CythonVocab_2__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_11CythonVocab_4__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_rebuild_cython_line_sentence(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_source, PyObject *__pyx_v_max_sentence_length); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence___cinit__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, CYTHON_UNUSED PyObject *__pyx_v_max_sentence_length); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_2__init__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, PyObject *__pyx_v_max_sentence_length); /* proto */
+static void __pyx_pf_15mssg_corpusfile_18CythonLineSentence_4__dealloc__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_6is_eof(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_8read_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_10_read_chunked_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_12_chunk_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_14reset(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_16__iter__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_19__reduce__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_21next_batch(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source_4__del__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_6offset___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self); /* proto */
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6offset_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, CYTHON_UNUSED PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss); /* proto */
+static PyObject *__pyx_pf_15mssg_corpusfile_4train_epoch_cbow(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss); /* proto */
+static PyObject *__pyx_tp_new_15mssg_corpusfile_CythonLineSentence(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_15mssg_corpusfile_CythonVocab(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_15mssg_corpusfile___pyx_scope_struct____iter__(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_10000;
@@ -2485,7 +2479,7 @@ static PyObject *__pyx_codeobj__8;
 static PyObject *__pyx_codeobj__10;
 /* Late includes */
 
-/* "ms2vec_corpusfile.pyx":41
+/* "mssg_corpusfile.pyx":41
  * @cython.final
  * cdef class CythonVocab:
  *     def __init__(self, wv, hs=0, fasttext=0):             # <<<<<<<<<<<<<<
@@ -2494,8 +2488,8 @@ static PyObject *__pyx_codeobj__10;
  */
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_11CythonVocab_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_11CythonVocab_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_15mssg_corpusfile_11CythonVocab_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_11CythonVocab_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_wv = 0;
   PyObject *__pyx_v_hs = 0;
   PyObject *__pyx_v_fasttext = 0;
@@ -2563,19 +2557,19 @@ static int __pyx_pw_17ms2vec_corpusfile_11CythonVocab_1__init__(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 41, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonVocab.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonVocab.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(((struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)__pyx_v_self), __pyx_v_wv, __pyx_v_hs, __pyx_v_fasttext);
+  __pyx_r = __pyx_pf_15mssg_corpusfile_11CythonVocab___init__(((struct __pyx_obj_15mssg_corpusfile_CythonVocab *)__pyx_v_self), __pyx_v_wv, __pyx_v_hs, __pyx_v_fasttext);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self, PyObject *__pyx_v_wv, PyObject *__pyx_v_hs, PyObject *__pyx_v_fasttext) {
-  struct __pyx_t_17ms2vec_corpusfile_VocabItem __pyx_v_word;
+static int __pyx_pf_15mssg_corpusfile_11CythonVocab___init__(struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self, PyObject *__pyx_v_wv, PyObject *__pyx_v_hs, PyObject *__pyx_v_fasttext) {
+  struct __pyx_t_15mssg_corpusfile_VocabItem __pyx_v_word;
   PyObject *__pyx_v_vocab_sample_ints = NULL;
   PyObject *__pyx_v_vocab_codes = NULL;
   PyObject *__pyx_v_vocab_points = NULL;
@@ -2599,7 +2593,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "ms2vec_corpusfile.pyx":44
+  /* "mssg_corpusfile.pyx":44
  *         cdef VocabItem word
  * 
  *         vocab_sample_ints = wv.expandos['sample_int']             # <<<<<<<<<<<<<<
@@ -2614,7 +2608,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
   __pyx_v_vocab_sample_ints = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "ms2vec_corpusfile.pyx":45
+  /* "mssg_corpusfile.pyx":45
  * 
  *         vocab_sample_ints = wv.expandos['sample_int']
  *         if hs:             # <<<<<<<<<<<<<<
@@ -2624,7 +2618,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_hs); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 45, __pyx_L1_error)
   if (__pyx_t_3) {
 
-    /* "ms2vec_corpusfile.pyx":46
+    /* "mssg_corpusfile.pyx":46
  *         vocab_sample_ints = wv.expandos['sample_int']
  *         if hs:
  *             vocab_codes = wv.expandos['code']             # <<<<<<<<<<<<<<
@@ -2639,7 +2633,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __pyx_v_vocab_codes = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "ms2vec_corpusfile.pyx":47
+    /* "mssg_corpusfile.pyx":47
  *         if hs:
  *             vocab_codes = wv.expandos['code']
  *             vocab_points = wv.expandos['point']             # <<<<<<<<<<<<<<
@@ -2654,7 +2648,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __pyx_v_vocab_points = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "ms2vec_corpusfile.pyx":45
+    /* "mssg_corpusfile.pyx":45
  * 
  *         vocab_sample_ints = wv.expandos['sample_int']
  *         if hs:             # <<<<<<<<<<<<<<
@@ -2663,7 +2657,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
  */
   }
 
-  /* "ms2vec_corpusfile.pyx":48
+  /* "mssg_corpusfile.pyx":48
  *             vocab_codes = wv.expandos['code']
  *             vocab_points = wv.expandos['point']
  *         for py_token in wv.key_to_index.keys():             # <<<<<<<<<<<<<<
@@ -2733,7 +2727,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __Pyx_XDECREF_SET(__pyx_v_py_token, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "ms2vec_corpusfile.pyx":49
+    /* "mssg_corpusfile.pyx":49
  *             vocab_points = wv.expandos['point']
  *         for py_token in wv.key_to_index.keys():
  *             token = any2utf8(py_token)             # <<<<<<<<<<<<<<
@@ -2760,7 +2754,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __Pyx_XDECREF_SET(__pyx_v_token, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "ms2vec_corpusfile.pyx":50
+    /* "mssg_corpusfile.pyx":50
  *         for py_token in wv.key_to_index.keys():
  *             token = any2utf8(py_token)
  *             word.index = wv.get_index(py_token)             # <<<<<<<<<<<<<<
@@ -2788,7 +2782,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_v_word.index = __pyx_t_8;
 
-    /* "ms2vec_corpusfile.pyx":51
+    /* "mssg_corpusfile.pyx":51
  *             token = any2utf8(py_token)
  *             word.index = wv.get_index(py_token)
  *             word.sample_int = vocab_sample_ints[word.index]             # <<<<<<<<<<<<<<
@@ -2801,7 +2795,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_v_word.sample_int = __pyx_t_9;
 
-    /* "ms2vec_corpusfile.pyx":53
+    /* "mssg_corpusfile.pyx":53
  *             word.sample_int = vocab_sample_ints[word.index]
  * 
  *             if hs:             # <<<<<<<<<<<<<<
@@ -2811,7 +2805,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_hs); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 53, __pyx_L1_error)
     if (__pyx_t_3) {
 
-      /* "ms2vec_corpusfile.pyx":54
+      /* "mssg_corpusfile.pyx":54
  * 
  *             if hs:
  *                 word.code = <np.uint8_t *>np.PyArray_DATA(vocab_codes[word.index])             # <<<<<<<<<<<<<<
@@ -2825,7 +2819,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
       __pyx_v_word.code = ((__pyx_t_5numpy_uint8_t *)PyArray_DATA(((PyArrayObject *)__pyx_t_2)));
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "ms2vec_corpusfile.pyx":55
+      /* "mssg_corpusfile.pyx":55
  *             if hs:
  *                 word.code = <np.uint8_t *>np.PyArray_DATA(vocab_codes[word.index])
  *                 word.code_len = <int>len(vocab_codes[word.index])             # <<<<<<<<<<<<<<
@@ -2839,7 +2833,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_v_word.code_len = ((int)__pyx_t_10);
 
-      /* "ms2vec_corpusfile.pyx":56
+      /* "mssg_corpusfile.pyx":56
  *                 word.code = <np.uint8_t *>np.PyArray_DATA(vocab_codes[word.index])
  *                 word.code_len = <int>len(vocab_codes[word.index])
  *                 word.point = <np.uint32_t *>np.PyArray_DATA(vocab_points[word.index])             # <<<<<<<<<<<<<<
@@ -2853,7 +2847,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
       __pyx_v_word.point = ((__pyx_t_5numpy_uint32_t *)PyArray_DATA(((PyArrayObject *)__pyx_t_2)));
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "ms2vec_corpusfile.pyx":53
+      /* "mssg_corpusfile.pyx":53
  *             word.sample_int = vocab_sample_ints[word.index]
  * 
  *             if hs:             # <<<<<<<<<<<<<<
@@ -2862,7 +2856,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
  */
     }
 
-    /* "ms2vec_corpusfile.pyx":59
+    /* "mssg_corpusfile.pyx":59
  * 
  *             # subwords information, used only in FastText model
  *             if fasttext:             # <<<<<<<<<<<<<<
@@ -2872,7 +2866,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_fasttext); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 59, __pyx_L1_error)
     if (__pyx_t_3) {
 
-      /* "ms2vec_corpusfile.pyx":60
+      /* "mssg_corpusfile.pyx":60
  *             # subwords information, used only in FastText model
  *             if fasttext:
  *                 word.subword_idx_len = <int>(len(wv.buckets_word[word.index]))             # <<<<<<<<<<<<<<
@@ -2888,7 +2882,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_v_word.subword_idx_len = ((int)__pyx_t_10);
 
-      /* "ms2vec_corpusfile.pyx":61
+      /* "mssg_corpusfile.pyx":61
  *             if fasttext:
  *                 word.subword_idx_len = <int>(len(wv.buckets_word[word.index]))
  *                 word.subword_idx = <np.uint32_t *>np.PyArray_DATA(wv.buckets_word[word.index])             # <<<<<<<<<<<<<<
@@ -2904,7 +2898,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
       __pyx_v_word.subword_idx = ((__pyx_t_5numpy_uint32_t *)PyArray_DATA(((PyArrayObject *)__pyx_t_2)));
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "ms2vec_corpusfile.pyx":59
+      /* "mssg_corpusfile.pyx":59
  * 
  *             # subwords information, used only in FastText model
  *             if fasttext:             # <<<<<<<<<<<<<<
@@ -2913,7 +2907,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
  */
     }
 
-    /* "ms2vec_corpusfile.pyx":63
+    /* "mssg_corpusfile.pyx":63
  *                 word.subword_idx = <np.uint32_t *>np.PyArray_DATA(wv.buckets_word[word.index])
  * 
  *             self.vocab[token] = word             # <<<<<<<<<<<<<<
@@ -2923,7 +2917,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
     __pyx_t_11 = __pyx_convert_string_from_py_std__in_string(__pyx_v_token); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 63, __pyx_L1_error)
     (__pyx_v_self->vocab[__pyx_t_11]) = __pyx_v_word;
 
-    /* "ms2vec_corpusfile.pyx":48
+    /* "mssg_corpusfile.pyx":48
  *             vocab_codes = wv.expandos['code']
  *             vocab_points = wv.expandos['point']
  *         for py_token in wv.key_to_index.keys():             # <<<<<<<<<<<<<<
@@ -2933,7 +2927,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "ms2vec_corpusfile.pyx":41
+  /* "mssg_corpusfile.pyx":41
  * @cython.final
  * cdef class CythonVocab:
  *     def __init__(self, wv, hs=0, fasttext=0):             # <<<<<<<<<<<<<<
@@ -2949,7 +2943,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonVocab.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonVocab.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_vocab_sample_ints);
@@ -2961,7 +2955,7 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":65
+/* "mssg_corpusfile.pyx":65
  *             self.vocab[token] = word
  * 
  *     cdef cvocab_t* get_vocab_ptr(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -2969,10 +2963,10 @@ static int __pyx_pf_17ms2vec_corpusfile_11CythonVocab___init__(struct __pyx_obj_
  * 
  */
 
-static __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_f_17ms2vec_corpusfile_11CythonVocab_get_vocab_ptr(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self) {
-  __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_r;
+static __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_f_15mssg_corpusfile_11CythonVocab_get_vocab_ptr(struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self) {
+  __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_r;
 
-  /* "ms2vec_corpusfile.pyx":66
+  /* "mssg_corpusfile.pyx":66
  * 
  *     cdef cvocab_t* get_vocab_ptr(self) nogil except *:
  *         return &self.vocab             # <<<<<<<<<<<<<<
@@ -2982,7 +2976,7 @@ static __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_f_17ms2vec_corpusfile_11Cytho
   __pyx_r = (&__pyx_v_self->vocab);
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":65
+  /* "mssg_corpusfile.pyx":65
  *             self.vocab[token] = word
  * 
  *     cdef cvocab_t* get_vocab_ptr(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -3002,20 +2996,20 @@ static __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_f_17ms2vec_corpusfile_11Cytho
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_11CythonVocab_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__[] = "CythonVocab.__reduce_cython__(self)";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_11CythonVocab_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_11CythonVocab_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_11CythonVocab_2__reduce_cython__[] = "CythonVocab.__reduce_cython__(self)";
+static PyObject *__pyx_pw_15mssg_corpusfile_11CythonVocab_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__(((struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_11CythonVocab_2__reduce_cython__(((struct __pyx_obj_15mssg_corpusfile_CythonVocab *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_11CythonVocab_2__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3045,7 +3039,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__(C
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonVocab.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonVocab.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -3060,20 +3054,20 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__(C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_11CythonVocab_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__[] = "CythonVocab.__setstate_cython__(self, __pyx_state)";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_11CythonVocab_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pw_15mssg_corpusfile_11CythonVocab_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_11CythonVocab_4__setstate_cython__[] = "CythonVocab.__setstate_cython__(self, __pyx_state)";
+static PyObject *__pyx_pw_15mssg_corpusfile_11CythonVocab_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__(((struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_11CythonVocab_4__setstate_cython__(((struct __pyx_obj_15mssg_corpusfile_CythonVocab *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_15mssg_corpusfile_11CythonVocab_4__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3103,14 +3097,14 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonVocab.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonVocab.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":69
+/* "mssg_corpusfile.pyx":69
  * 
  * 
  * def rebuild_cython_line_sentence(source, max_sentence_length):             # <<<<<<<<<<<<<<
@@ -3119,10 +3113,10 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_1rebuild_cython_line_sentence(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_rebuild_cython_line_sentence[] = "rebuild_cython_line_sentence(source, max_sentence_length)";
-static PyMethodDef __pyx_mdef_17ms2vec_corpusfile_1rebuild_cython_line_sentence = {"rebuild_cython_line_sentence", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_17ms2vec_corpusfile_1rebuild_cython_line_sentence, METH_VARARGS|METH_KEYWORDS, __pyx_doc_17ms2vec_corpusfile_rebuild_cython_line_sentence};
-static PyObject *__pyx_pw_17ms2vec_corpusfile_1rebuild_cython_line_sentence(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_15mssg_corpusfile_1rebuild_cython_line_sentence(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_rebuild_cython_line_sentence[] = "rebuild_cython_line_sentence(source, max_sentence_length)";
+static PyMethodDef __pyx_mdef_15mssg_corpusfile_1rebuild_cython_line_sentence = {"rebuild_cython_line_sentence", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_15mssg_corpusfile_1rebuild_cython_line_sentence, METH_VARARGS|METH_KEYWORDS, __pyx_doc_15mssg_corpusfile_rebuild_cython_line_sentence};
+static PyObject *__pyx_pw_15mssg_corpusfile_1rebuild_cython_line_sentence(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_source = 0;
   PyObject *__pyx_v_max_sentence_length = 0;
   int __pyx_lineno = 0;
@@ -3173,18 +3167,18 @@ static PyObject *__pyx_pw_17ms2vec_corpusfile_1rebuild_cython_line_sentence(PyOb
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("rebuild_cython_line_sentence", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 69, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.rebuild_cython_line_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.rebuild_cython_line_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(__pyx_self, __pyx_v_source, __pyx_v_max_sentence_length);
+  __pyx_r = __pyx_pf_15mssg_corpusfile_rebuild_cython_line_sentence(__pyx_self, __pyx_v_source, __pyx_v_max_sentence_length);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_source, PyObject *__pyx_v_max_sentence_length) {
+static PyObject *__pyx_pf_15mssg_corpusfile_rebuild_cython_line_sentence(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_source, PyObject *__pyx_v_max_sentence_length) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3195,7 +3189,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("rebuild_cython_line_sentence", 0);
 
-  /* "ms2vec_corpusfile.pyx":70
+  /* "mssg_corpusfile.pyx":70
  * 
  * def rebuild_cython_line_sentence(source, max_sentence_length):
  *     return CythonLineSentence(source, max_sentence_length=max_sentence_length)             # <<<<<<<<<<<<<<
@@ -3211,7 +3205,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHO
   __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_max_sentence_length, __pyx_v_max_sentence_length) < 0) __PYX_ERR(1, 70, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_17ms2vec_corpusfile_CythonLineSentence), __pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 70, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_15mssg_corpusfile_CythonLineSentence), __pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3219,7 +3213,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHO
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":69
+  /* "mssg_corpusfile.pyx":69
  * 
  * 
  * def rebuild_cython_line_sentence(source, max_sentence_length):             # <<<<<<<<<<<<<<
@@ -3232,7 +3226,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHO
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("ms2vec_corpusfile.rebuild_cython_line_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.rebuild_cython_line_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3240,7 +3234,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHO
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":73
+/* "mssg_corpusfile.pyx":73
  * 
  * 
  * cdef bytes to_bytes(key):             # <<<<<<<<<<<<<<
@@ -3248,7 +3242,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_rebuild_cython_line_sentence(CYTHO
  *         return <bytes>key
  */
 
-static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
+static PyObject *__pyx_f_15mssg_corpusfile_to_bytes(PyObject *__pyx_v_key) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -3261,7 +3255,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("to_bytes", 0);
 
-  /* "ms2vec_corpusfile.pyx":74
+  /* "mssg_corpusfile.pyx":74
  * 
  * cdef bytes to_bytes(key):
  *     if isinstance(key, bytes):             # <<<<<<<<<<<<<<
@@ -3272,7 +3266,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "ms2vec_corpusfile.pyx":75
+    /* "mssg_corpusfile.pyx":75
  * cdef bytes to_bytes(key):
  *     if isinstance(key, bytes):
  *         return <bytes>key             # <<<<<<<<<<<<<<
@@ -3284,7 +3278,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
     __pyx_r = ((PyObject*)__pyx_v_key);
     goto __pyx_L0;
 
-    /* "ms2vec_corpusfile.pyx":74
+    /* "mssg_corpusfile.pyx":74
  * 
  * cdef bytes to_bytes(key):
  *     if isinstance(key, bytes):             # <<<<<<<<<<<<<<
@@ -3293,7 +3287,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
  */
   }
 
-  /* "ms2vec_corpusfile.pyx":77
+  /* "mssg_corpusfile.pyx":77
  *         return <bytes>key
  *     else:
  *         return key.encode('utf8')             # <<<<<<<<<<<<<<
@@ -3325,7 +3319,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
     goto __pyx_L0;
   }
 
-  /* "ms2vec_corpusfile.pyx":73
+  /* "mssg_corpusfile.pyx":73
  * 
  * 
  * cdef bytes to_bytes(key):             # <<<<<<<<<<<<<<
@@ -3338,7 +3332,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("ms2vec_corpusfile.to_bytes", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.to_bytes", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3346,7 +3340,7 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":82
+/* "mssg_corpusfile.pyx":82
  * @cython.final
  * cdef class CythonLineSentence:
  *     def __cinit__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):             # <<<<<<<<<<<<<<
@@ -3355,8 +3349,8 @@ static PyObject *__pyx_f_17ms2vec_corpusfile_to_bytes(PyObject *__pyx_v_key) {
  */
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_source = 0;
   PyObject *__pyx_v_offset = 0;
   CYTHON_UNUSED PyObject *__pyx_v_max_sentence_length = 0;
@@ -3424,18 +3418,18 @@ static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_1__cinit__(PyObject
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 82, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), __pyx_v_source, __pyx_v_offset, __pyx_v_max_sentence_length);
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence___cinit__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), __pyx_v_source, __pyx_v_offset, __pyx_v_max_sentence_length);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, CYTHON_UNUSED PyObject *__pyx_v_max_sentence_length) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence___cinit__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, CYTHON_UNUSED PyObject *__pyx_v_max_sentence_length) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3447,14 +3441,14 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(struct __
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "ms2vec_corpusfile.pyx":83
+  /* "mssg_corpusfile.pyx":83
  * cdef class CythonLineSentence:
  *     def __cinit__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):
  *         self._thisptr = new FastLineSentence(to_bytes(source), offset)             # <<<<<<<<<<<<<<
  * 
  *     def __init__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):
  */
-  __pyx_t_1 = __pyx_f_17ms2vec_corpusfile_to_bytes(__pyx_v_source); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 83, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15mssg_corpusfile_to_bytes(__pyx_v_source); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 83, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -3467,7 +3461,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(struct __
   }
   __pyx_v_self->_thisptr = __pyx_t_4;
 
-  /* "ms2vec_corpusfile.pyx":82
+  /* "mssg_corpusfile.pyx":82
  * @cython.final
  * cdef class CythonLineSentence:
  *     def __cinit__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):             # <<<<<<<<<<<<<<
@@ -3480,14 +3474,14 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(struct __
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":85
+/* "mssg_corpusfile.pyx":85
  *         self._thisptr = new FastLineSentence(to_bytes(source), offset)
  * 
  *     def __init__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):             # <<<<<<<<<<<<<<
@@ -3496,8 +3490,8 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence___cinit__(struct __
  */
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_3__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_3__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_3__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_3__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_source = 0;
   PyObject *__pyx_v_offset = 0;
   PyObject *__pyx_v_max_sentence_length = 0;
@@ -3565,18 +3559,18 @@ static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_3__init__(PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 85, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), __pyx_v_source, __pyx_v_offset, __pyx_v_max_sentence_length);
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_2__init__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), __pyx_v_source, __pyx_v_offset, __pyx_v_max_sentence_length);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, PyObject *__pyx_v_max_sentence_length) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_2__init__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_source, PyObject *__pyx_v_offset, PyObject *__pyx_v_max_sentence_length) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3586,14 +3580,14 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "ms2vec_corpusfile.pyx":86
+  /* "mssg_corpusfile.pyx":86
  * 
  *     def __init__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):
  *         self.source = to_bytes(source)             # <<<<<<<<<<<<<<
  *         self.offset = offset
  *         self.max_sentence_length = max_sentence_length
  */
-  __pyx_t_1 = __pyx_f_17ms2vec_corpusfile_to_bytes(__pyx_v_source); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 86, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15mssg_corpusfile_to_bytes(__pyx_v_source); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->source);
@@ -3601,7 +3595,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
   __pyx_v_self->source = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "ms2vec_corpusfile.pyx":87
+  /* "mssg_corpusfile.pyx":87
  *     def __init__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):
  *         self.source = to_bytes(source)
  *         self.offset = offset             # <<<<<<<<<<<<<<
@@ -3611,7 +3605,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
   __pyx_t_2 = __Pyx_PyInt_As_size_t(__pyx_v_offset); if (unlikely((__pyx_t_2 == (size_t)-1) && PyErr_Occurred())) __PYX_ERR(1, 87, __pyx_L1_error)
   __pyx_v_self->offset = __pyx_t_2;
 
-  /* "ms2vec_corpusfile.pyx":88
+  /* "mssg_corpusfile.pyx":88
  *         self.source = to_bytes(source)
  *         self.offset = offset
  *         self.max_sentence_length = max_sentence_length             # <<<<<<<<<<<<<<
@@ -3621,7 +3615,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
   __pyx_t_2 = __Pyx_PyInt_As_size_t(__pyx_v_max_sentence_length); if (unlikely((__pyx_t_2 == (size_t)-1) && PyErr_Occurred())) __PYX_ERR(1, 88, __pyx_L1_error)
   __pyx_v_self->max_sentence_length = __pyx_t_2;
 
-  /* "ms2vec_corpusfile.pyx":89
+  /* "mssg_corpusfile.pyx":89
  *         self.offset = offset
  *         self.max_sentence_length = max_sentence_length
  *         self.max_words_in_batch = max_sentence_length             # <<<<<<<<<<<<<<
@@ -3631,7 +3625,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
   __pyx_t_2 = __Pyx_PyInt_As_size_t(__pyx_v_max_sentence_length); if (unlikely((__pyx_t_2 == (size_t)-1) && PyErr_Occurred())) __PYX_ERR(1, 89, __pyx_L1_error)
   __pyx_v_self->max_words_in_batch = __pyx_t_2;
 
-  /* "ms2vec_corpusfile.pyx":85
+  /* "mssg_corpusfile.pyx":85
  *         self._thisptr = new FastLineSentence(to_bytes(source), offset)
  * 
  *     def __init__(self, source, offset=0, max_sentence_length=MAX_SENTENCE_LEN):             # <<<<<<<<<<<<<<
@@ -3644,14 +3638,14 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":91
+/* "mssg_corpusfile.pyx":91
  *         self.max_words_in_batch = max_sentence_length
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -3660,22 +3654,22 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_2__init__(struct __
  */
 
 /* Python wrapper */
-static void __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_5__dealloc__(PyObject *__pyx_v_self); /*proto*/
-static void __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_5__dealloc__(PyObject *__pyx_v_self) {
+static void __pyx_pw_15mssg_corpusfile_18CythonLineSentence_5__dealloc__(PyObject *__pyx_v_self); /*proto*/
+static void __pyx_pw_15mssg_corpusfile_18CythonLineSentence_5__dealloc__(PyObject *__pyx_v_self) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__ (wrapper)", 0);
-  __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_pf_15mssg_corpusfile_18CythonLineSentence_4__dealloc__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
 }
 
-static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static void __pyx_pf_15mssg_corpusfile_18CythonLineSentence_4__dealloc__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "ms2vec_corpusfile.pyx":92
+  /* "mssg_corpusfile.pyx":92
  * 
  *     def __dealloc__(self):
  *         if self._thisptr != NULL:             # <<<<<<<<<<<<<<
@@ -3685,7 +3679,7 @@ static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struc
   __pyx_t_1 = ((__pyx_v_self->_thisptr != NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "ms2vec_corpusfile.pyx":93
+    /* "mssg_corpusfile.pyx":93
  *     def __dealloc__(self):
  *         if self._thisptr != NULL:
  *             del self._thisptr             # <<<<<<<<<<<<<<
@@ -3694,7 +3688,7 @@ static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struc
  */
     delete __pyx_v_self->_thisptr;
 
-    /* "ms2vec_corpusfile.pyx":92
+    /* "mssg_corpusfile.pyx":92
  * 
  *     def __dealloc__(self):
  *         if self._thisptr != NULL:             # <<<<<<<<<<<<<<
@@ -3703,7 +3697,7 @@ static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struc
  */
   }
 
-  /* "ms2vec_corpusfile.pyx":91
+  /* "mssg_corpusfile.pyx":91
  *         self.max_words_in_batch = max_sentence_length
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -3715,7 +3709,7 @@ static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struc
   __Pyx_RefNannyFinishContext();
 }
 
-/* "ms2vec_corpusfile.pyx":95
+/* "mssg_corpusfile.pyx":95
  *             del self._thisptr
  * 
  *     cpdef bool_t is_eof(self) nogil:             # <<<<<<<<<<<<<<
@@ -3723,11 +3717,11 @@ static void __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_4__dealloc__(struc
  * 
  */
 
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_7is_eof(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static bool __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_7is_eof(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static bool __pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
   bool __pyx_r;
 
-  /* "ms2vec_corpusfile.pyx":96
+  /* "mssg_corpusfile.pyx":96
  * 
  *     cpdef bool_t is_eof(self) nogil:
  *         return self._thisptr.IsEof()             # <<<<<<<<<<<<<<
@@ -3737,7 +3731,7 @@ static bool __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(struct __pyx
   __pyx_r = __pyx_v_self->_thisptr->IsEof();
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":95
+  /* "mssg_corpusfile.pyx":95
  *             del self._thisptr
  * 
  *     cpdef bool_t is_eof(self) nogil:             # <<<<<<<<<<<<<<
@@ -3751,20 +3745,20 @@ static bool __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(struct __pyx
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_7is_eof(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_6is_eof[] = "CythonLineSentence.is_eof(self) -> bool";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_7is_eof(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_7is_eof(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_6is_eof[] = "CythonLineSentence.is_eof(self) -> bool";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_7is_eof(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_eof (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6is_eof(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_6is_eof(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3773,7 +3767,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("is_eof", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 95, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3782,7 +3776,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(struc
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.is_eof", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.is_eof", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3790,7 +3784,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(struc
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":98
+/* "mssg_corpusfile.pyx":98
  *         return self._thisptr.IsEof()
  * 
  *     cpdef vector[string] read_sentence(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -3798,15 +3792,15 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6is_eof(struc
  * 
  */
 
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_9read_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static std::vector<std::string>  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_9read_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static std::vector<std::string>  __pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
   std::vector<std::string>  __pyx_r;
   std::vector<std::string>  __pyx_t_1;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "ms2vec_corpusfile.pyx":99
+  /* "mssg_corpusfile.pyx":99
  * 
  *     cpdef vector[string] read_sentence(self) nogil except *:
  *         return self._thisptr.ReadSentence()             # <<<<<<<<<<<<<<
@@ -3828,7 +3822,7 @@ static std::vector<std::string>  __pyx_f_17ms2vec_corpusfile_18CythonLineSentenc
   __pyx_r = __pyx_t_1;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":98
+  /* "mssg_corpusfile.pyx":98
  *         return self._thisptr.IsEof()
  * 
  *     cpdef vector[string] read_sentence(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -3842,7 +3836,7 @@ static std::vector<std::string>  __pyx_f_17ms2vec_corpusfile_18CythonLineSentenc
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.read_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.read_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     __Pyx_PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -3853,20 +3847,20 @@ static std::vector<std::string>  __pyx_f_17ms2vec_corpusfile_18CythonLineSentenc
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_9read_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_8read_sentence[] = "CythonLineSentence.read_sentence(self) -> vector[string]";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_9read_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_9read_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_8read_sentence[] = "CythonLineSentence.read_sentence(self) -> vector[string]";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_9read_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("read_sentence (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentence(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_8read_sentence(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_8read_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   std::vector<std::string>  __pyx_t_1;
@@ -3876,7 +3870,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentenc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("read_sentence", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence(__pyx_v_self, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 98, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence(__pyx_v_self, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 98, __pyx_L1_error)
   __pyx_t_2 = __pyx_convert_vector_to_py_std_3a__3a_string(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -3886,7 +3880,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentenc
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.read_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.read_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3894,7 +3888,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentenc
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":101
+/* "mssg_corpusfile.pyx":101
  *         return self._thisptr.ReadSentence()
  * 
  *     cpdef vector[vector[string]] _read_chunked_sentence(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -3902,8 +3896,8 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_8read_sentenc
  *         return self._chunk_sentence(sent)
  */
 
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_11_read_chunked_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__read_chunked_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_11_read_chunked_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence__read_chunked_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
   std::vector<std::string>  __pyx_v_sent;
   std::vector<std::vector<std::string> >  __pyx_r;
   std::vector<std::string>  __pyx_t_1;
@@ -3911,27 +3905,27 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "ms2vec_corpusfile.pyx":102
+  /* "mssg_corpusfile.pyx":102
  * 
  *     cpdef vector[vector[string]] _read_chunked_sentence(self) nogil except *:
  *         cdef vector[string] sent = self.read_sentence()             # <<<<<<<<<<<<<<
  *         return self._chunk_sentence(sent)
  * 
  */
-  __pyx_t_1 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence(__pyx_v_self, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 102, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence(__pyx_v_self, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 102, __pyx_L1_error)
   __pyx_v_sent = __pyx_t_1;
 
-  /* "ms2vec_corpusfile.pyx":103
+  /* "mssg_corpusfile.pyx":103
  *     cpdef vector[vector[string]] _read_chunked_sentence(self) nogil except *:
  *         cdef vector[string] sent = self.read_sentence()
  *         return self._chunk_sentence(sent)             # <<<<<<<<<<<<<<
  * 
  *     cpdef vector[vector[string]] _chunk_sentence(self, vector[string] sent) nogil:
  */
-  __pyx_r = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence(__pyx_v_self, __pyx_v_sent, 0);
+  __pyx_r = __pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence(__pyx_v_self, __pyx_v_sent, 0);
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":101
+  /* "mssg_corpusfile.pyx":101
  *         return self._thisptr.ReadSentence()
  * 
  *     cpdef vector[vector[string]] _read_chunked_sentence(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -3945,7 +3939,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence._read_chunked_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence._read_chunked_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     __Pyx_PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -3956,20 +3950,20 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_11_read_chunked_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunked_sentence[] = "CythonLineSentence._read_chunked_sentence(self) -> vector[vector[string]]";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_11_read_chunked_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_11_read_chunked_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_10_read_chunked_sentence[] = "CythonLineSentence._read_chunked_sentence(self) -> vector[vector[string]]";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_11_read_chunked_sentence(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_read_chunked_sentence (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunked_sentence(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_10_read_chunked_sentence(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunked_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_10_read_chunked_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   std::vector<std::vector<std::string> >  __pyx_t_1;
@@ -3979,7 +3973,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunk
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_read_chunked_sentence", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__read_chunked_sentence(__pyx_v_self, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 101, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15mssg_corpusfile_18CythonLineSentence__read_chunked_sentence(__pyx_v_self, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 101, __pyx_L1_error)
   __pyx_t_2 = __pyx_convert_vector_to_py_std_3a__3a_vector_3c_std_3a__3a_string_3e___(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -3989,7 +3983,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunk
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence._read_chunked_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence._read_chunked_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3997,7 +3991,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunk
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":105
+/* "mssg_corpusfile.pyx":105
  *         return self._chunk_sentence(sent)
  * 
  *     cpdef vector[vector[string]] _chunk_sentence(self, vector[string] sent) nogil:             # <<<<<<<<<<<<<<
@@ -4005,8 +3999,8 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunk
  *         cdef vector[string] chunk
  */
 
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_13_chunk_sentence(PyObject *__pyx_v_self, PyObject *__pyx_arg_sent); /*proto*/
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_13_chunk_sentence(PyObject *__pyx_v_self, PyObject *__pyx_arg_sent); /*proto*/
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent, CYTHON_UNUSED int __pyx_skip_dispatch) {
   std::vector<std::vector<std::string> >  __pyx_v_res;
   std::vector<std::string>  __pyx_v_chunk;
   size_t __pyx_v_cur_idx;
@@ -4021,7 +4015,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "ms2vec_corpusfile.pyx":108
+  /* "mssg_corpusfile.pyx":108
  *         cdef vector[vector[string]] res
  *         cdef vector[string] chunk
  *         cdef size_t cur_idx = 0             # <<<<<<<<<<<<<<
@@ -4030,7 +4024,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
   __pyx_v_cur_idx = 0;
 
-  /* "ms2vec_corpusfile.pyx":110
+  /* "mssg_corpusfile.pyx":110
  *         cdef size_t cur_idx = 0
  * 
  *         if sent.size() > self.max_sentence_length:             # <<<<<<<<<<<<<<
@@ -4040,7 +4034,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   __pyx_t_1 = ((__pyx_v_sent.size() > __pyx_v_self->max_sentence_length) != 0);
   if (__pyx_t_1) {
 
-    /* "ms2vec_corpusfile.pyx":111
+    /* "mssg_corpusfile.pyx":111
  * 
  *         if sent.size() > self.max_sentence_length:
  *             while cur_idx < sent.size():             # <<<<<<<<<<<<<<
@@ -4051,7 +4045,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       __pyx_t_1 = ((__pyx_v_cur_idx < __pyx_v_sent.size()) != 0);
       if (!__pyx_t_1) break;
 
-      /* "ms2vec_corpusfile.pyx":112
+      /* "mssg_corpusfile.pyx":112
  *         if sent.size() > self.max_sentence_length:
  *             while cur_idx < sent.size():
  *                 chunk.clear()             # <<<<<<<<<<<<<<
@@ -4060,7 +4054,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
       __pyx_v_chunk.clear();
 
-      /* "ms2vec_corpusfile.pyx":113
+      /* "mssg_corpusfile.pyx":113
  *             while cur_idx < sent.size():
  *                 chunk.clear()
  *                 for i in range(cur_idx, min(cur_idx + self.max_sentence_length, sent.size())):             # <<<<<<<<<<<<<<
@@ -4079,7 +4073,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       for (__pyx_t_5 = __pyx_v_cur_idx; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
         __pyx_v_i = __pyx_t_5;
 
-        /* "ms2vec_corpusfile.pyx":114
+        /* "mssg_corpusfile.pyx":114
  *                 chunk.clear()
  *                 for i in range(cur_idx, min(cur_idx + self.max_sentence_length, sent.size())):
  *                     chunk.push_back(sent[i])             # <<<<<<<<<<<<<<
@@ -4100,7 +4094,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
         }
       }
 
-      /* "ms2vec_corpusfile.pyx":116
+      /* "mssg_corpusfile.pyx":116
  *                     chunk.push_back(sent[i])
  * 
  *                 res.push_back(chunk)             # <<<<<<<<<<<<<<
@@ -4120,7 +4114,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
         __PYX_ERR(1, 116, __pyx_L1_error)
       }
 
-      /* "ms2vec_corpusfile.pyx":117
+      /* "mssg_corpusfile.pyx":117
  * 
  *                 res.push_back(chunk)
  *                 cur_idx += chunk.size()             # <<<<<<<<<<<<<<
@@ -4130,7 +4124,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       __pyx_v_cur_idx = (__pyx_v_cur_idx + __pyx_v_chunk.size());
     }
 
-    /* "ms2vec_corpusfile.pyx":110
+    /* "mssg_corpusfile.pyx":110
  *         cdef size_t cur_idx = 0
  * 
  *         if sent.size() > self.max_sentence_length:             # <<<<<<<<<<<<<<
@@ -4140,7 +4134,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     goto __pyx_L3;
   }
 
-  /* "ms2vec_corpusfile.pyx":119
+  /* "mssg_corpusfile.pyx":119
  *                 cur_idx += chunk.size()
  *         else:
  *             res.push_back(sent)             # <<<<<<<<<<<<<<
@@ -4163,7 +4157,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   }
   __pyx_L3:;
 
-  /* "ms2vec_corpusfile.pyx":121
+  /* "mssg_corpusfile.pyx":121
  *             res.push_back(sent)
  * 
  *         return res             # <<<<<<<<<<<<<<
@@ -4173,7 +4167,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":105
+  /* "mssg_corpusfile.pyx":105
  *         return self._chunk_sentence(sent)
  * 
  *     cpdef vector[vector[string]] _chunk_sentence(self, vector[string] sent) nogil:             # <<<<<<<<<<<<<<
@@ -4183,16 +4177,16 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_WriteUnraisable("ms2vec_corpusfile.CythonLineSentence._chunk_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 1);
+  __Pyx_WriteUnraisable("mssg_corpusfile.CythonLineSentence._chunk_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 1);
   __Pyx_pretend_to_initialize(&__pyx_r);
   __pyx_L0:;
   return __pyx_r;
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_13_chunk_sentence(PyObject *__pyx_v_self, PyObject *__pyx_arg_sent); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sentence[] = "CythonLineSentence._chunk_sentence(self, vector[string] sent) -> vector[vector[string]]";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_13_chunk_sentence(PyObject *__pyx_v_self, PyObject *__pyx_arg_sent) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_13_chunk_sentence(PyObject *__pyx_v_self, PyObject *__pyx_arg_sent); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_12_chunk_sentence[] = "CythonLineSentence._chunk_sentence(self, vector[string] sent) -> vector[vector[string]]";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_13_chunk_sentence(PyObject *__pyx_v_self, PyObject *__pyx_arg_sent) {
   std::vector<std::string>  __pyx_v_sent;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
@@ -4205,18 +4199,18 @@ static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_13_chunk_sent
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence._chunk_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence._chunk_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sentence(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), ((std::vector<std::string> )__pyx_v_sent));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_12_chunk_sentence(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), ((std::vector<std::string> )__pyx_v_sent));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sentence(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_12_chunk_sentence(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, std::vector<std::string>  __pyx_v_sent) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4225,7 +4219,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sent
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_chunk_sentence", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_convert_vector_to_py_std_3a__3a_vector_3c_std_3a__3a_string_3e___(__pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence(__pyx_v_self, __pyx_v_sent, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 105, __pyx_L1_error)
+  __pyx_t_1 = __pyx_convert_vector_to_py_std_3a__3a_vector_3c_std_3a__3a_string_3e___(__pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence(__pyx_v_self, __pyx_v_sent, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4234,7 +4228,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sent
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence._chunk_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence._chunk_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4242,7 +4236,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sent
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":123
+/* "mssg_corpusfile.pyx":123
  *         return res
  * 
  *     cpdef void reset(self) nogil:             # <<<<<<<<<<<<<<
@@ -4250,10 +4244,10 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sent
  * 
  */
 
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_15reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static void __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_15reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static void __pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
 
-  /* "ms2vec_corpusfile.pyx":124
+  /* "mssg_corpusfile.pyx":124
  * 
  *     cpdef void reset(self) nogil:
  *         self._thisptr.Reset()             # <<<<<<<<<<<<<<
@@ -4262,7 +4256,7 @@ static void __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(struct __pyx_
  */
   __pyx_v_self->_thisptr->Reset();
 
-  /* "ms2vec_corpusfile.pyx":123
+  /* "mssg_corpusfile.pyx":123
  *         return res
  * 
  *     cpdef void reset(self) nogil:             # <<<<<<<<<<<<<<
@@ -4274,20 +4268,20 @@ static void __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(struct __pyx_
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_15reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_14reset[] = "CythonLineSentence.reset(self) -> void";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_15reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_15reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_14reset[] = "CythonLineSentence.reset(self) -> void";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_15reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("reset (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_14reset(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_14reset(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_14reset(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_14reset(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4296,7 +4290,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_14reset(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("reset", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_void_to_None(__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 123, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_void_to_None(__pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 123, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4305,16 +4299,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_14reset(struc
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value); /* proto */
+static PyObject *__pyx_gb_15mssg_corpusfile_18CythonLineSentence_18generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value); /* proto */
 
-/* "ms2vec_corpusfile.pyx":126
+/* "mssg_corpusfile.pyx":126
  *         self._thisptr.Reset()
  * 
  *     def __iter__(self):             # <<<<<<<<<<<<<<
@@ -4323,29 +4317,29 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_17__iter__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_17__iter__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_17__iter__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_17__iter__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__iter__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_16__iter__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_16__iter__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_16__iter__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
-  struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *__pyx_cur_scope;
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_16__iter__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
+  struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *__pyx_cur_scope;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__iter__", 0);
-  __pyx_cur_scope = (struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)__pyx_tp_new_17ms2vec_corpusfile___pyx_scope_struct____iter__(__pyx_ptype_17ms2vec_corpusfile___pyx_scope_struct____iter__, __pyx_empty_tuple, NULL);
+  __pyx_cur_scope = (struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)__pyx_tp_new_15mssg_corpusfile___pyx_scope_struct____iter__(__pyx_ptype_15mssg_corpusfile___pyx_scope_struct____iter__, __pyx_empty_tuple, NULL);
   if (unlikely(!__pyx_cur_scope)) {
-    __pyx_cur_scope = ((struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)Py_None);
+    __pyx_cur_scope = ((struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)Py_None);
     __Pyx_INCREF(Py_None);
     __PYX_ERR(1, 126, __pyx_L1_error)
   } else {
@@ -4355,7 +4349,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_16__iter__(st
   __Pyx_INCREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   {
-    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_iter, __pyx_n_s_CythonLineSentence___iter, __pyx_n_s_ms2vec_corpusfile); if (unlikely(!gen)) __PYX_ERR(1, 126, __pyx_L1_error)
+    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_15mssg_corpusfile_18CythonLineSentence_18generator, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_iter, __pyx_n_s_CythonLineSentence___iter, __pyx_n_s_mssg_corpusfile); if (unlikely(!gen)) __PYX_ERR(1, 126, __pyx_L1_error)
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -4363,7 +4357,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_16__iter__(st
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.__iter__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.__iter__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_DECREF(((PyObject *)__pyx_cur_scope));
   __Pyx_XGIVEREF(__pyx_r);
@@ -4371,9 +4365,9 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_16__iter__(st
   return __pyx_r;
 }
 
-static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value) /* generator body */
+static PyObject *__pyx_gb_15mssg_corpusfile_18CythonLineSentence_18generator(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value) /* generator body */
 {
-  struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *__pyx_cur_scope = ((struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)__pyx_generator->closure);
+  struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *__pyx_cur_scope = ((struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)__pyx_generator->closure);
   PyObject *__pyx_r = NULL;
   int __pyx_t_1;
   std::vector<std::vector<std::string> >  __pyx_t_2;
@@ -4395,16 +4389,16 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
   __pyx_L3_first_run:;
   if (unlikely(!__pyx_sent_value)) __PYX_ERR(1, 126, __pyx_L1_error)
 
-  /* "ms2vec_corpusfile.pyx":127
+  /* "mssg_corpusfile.pyx":127
  * 
  *     def __iter__(self):
  *         self.reset()             # <<<<<<<<<<<<<<
  *         while not self.is_eof():
  *             chunked_sentence = self._read_chunked_sentence()
  */
-  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(__pyx_cur_scope->__pyx_v_self, 0);
+  __pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(__pyx_cur_scope->__pyx_v_self, 0);
 
-  /* "ms2vec_corpusfile.pyx":128
+  /* "mssg_corpusfile.pyx":128
  *     def __iter__(self):
  *         self.reset()
  *         while not self.is_eof():             # <<<<<<<<<<<<<<
@@ -4412,20 +4406,20 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
  *             for chunk in chunked_sentence:
  */
   while (1) {
-    __pyx_t_1 = ((!(__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(__pyx_cur_scope->__pyx_v_self, 0) != 0)) != 0);
+    __pyx_t_1 = ((!(__pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(__pyx_cur_scope->__pyx_v_self, 0) != 0)) != 0);
     if (!__pyx_t_1) break;
 
-    /* "ms2vec_corpusfile.pyx":129
+    /* "mssg_corpusfile.pyx":129
  *         self.reset()
  *         while not self.is_eof():
  *             chunked_sentence = self._read_chunked_sentence()             # <<<<<<<<<<<<<<
  *             for chunk in chunked_sentence:
  *                 if not chunk.empty():
  */
-    __pyx_t_2 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__read_chunked_sentence(__pyx_cur_scope->__pyx_v_self, 0); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 129, __pyx_L1_error)
+    __pyx_t_2 = __pyx_f_15mssg_corpusfile_18CythonLineSentence__read_chunked_sentence(__pyx_cur_scope->__pyx_v_self, 0); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 129, __pyx_L1_error)
     __pyx_cur_scope->__pyx_v_chunked_sentence = __pyx_t_2;
 
-    /* "ms2vec_corpusfile.pyx":130
+    /* "mssg_corpusfile.pyx":130
  *         while not self.is_eof():
  *             chunked_sentence = self._read_chunked_sentence()
  *             for chunk in chunked_sentence:             # <<<<<<<<<<<<<<
@@ -4439,7 +4433,7 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
       ++__pyx_t_3;
       __pyx_cur_scope->__pyx_v_chunk = __pyx_t_4;
 
-      /* "ms2vec_corpusfile.pyx":131
+      /* "mssg_corpusfile.pyx":131
  *             chunked_sentence = self._read_chunked_sentence()
  *             for chunk in chunked_sentence:
  *                 if not chunk.empty():             # <<<<<<<<<<<<<<
@@ -4449,7 +4443,7 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
       __pyx_t_1 = ((!(__pyx_cur_scope->__pyx_v_chunk.empty() != 0)) != 0);
       if (__pyx_t_1) {
 
-        /* "ms2vec_corpusfile.pyx":132
+        /* "mssg_corpusfile.pyx":132
  *             for chunk in chunked_sentence:
  *                 if not chunk.empty():
  *                     yield chunk             # <<<<<<<<<<<<<<
@@ -4471,7 +4465,7 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
         __pyx_t_3 = __pyx_cur_scope->__pyx_t_0;
         if (unlikely(!__pyx_sent_value)) __PYX_ERR(1, 132, __pyx_L1_error)
 
-        /* "ms2vec_corpusfile.pyx":131
+        /* "mssg_corpusfile.pyx":131
  *             chunked_sentence = self._read_chunked_sentence()
  *             for chunk in chunked_sentence:
  *                 if not chunk.empty():             # <<<<<<<<<<<<<<
@@ -4480,7 +4474,7 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
  */
       }
 
-      /* "ms2vec_corpusfile.pyx":130
+      /* "mssg_corpusfile.pyx":130
  *         while not self.is_eof():
  *             chunked_sentence = self._read_chunked_sentence()
  *             for chunk in chunked_sentence:             # <<<<<<<<<<<<<<
@@ -4491,7 +4485,7 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
   }
   CYTHON_MAYBE_UNUSED_VAR(__pyx_cur_scope);
 
-  /* "ms2vec_corpusfile.pyx":126
+  /* "mssg_corpusfile.pyx":126
  *         self._thisptr.Reset()
  * 
  *     def __iter__(self):             # <<<<<<<<<<<<<<
@@ -4516,7 +4510,7 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":134
+/* "mssg_corpusfile.pyx":134
  *                     yield chunk
  * 
  *     def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -4525,20 +4519,20 @@ static PyObject *__pyx_gb_17ms2vec_corpusfile_18CythonLineSentence_18generator(_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_20__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__[] = "CythonLineSentence.__reduce__(self)";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_20__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_20__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_19__reduce__[] = "CythonLineSentence.__reduce__(self)";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_20__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_19__reduce__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_19__reduce__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4549,7 +4543,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "ms2vec_corpusfile.pyx":136
+  /* "mssg_corpusfile.pyx":136
  *     def __reduce__(self):
  *         # This function helps pickle to correctly serialize objects of this class.
  *         return rebuild_cython_line_sentence, (self.source, self.max_sentence_length)             # <<<<<<<<<<<<<<
@@ -4581,7 +4575,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":134
+  /* "mssg_corpusfile.pyx":134
  *                     yield chunk
  * 
  *     def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -4594,7 +4588,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.__reduce__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.__reduce__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4602,7 +4596,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":138
+/* "mssg_corpusfile.pyx":138
  *         return rebuild_cython_line_sentence, (self.source, self.max_sentence_length)
  * 
  *     cpdef vector[vector[string]] next_batch(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -4610,8 +4604,8 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__(
  *             vector[vector[string]] job_batch
  */
 
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_22next_batch(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_22next_batch(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static std::vector<std::vector<std::string> >  __pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, CYTHON_UNUSED int __pyx_skip_dispatch) {
   std::vector<std::vector<std::string> >  __pyx_v_job_batch;
   std::vector<std::vector<std::string> >  __pyx_v_chunked_sentence;
   std::vector<std::string>  __pyx_v_data;
@@ -4635,7 +4629,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "ms2vec_corpusfile.pyx":143
+  /* "mssg_corpusfile.pyx":143
  *             vector[vector[string]] chunked_sentence
  *             vector[string] data
  *             size_t batch_size = 0             # <<<<<<<<<<<<<<
@@ -4644,7 +4638,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
   __pyx_v_batch_size = 0;
 
-  /* "ms2vec_corpusfile.pyx":144
+  /* "mssg_corpusfile.pyx":144
  *             vector[string] data
  *             size_t batch_size = 0
  *             size_t last_idx = 0             # <<<<<<<<<<<<<<
@@ -4653,7 +4647,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
   __pyx_v_last_idx = 0;
 
-  /* "ms2vec_corpusfile.pyx":145
+  /* "mssg_corpusfile.pyx":145
  *             size_t batch_size = 0
  *             size_t last_idx = 0
  *             size_t tmp = 0             # <<<<<<<<<<<<<<
@@ -4662,7 +4656,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
   __pyx_v_tmp = 0;
 
-  /* "ms2vec_corpusfile.pyx":149
+  /* "mssg_corpusfile.pyx":149
  * 
  *         # Try to read data from previous calls which was not returned
  *         if not self.buf_data.empty():             # <<<<<<<<<<<<<<
@@ -4672,7 +4666,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   __pyx_t_1 = ((!(__pyx_v_self->buf_data.empty() != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "ms2vec_corpusfile.pyx":150
+    /* "mssg_corpusfile.pyx":150
  *         # Try to read data from previous calls which was not returned
  *         if not self.buf_data.empty():
  *             job_batch = self.buf_data             # <<<<<<<<<<<<<<
@@ -4682,7 +4676,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     __pyx_t_2 = __pyx_v_self->buf_data;
     __pyx_v_job_batch = __pyx_t_2;
 
-    /* "ms2vec_corpusfile.pyx":151
+    /* "mssg_corpusfile.pyx":151
  *         if not self.buf_data.empty():
  *             job_batch = self.buf_data
  *             self.buf_data.clear()             # <<<<<<<<<<<<<<
@@ -4691,7 +4685,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
     __pyx_v_self->buf_data.clear();
 
-    /* "ms2vec_corpusfile.pyx":153
+    /* "mssg_corpusfile.pyx":153
  *             self.buf_data.clear()
  * 
  *             for sent in job_batch:             # <<<<<<<<<<<<<<
@@ -4705,7 +4699,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       ++__pyx_t_3;
       __pyx_v_sent = __pyx_t_4;
 
-      /* "ms2vec_corpusfile.pyx":154
+      /* "mssg_corpusfile.pyx":154
  * 
  *             for sent in job_batch:
  *                 batch_size += sent.size()             # <<<<<<<<<<<<<<
@@ -4714,7 +4708,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
       __pyx_v_batch_size = (__pyx_v_batch_size + __pyx_v_sent.size());
 
-      /* "ms2vec_corpusfile.pyx":153
+      /* "mssg_corpusfile.pyx":153
  *             self.buf_data.clear()
  * 
  *             for sent in job_batch:             # <<<<<<<<<<<<<<
@@ -4723,7 +4717,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
     }
 
-    /* "ms2vec_corpusfile.pyx":149
+    /* "mssg_corpusfile.pyx":149
  * 
  *         # Try to read data from previous calls which was not returned
  *         if not self.buf_data.empty():             # <<<<<<<<<<<<<<
@@ -4732,7 +4726,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
   }
 
-  /* "ms2vec_corpusfile.pyx":156
+  /* "mssg_corpusfile.pyx":156
  *                 batch_size += sent.size()
  * 
  *         while not self.is_eof() and batch_size <= self.max_words_in_batch:             # <<<<<<<<<<<<<<
@@ -4740,7 +4734,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  * 
  */
   while (1) {
-    __pyx_t_5 = ((!(__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(__pyx_v_self, 0) != 0)) != 0);
+    __pyx_t_5 = ((!(__pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(__pyx_v_self, 0) != 0)) != 0);
     if (__pyx_t_5) {
     } else {
       __pyx_t_1 = __pyx_t_5;
@@ -4751,26 +4745,26 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     __pyx_L8_bool_binop_done:;
     if (!__pyx_t_1) break;
 
-    /* "ms2vec_corpusfile.pyx":157
+    /* "mssg_corpusfile.pyx":157
  * 
  *         while not self.is_eof() and batch_size <= self.max_words_in_batch:
  *             data = self.read_sentence()             # <<<<<<<<<<<<<<
  * 
  *             chunked_sentence = self._chunk_sentence(data)
  */
-    __pyx_t_4 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence(__pyx_v_self, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 157, __pyx_L1_error)
+    __pyx_t_4 = __pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence(__pyx_v_self, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 157, __pyx_L1_error)
     __pyx_v_data = __pyx_t_4;
 
-    /* "ms2vec_corpusfile.pyx":159
+    /* "mssg_corpusfile.pyx":159
  *             data = self.read_sentence()
  * 
  *             chunked_sentence = self._chunk_sentence(data)             # <<<<<<<<<<<<<<
  *             for chunk in chunked_sentence:
  *                 job_batch.push_back(chunk)
  */
-    __pyx_v_chunked_sentence = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence(__pyx_v_self, __pyx_v_data, 0);
+    __pyx_v_chunked_sentence = __pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence(__pyx_v_self, __pyx_v_data, 0);
 
-    /* "ms2vec_corpusfile.pyx":160
+    /* "mssg_corpusfile.pyx":160
  * 
  *             chunked_sentence = self._chunk_sentence(data)
  *             for chunk in chunked_sentence:             # <<<<<<<<<<<<<<
@@ -4784,7 +4778,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       ++__pyx_t_3;
       __pyx_v_chunk = __pyx_t_4;
 
-      /* "ms2vec_corpusfile.pyx":161
+      /* "mssg_corpusfile.pyx":161
  *             chunked_sentence = self._chunk_sentence(data)
  *             for chunk in chunked_sentence:
  *                 job_batch.push_back(chunk)             # <<<<<<<<<<<<<<
@@ -4804,7 +4798,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
         __PYX_ERR(1, 161, __pyx_L1_error)
       }
 
-      /* "ms2vec_corpusfile.pyx":162
+      /* "mssg_corpusfile.pyx":162
  *             for chunk in chunked_sentence:
  *                 job_batch.push_back(chunk)
  *                 batch_size += chunk.size()             # <<<<<<<<<<<<<<
@@ -4813,7 +4807,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
       __pyx_v_batch_size = (__pyx_v_batch_size + __pyx_v_chunk.size());
 
-      /* "ms2vec_corpusfile.pyx":160
+      /* "mssg_corpusfile.pyx":160
  * 
  *             chunked_sentence = self._chunk_sentence(data)
  *             for chunk in chunked_sentence:             # <<<<<<<<<<<<<<
@@ -4823,7 +4817,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     }
   }
 
-  /* "ms2vec_corpusfile.pyx":164
+  /* "mssg_corpusfile.pyx":164
  *                 batch_size += chunk.size()
  * 
  *         if batch_size > self.max_words_in_batch:             # <<<<<<<<<<<<<<
@@ -4833,7 +4827,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   __pyx_t_1 = ((__pyx_v_batch_size > __pyx_v_self->max_words_in_batch) != 0);
   if (__pyx_t_1) {
 
-    /* "ms2vec_corpusfile.pyx":166
+    /* "mssg_corpusfile.pyx":166
  *         if batch_size > self.max_words_in_batch:
  *             # Save data which doesn't fit in batch in order to return it later.
  *             self.buf_data.clear()             # <<<<<<<<<<<<<<
@@ -4842,7 +4836,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
     __pyx_v_self->buf_data.clear();
 
-    /* "ms2vec_corpusfile.pyx":168
+    /* "mssg_corpusfile.pyx":168
  *             self.buf_data.clear()
  * 
  *             tmp = batch_size             # <<<<<<<<<<<<<<
@@ -4851,7 +4845,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
     __pyx_v_tmp = __pyx_v_batch_size;
 
-    /* "ms2vec_corpusfile.pyx":169
+    /* "mssg_corpusfile.pyx":169
  * 
  *             tmp = batch_size
  *             idx = job_batch.size() - 1             # <<<<<<<<<<<<<<
@@ -4860,7 +4854,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
     __pyx_v_idx = (__pyx_v_job_batch.size() - 1);
 
-    /* "ms2vec_corpusfile.pyx":170
+    /* "mssg_corpusfile.pyx":170
  *             tmp = batch_size
  *             idx = job_batch.size() - 1
  *             while idx >= 0:             # <<<<<<<<<<<<<<
@@ -4871,7 +4865,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       __pyx_t_1 = ((__pyx_v_idx >= 0) != 0);
       if (!__pyx_t_1) break;
 
-      /* "ms2vec_corpusfile.pyx":171
+      /* "mssg_corpusfile.pyx":171
  *             idx = job_batch.size() - 1
  *             while idx >= 0:
  *                 if tmp - job_batch[idx].size() <= self.max_words_in_batch:             # <<<<<<<<<<<<<<
@@ -4881,7 +4875,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       __pyx_t_1 = (((__pyx_v_tmp - (__pyx_v_job_batch[__pyx_v_idx]).size()) <= __pyx_v_self->max_words_in_batch) != 0);
       if (__pyx_t_1) {
 
-        /* "ms2vec_corpusfile.pyx":172
+        /* "mssg_corpusfile.pyx":172
  *             while idx >= 0:
  *                 if tmp - job_batch[idx].size() <= self.max_words_in_batch:
  *                     last_idx = idx + 1             # <<<<<<<<<<<<<<
@@ -4890,7 +4884,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
         __pyx_v_last_idx = (__pyx_v_idx + 1);
 
-        /* "ms2vec_corpusfile.pyx":173
+        /* "mssg_corpusfile.pyx":173
  *                 if tmp - job_batch[idx].size() <= self.max_words_in_batch:
  *                     last_idx = idx + 1
  *                     break             # <<<<<<<<<<<<<<
@@ -4899,7 +4893,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
         goto __pyx_L14_break;
 
-        /* "ms2vec_corpusfile.pyx":171
+        /* "mssg_corpusfile.pyx":171
  *             idx = job_batch.size() - 1
  *             while idx >= 0:
  *                 if tmp - job_batch[idx].size() <= self.max_words_in_batch:             # <<<<<<<<<<<<<<
@@ -4908,7 +4902,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
       }
 
-      /* "ms2vec_corpusfile.pyx":175
+      /* "mssg_corpusfile.pyx":175
  *                     break
  *                 else:
  *                     tmp -= job_batch[idx].size()             # <<<<<<<<<<<<<<
@@ -4919,7 +4913,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
         __pyx_v_tmp = (__pyx_v_tmp - (__pyx_v_job_batch[__pyx_v_idx]).size());
       }
 
-      /* "ms2vec_corpusfile.pyx":177
+      /* "mssg_corpusfile.pyx":177
  *                     tmp -= job_batch[idx].size()
  * 
  *                 idx -= 1             # <<<<<<<<<<<<<<
@@ -4930,7 +4924,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     }
     __pyx_L14_break:;
 
-    /* "ms2vec_corpusfile.pyx":179
+    /* "mssg_corpusfile.pyx":179
  *                 idx -= 1
  * 
  *             for i in range(last_idx, job_batch.size()):             # <<<<<<<<<<<<<<
@@ -4942,7 +4936,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     for (__pyx_t_8 = __pyx_v_last_idx; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
       __pyx_v_i = __pyx_t_8;
 
-      /* "ms2vec_corpusfile.pyx":180
+      /* "mssg_corpusfile.pyx":180
  * 
  *             for i in range(last_idx, job_batch.size()):
  *                 self.buf_data.push_back(job_batch[i])             # <<<<<<<<<<<<<<
@@ -4963,7 +4957,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       }
     }
 
-    /* "ms2vec_corpusfile.pyx":181
+    /* "mssg_corpusfile.pyx":181
  *             for i in range(last_idx, job_batch.size()):
  *                 self.buf_data.push_back(job_batch[i])
  *             job_batch.resize(last_idx)             # <<<<<<<<<<<<<<
@@ -4983,7 +4977,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
       __PYX_ERR(1, 181, __pyx_L1_error)
     }
 
-    /* "ms2vec_corpusfile.pyx":164
+    /* "mssg_corpusfile.pyx":164
  *                 batch_size += chunk.size()
  * 
  *         if batch_size > self.max_words_in_batch:             # <<<<<<<<<<<<<<
@@ -4992,7 +4986,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
  */
   }
 
-  /* "ms2vec_corpusfile.pyx":183
+  /* "mssg_corpusfile.pyx":183
  *             job_batch.resize(last_idx)
  * 
  *         return job_batch             # <<<<<<<<<<<<<<
@@ -5002,7 +4996,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
   __pyx_r = __pyx_v_job_batch;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":138
+  /* "mssg_corpusfile.pyx":138
  *         return rebuild_cython_line_sentence, (self.source, self.max_sentence_length)
  * 
  *     cpdef vector[vector[string]] next_batch(self) nogil except *:             # <<<<<<<<<<<<<<
@@ -5016,7 +5010,7 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.next_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.next_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     __Pyx_PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -5027,20 +5021,20 @@ static std::vector<std::vector<std::string> >  __pyx_f_17ms2vec_corpusfile_18Cyt
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_22next_batch(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_21next_batch[] = "CythonLineSentence.next_batch(self) -> vector[vector[string]]";
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_22next_batch(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_22next_batch(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_18CythonLineSentence_21next_batch[] = "CythonLineSentence.next_batch(self) -> vector[vector[string]]";
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_22next_batch(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("next_batch (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_21next_batch(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_21next_batch(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   std::vector<std::vector<std::string> >  __pyx_t_1;
@@ -5050,7 +5044,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("next_batch", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch(__pyx_v_self, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 138, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch(__pyx_v_self, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 138, __pyx_L1_error)
   __pyx_t_2 = __pyx_convert_vector_to_py_std_3a__3a_vector_3c_std_3a__3a_string_3e___(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -5060,7 +5054,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.next_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.next_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5068,7 +5062,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pxd":35
+/* "mssg_corpusfile.pxd":35
  * cdef class CythonLineSentence:
  *     cdef FastLineSentence* _thisptr
  *     cdef public bytes source             # <<<<<<<<<<<<<<
@@ -5077,19 +5071,19 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_21next_batch(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source___get__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source___get__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
@@ -5106,19 +5100,19 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source___get
 }
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_2__set__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source_2__set__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5140,7 +5134,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_2__set__(st
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.source.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.source.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -5148,19 +5142,19 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_2__set__(st
 }
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_5__del__(PyObject *__pyx_v_self); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_5__del__(PyObject *__pyx_v_self) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_5__del__(PyObject *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_4__del__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source_4__del__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_4__del__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6source_4__del__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
@@ -5176,7 +5170,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_4__del__(st
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pxd":36
+/* "mssg_corpusfile.pxd":36
  *     cdef FastLineSentence* _thisptr
  *     cdef public bytes source
  *     cdef public size_t max_sentence_length, max_words_in_batch, offset             # <<<<<<<<<<<<<<
@@ -5185,19 +5179,19 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6source_4__del__(st
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length___get__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length___get__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5215,7 +5209,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentenc
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.max_sentence_length.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.max_sentence_length.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5224,19 +5218,19 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentenc
 }
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_2__set__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_2__set__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   size_t __pyx_t_1;
@@ -5251,7 +5245,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_leng
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.max_sentence_length.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.max_sentence_length.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -5259,19 +5253,19 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_leng
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch___get__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch___get__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5289,7 +5283,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_i
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.max_words_in_batch.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.max_words_in_batch.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5298,19 +5292,19 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_i
 }
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_2__set__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_2__set__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   size_t __pyx_t_1;
@@ -5325,7 +5319,7 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batc
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.max_words_in_batch.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.max_words_in_batch.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -5333,19 +5327,19 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batc
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6offset_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6offset_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_6offset_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_15mssg_corpusfile_18CythonLineSentence_6offset_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset___get__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6offset___get__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset___get__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self) {
+static PyObject *__pyx_pf_15mssg_corpusfile_18CythonLineSentence_6offset___get__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5363,7 +5357,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset___get
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.offset.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.offset.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5372,19 +5366,19 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset___get
 }
 
 /* Python wrapper */
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset_2__set__(((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6offset_2__set__(((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset_2__set__(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_15mssg_corpusfile_18CythonLineSentence_6offset_2__set__(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   size_t __pyx_t_1;
@@ -5399,14 +5393,14 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset_2__set__(st
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.CythonLineSentence.offset.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.CythonLineSentence.offset.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":186
+/* "mssg_corpusfile.pyx":186
  * 
  * 
  * cdef void prepare_c_structures_for_batch(             # <<<<<<<<<<<<<<
@@ -5414,8 +5408,8 @@ static int __pyx_pf_17ms2vec_corpusfile_18CythonLineSentence_6offset_2__set__(st
  *         int *effective_words, int *effective_sentences, unsigned long long *next_random,
  */
 
-static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vector<std::vector<std::string> >  &__pyx_v_sentences, int __pyx_v_sample, int __pyx_v_hs, int __pyx_v_window, PY_LONG_LONG *__pyx_v_total_words, int *__pyx_v_effective_words, int *__pyx_v_effective_sentences, unsigned PY_LONG_LONG *__pyx_v_next_random, __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_v_vocab, int *__pyx_v_sentence_idx, __pyx_t_5numpy_uint32_t *__pyx_v_indexes, int *__pyx_v_codelens, __pyx_t_5numpy_uint8_t **__pyx_v_codes, __pyx_t_5numpy_uint32_t **__pyx_v_points, __pyx_t_5numpy_uint32_t *__pyx_v_reduced_windows) {
-  struct __pyx_t_17ms2vec_corpusfile_VocabItem __pyx_v_word;
+static void __pyx_f_15mssg_corpusfile_prepare_c_structures_for_batch(std::vector<std::vector<std::string> >  &__pyx_v_sentences, int __pyx_v_sample, int __pyx_v_hs, int __pyx_v_window, PY_LONG_LONG *__pyx_v_total_words, int *__pyx_v_effective_words, int *__pyx_v_effective_sentences, unsigned PY_LONG_LONG *__pyx_v_next_random, __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_v_vocab, int *__pyx_v_sentence_idx, __pyx_t_5numpy_uint32_t *__pyx_v_indexes, int *__pyx_v_codelens, __pyx_t_5numpy_uint8_t **__pyx_v_codes, __pyx_t_5numpy_uint32_t **__pyx_v_points, __pyx_t_5numpy_uint32_t *__pyx_v_reduced_windows) {
+  struct __pyx_t_15mssg_corpusfile_VocabItem __pyx_v_word;
   std::string __pyx_v_token;
   std::vector<std::string>  __pyx_v_sent;
   int __pyx_v_i;
@@ -5433,7 +5427,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
   int __pyx_t_12;
   int __pyx_t_13;
 
-  /* "ms2vec_corpusfile.pyx":195
+  /* "mssg_corpusfile.pyx":195
  *     cdef vector[string] sent
  * 
  *     sentence_idx[0] = 0  # indices of the first sentence always start at 0             # <<<<<<<<<<<<<<
@@ -5442,7 +5436,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
   (__pyx_v_sentence_idx[0]) = 0;
 
-  /* "ms2vec_corpusfile.pyx":196
+  /* "mssg_corpusfile.pyx":196
  * 
  *     sentence_idx[0] = 0  # indices of the first sentence always start at 0
  *     for sent in sentences:             # <<<<<<<<<<<<<<
@@ -5456,7 +5450,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
     ++__pyx_t_1;
     __pyx_v_sent = __pyx_t_2;
 
-    /* "ms2vec_corpusfile.pyx":197
+    /* "mssg_corpusfile.pyx":197
  *     sentence_idx[0] = 0  # indices of the first sentence always start at 0
  *     for sent in sentences:
  *         if sent.empty():             # <<<<<<<<<<<<<<
@@ -5466,7 +5460,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
     __pyx_t_3 = (__pyx_v_sent.empty() != 0);
     if (__pyx_t_3) {
 
-      /* "ms2vec_corpusfile.pyx":198
+      /* "mssg_corpusfile.pyx":198
  *     for sent in sentences:
  *         if sent.empty():
  *             continue # ignore empty sentences; leave effective_sentences unchanged             # <<<<<<<<<<<<<<
@@ -5475,7 +5469,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       goto __pyx_L3_continue;
 
-      /* "ms2vec_corpusfile.pyx":197
+      /* "mssg_corpusfile.pyx":197
  *     sentence_idx[0] = 0  # indices of the first sentence always start at 0
  *     for sent in sentences:
  *         if sent.empty():             # <<<<<<<<<<<<<<
@@ -5484,7 +5478,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
     }
 
-    /* "ms2vec_corpusfile.pyx":199
+    /* "mssg_corpusfile.pyx":199
  *         if sent.empty():
  *             continue # ignore empty sentences; leave effective_sentences unchanged
  *         total_words[0] += sent.size()             # <<<<<<<<<<<<<<
@@ -5494,7 +5488,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
     __pyx_t_4 = 0;
     (__pyx_v_total_words[__pyx_t_4]) = ((__pyx_v_total_words[__pyx_t_4]) + __pyx_v_sent.size());
 
-    /* "ms2vec_corpusfile.pyx":201
+    /* "mssg_corpusfile.pyx":201
  *         total_words[0] += sent.size()
  * 
  *         for token in sent:             # <<<<<<<<<<<<<<
@@ -5508,7 +5502,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
       ++__pyx_t_5;
       __pyx_v_token = __pyx_t_6;
 
-      /* "ms2vec_corpusfile.pyx":203
+      /* "mssg_corpusfile.pyx":203
  *         for token in sent:
  *             # leaving `effective_words` unchanged = shortening the sentence = expanding the window
  *             if vocab[0].find(token) == vocab[0].end():             # <<<<<<<<<<<<<<
@@ -5518,7 +5512,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
       __pyx_t_3 = (((__pyx_v_vocab[0]).find(__pyx_v_token) == (__pyx_v_vocab[0]).end()) != 0);
       if (__pyx_t_3) {
 
-        /* "ms2vec_corpusfile.pyx":204
+        /* "mssg_corpusfile.pyx":204
  *             # leaving `effective_words` unchanged = shortening the sentence = expanding the window
  *             if vocab[0].find(token) == vocab[0].end():
  *                 continue             # <<<<<<<<<<<<<<
@@ -5527,7 +5521,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
         goto __pyx_L6_continue;
 
-        /* "ms2vec_corpusfile.pyx":203
+        /* "mssg_corpusfile.pyx":203
  *         for token in sent:
  *             # leaving `effective_words` unchanged = shortening the sentence = expanding the window
  *             if vocab[0].find(token) == vocab[0].end():             # <<<<<<<<<<<<<<
@@ -5536,7 +5530,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       }
 
-      /* "ms2vec_corpusfile.pyx":206
+      /* "mssg_corpusfile.pyx":206
  *                 continue
  * 
  *             word = vocab[0][token]             # <<<<<<<<<<<<<<
@@ -5545,7 +5539,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       __pyx_v_word = ((__pyx_v_vocab[0])[__pyx_v_token]);
 
-      /* "ms2vec_corpusfile.pyx":207
+      /* "mssg_corpusfile.pyx":207
  * 
  *             word = vocab[0][token]
  *             if sample and word.sample_int < random_int32(next_random):             # <<<<<<<<<<<<<<
@@ -5558,12 +5552,12 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
         __pyx_t_3 = __pyx_t_7;
         goto __pyx_L10_bool_binop_done;
       }
-      __pyx_t_7 = ((__pyx_v_word.sample_int < __pyx_f_12ms2vec_inner_random_int32(__pyx_v_next_random)) != 0);
+      __pyx_t_7 = ((__pyx_v_word.sample_int < __pyx_f_10mssg_inner_random_int32(__pyx_v_next_random)) != 0);
       __pyx_t_3 = __pyx_t_7;
       __pyx_L10_bool_binop_done:;
       if (__pyx_t_3) {
 
-        /* "ms2vec_corpusfile.pyx":208
+        /* "mssg_corpusfile.pyx":208
  *             word = vocab[0][token]
  *             if sample and word.sample_int < random_int32(next_random):
  *                 continue             # <<<<<<<<<<<<<<
@@ -5572,7 +5566,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
         goto __pyx_L6_continue;
 
-        /* "ms2vec_corpusfile.pyx":207
+        /* "mssg_corpusfile.pyx":207
  * 
  *             word = vocab[0][token]
  *             if sample and word.sample_int < random_int32(next_random):             # <<<<<<<<<<<<<<
@@ -5581,7 +5575,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       }
 
-      /* "ms2vec_corpusfile.pyx":209
+      /* "mssg_corpusfile.pyx":209
  *             if sample and word.sample_int < random_int32(next_random):
  *                 continue
  *             indexes[effective_words[0]] = word.index             # <<<<<<<<<<<<<<
@@ -5591,7 +5585,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
       __pyx_t_8 = __pyx_v_word.index;
       (__pyx_v_indexes[(__pyx_v_effective_words[0])]) = __pyx_t_8;
 
-      /* "ms2vec_corpusfile.pyx":210
+      /* "mssg_corpusfile.pyx":210
  *                 continue
  *             indexes[effective_words[0]] = word.index
  *             if hs:             # <<<<<<<<<<<<<<
@@ -5601,7 +5595,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
       __pyx_t_3 = (__pyx_v_hs != 0);
       if (__pyx_t_3) {
 
-        /* "ms2vec_corpusfile.pyx":211
+        /* "mssg_corpusfile.pyx":211
  *             indexes[effective_words[0]] = word.index
  *             if hs:
  *                 codelens[effective_words[0]] = word.code_len             # <<<<<<<<<<<<<<
@@ -5611,7 +5605,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
         __pyx_t_9 = __pyx_v_word.code_len;
         (__pyx_v_codelens[(__pyx_v_effective_words[0])]) = __pyx_t_9;
 
-        /* "ms2vec_corpusfile.pyx":212
+        /* "mssg_corpusfile.pyx":212
  *             if hs:
  *                 codelens[effective_words[0]] = word.code_len
  *                 codes[effective_words[0]] = word.code             # <<<<<<<<<<<<<<
@@ -5621,7 +5615,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
         __pyx_t_10 = __pyx_v_word.code;
         (__pyx_v_codes[(__pyx_v_effective_words[0])]) = __pyx_t_10;
 
-        /* "ms2vec_corpusfile.pyx":213
+        /* "mssg_corpusfile.pyx":213
  *                 codelens[effective_words[0]] = word.code_len
  *                 codes[effective_words[0]] = word.code
  *                 points[effective_words[0]] = word.point             # <<<<<<<<<<<<<<
@@ -5631,7 +5625,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
         __pyx_t_11 = __pyx_v_word.point;
         (__pyx_v_points[(__pyx_v_effective_words[0])]) = __pyx_t_11;
 
-        /* "ms2vec_corpusfile.pyx":210
+        /* "mssg_corpusfile.pyx":210
  *                 continue
  *             indexes[effective_words[0]] = word.index
  *             if hs:             # <<<<<<<<<<<<<<
@@ -5640,7 +5634,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       }
 
-      /* "ms2vec_corpusfile.pyx":214
+      /* "mssg_corpusfile.pyx":214
  *                 codes[effective_words[0]] = word.code
  *                 points[effective_words[0]] = word.point
  *             effective_words[0] += 1             # <<<<<<<<<<<<<<
@@ -5650,7 +5644,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
       __pyx_t_4 = 0;
       (__pyx_v_effective_words[__pyx_t_4]) = ((__pyx_v_effective_words[__pyx_t_4]) + 1);
 
-      /* "ms2vec_corpusfile.pyx":215
+      /* "mssg_corpusfile.pyx":215
  *                 points[effective_words[0]] = word.point
  *             effective_words[0] += 1
  *             if effective_words[0] == MAX_SENTENCE_LEN:             # <<<<<<<<<<<<<<
@@ -5660,7 +5654,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
       __pyx_t_3 = (((__pyx_v_effective_words[0]) == 0x2710) != 0);
       if (__pyx_t_3) {
 
-        /* "ms2vec_corpusfile.pyx":216
+        /* "mssg_corpusfile.pyx":216
  *             effective_words[0] += 1
  *             if effective_words[0] == MAX_SENTENCE_LEN:
  *                 break  # TODO: log warning, tally overflow?             # <<<<<<<<<<<<<<
@@ -5669,7 +5663,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
         goto __pyx_L7_break;
 
-        /* "ms2vec_corpusfile.pyx":215
+        /* "mssg_corpusfile.pyx":215
  *                 points[effective_words[0]] = word.point
  *             effective_words[0] += 1
  *             if effective_words[0] == MAX_SENTENCE_LEN:             # <<<<<<<<<<<<<<
@@ -5678,7 +5672,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       }
 
-      /* "ms2vec_corpusfile.pyx":201
+      /* "mssg_corpusfile.pyx":201
  *         total_words[0] += sent.size()
  * 
  *         for token in sent:             # <<<<<<<<<<<<<<
@@ -5689,7 +5683,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
     }
     __pyx_L7_break:;
 
-    /* "ms2vec_corpusfile.pyx":221
+    /* "mssg_corpusfile.pyx":221
  *         # across sentence boundaries.
  *         # indices of sentence number X are between <sentence_idx[X], sentence_idx[X])
  *         effective_sentences[0] += 1             # <<<<<<<<<<<<<<
@@ -5699,7 +5693,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
     __pyx_t_4 = 0;
     (__pyx_v_effective_sentences[__pyx_t_4]) = ((__pyx_v_effective_sentences[__pyx_t_4]) + 1);
 
-    /* "ms2vec_corpusfile.pyx":222
+    /* "mssg_corpusfile.pyx":222
  *         # indices of sentence number X are between <sentence_idx[X], sentence_idx[X])
  *         effective_sentences[0] += 1
  *         sentence_idx[effective_sentences[0]] = effective_words[0]             # <<<<<<<<<<<<<<
@@ -5708,7 +5702,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
     (__pyx_v_sentence_idx[(__pyx_v_effective_sentences[0])]) = (__pyx_v_effective_words[0]);
 
-    /* "ms2vec_corpusfile.pyx":224
+    /* "mssg_corpusfile.pyx":224
  *         sentence_idx[effective_sentences[0]] = effective_words[0]
  * 
  *         if effective_words[0] == MAX_SENTENCE_LEN:             # <<<<<<<<<<<<<<
@@ -5718,7 +5712,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
     __pyx_t_3 = (((__pyx_v_effective_words[0]) == 0x2710) != 0);
     if (__pyx_t_3) {
 
-      /* "ms2vec_corpusfile.pyx":225
+      /* "mssg_corpusfile.pyx":225
  * 
  *         if effective_words[0] == MAX_SENTENCE_LEN:
  *             break  # TODO: log warning, tally overflow?             # <<<<<<<<<<<<<<
@@ -5727,7 +5721,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
       goto __pyx_L4_break;
 
-      /* "ms2vec_corpusfile.pyx":224
+      /* "mssg_corpusfile.pyx":224
  *         sentence_idx[effective_sentences[0]] = effective_words[0]
  * 
  *         if effective_words[0] == MAX_SENTENCE_LEN:             # <<<<<<<<<<<<<<
@@ -5736,7 +5730,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  */
     }
 
-    /* "ms2vec_corpusfile.pyx":196
+    /* "mssg_corpusfile.pyx":196
  * 
  *     sentence_idx[0] = 0  # indices of the first sentence always start at 0
  *     for sent in sentences:             # <<<<<<<<<<<<<<
@@ -5747,7 +5741,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
   }
   __pyx_L4_break:;
 
-  /* "ms2vec_corpusfile.pyx":228
+  /* "mssg_corpusfile.pyx":228
  * 
  *     # precompute "reduced window" offsets in a single randint() call
  *     for i in range(effective_words[0]):             # <<<<<<<<<<<<<<
@@ -5759,17 +5753,17 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
   for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
     __pyx_v_i = __pyx_t_13;
 
-    /* "ms2vec_corpusfile.pyx":229
+    /* "mssg_corpusfile.pyx":229
  *     # precompute "reduced window" offsets in a single randint() call
  *     for i in range(effective_words[0]):
  *         reduced_windows[i] = random_int32(next_random) % window             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    (__pyx_v_reduced_windows[__pyx_v_i]) = (__pyx_f_12ms2vec_inner_random_int32(__pyx_v_next_random) % __pyx_v_window);
+    (__pyx_v_reduced_windows[__pyx_v_i]) = (__pyx_f_10mssg_inner_random_int32(__pyx_v_next_random) % __pyx_v_window);
   }
 
-  /* "ms2vec_corpusfile.pyx":186
+  /* "mssg_corpusfile.pyx":186
  * 
  * 
  * cdef void prepare_c_structures_for_batch(             # <<<<<<<<<<<<<<
@@ -5780,7 +5774,7 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
   /* function exit code */
 }
 
-/* "ms2vec_corpusfile.pyx":232
+/* "mssg_corpusfile.pyx":232
  * 
  * 
  * cdef REAL_t get_alpha(REAL_t alpha, REAL_t end_alpha, int cur_epoch, int num_epochs) nogil:             # <<<<<<<<<<<<<<
@@ -5788,20 +5782,20 @@ static void __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(std::vect
  * 
  */
 
-static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_alpha(__pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_alpha, __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_end_alpha, int __pyx_v_cur_epoch, int __pyx_v_num_epochs) {
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_r;
+static __pyx_t_15mssg_corpusfile_REAL_t __pyx_f_15mssg_corpusfile_get_alpha(__pyx_t_15mssg_corpusfile_REAL_t __pyx_v_alpha, __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_end_alpha, int __pyx_v_cur_epoch, int __pyx_v_num_epochs) {
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_r;
 
-  /* "ms2vec_corpusfile.pyx":233
+  /* "mssg_corpusfile.pyx":233
  * 
  * cdef REAL_t get_alpha(REAL_t alpha, REAL_t end_alpha, int cur_epoch, int num_epochs) nogil:
  *     return alpha - ((alpha - end_alpha) * (<REAL_t> cur_epoch) / num_epochs)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_r = (__pyx_v_alpha - (((__pyx_v_alpha - __pyx_v_end_alpha) * ((__pyx_t_17ms2vec_corpusfile_REAL_t)__pyx_v_cur_epoch)) / __pyx_v_num_epochs));
+  __pyx_r = (__pyx_v_alpha - (((__pyx_v_alpha - __pyx_v_end_alpha) * ((__pyx_t_15mssg_corpusfile_REAL_t)__pyx_v_cur_epoch)) / __pyx_v_num_epochs));
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":232
+  /* "mssg_corpusfile.pyx":232
  * 
  * 
  * cdef REAL_t get_alpha(REAL_t alpha, REAL_t end_alpha, int cur_epoch, int num_epochs) nogil:             # <<<<<<<<<<<<<<
@@ -5814,7 +5808,7 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_alpha(
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":236
+/* "mssg_corpusfile.pyx":236
  * 
  * 
  * cdef REAL_t get_next_alpha(             # <<<<<<<<<<<<<<
@@ -5822,17 +5816,17 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_alpha(
  *         long long expected_examples, long long expected_words, int cur_epoch, int num_epochs) nogil:
  */
 
-static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_alpha(__pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_start_alpha, __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_end_alpha, PY_LONG_LONG __pyx_v_total_examples, PY_LONG_LONG __pyx_v_total_words, PY_LONG_LONG __pyx_v_expected_examples, PY_LONG_LONG __pyx_v_expected_words, int __pyx_v_cur_epoch, int __pyx_v_num_epochs) {
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_epoch_progress;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_progress;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_next_alpha;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_r;
+static __pyx_t_15mssg_corpusfile_REAL_t __pyx_f_15mssg_corpusfile_get_next_alpha(__pyx_t_15mssg_corpusfile_REAL_t __pyx_v_start_alpha, __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_end_alpha, PY_LONG_LONG __pyx_v_total_examples, PY_LONG_LONG __pyx_v_total_words, PY_LONG_LONG __pyx_v_expected_examples, PY_LONG_LONG __pyx_v_expected_words, int __pyx_v_cur_epoch, int __pyx_v_num_epochs) {
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_epoch_progress;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_progress;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_next_alpha;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_r;
   int __pyx_t_1;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_t_2;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_t_3;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_t_4;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_t_2;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_t_3;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_t_4;
 
-  /* "ms2vec_corpusfile.pyx":241
+  /* "mssg_corpusfile.pyx":241
  *     cdef REAL_t epoch_progress
  * 
  *     if expected_examples != -1:             # <<<<<<<<<<<<<<
@@ -5842,16 +5836,16 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
   __pyx_t_1 = ((__pyx_v_expected_examples != -1LL) != 0);
   if (__pyx_t_1) {
 
-    /* "ms2vec_corpusfile.pyx":243
+    /* "mssg_corpusfile.pyx":243
  *     if expected_examples != -1:
  *         # examples-based decay
  *         epoch_progress = (<REAL_t> total_examples) / expected_examples             # <<<<<<<<<<<<<<
  *     else:
  *         # word-based decay
  */
-    __pyx_v_epoch_progress = (((__pyx_t_17ms2vec_corpusfile_REAL_t)__pyx_v_total_examples) / __pyx_v_expected_examples);
+    __pyx_v_epoch_progress = (((__pyx_t_15mssg_corpusfile_REAL_t)__pyx_v_total_examples) / __pyx_v_expected_examples);
 
-    /* "ms2vec_corpusfile.pyx":241
+    /* "mssg_corpusfile.pyx":241
  *     cdef REAL_t epoch_progress
  * 
  *     if expected_examples != -1:             # <<<<<<<<<<<<<<
@@ -5861,7 +5855,7 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
     goto __pyx_L3;
   }
 
-  /* "ms2vec_corpusfile.pyx":246
+  /* "mssg_corpusfile.pyx":246
  *     else:
  *         # word-based decay
  *         epoch_progress = (<REAL_t> total_words) / expected_words             # <<<<<<<<<<<<<<
@@ -5869,11 +5863,11 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
  *     cdef REAL_t progress = (cur_epoch + epoch_progress) / num_epochs
  */
   /*else*/ {
-    __pyx_v_epoch_progress = (((__pyx_t_17ms2vec_corpusfile_REAL_t)__pyx_v_total_words) / __pyx_v_expected_words);
+    __pyx_v_epoch_progress = (((__pyx_t_15mssg_corpusfile_REAL_t)__pyx_v_total_words) / __pyx_v_expected_words);
   }
   __pyx_L3:;
 
-  /* "ms2vec_corpusfile.pyx":248
+  /* "mssg_corpusfile.pyx":248
  *         epoch_progress = (<REAL_t> total_words) / expected_words
  * 
  *     cdef REAL_t progress = (cur_epoch + epoch_progress) / num_epochs             # <<<<<<<<<<<<<<
@@ -5882,7 +5876,7 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
  */
   __pyx_v_progress = ((__pyx_v_cur_epoch + __pyx_v_epoch_progress) / __pyx_v_num_epochs);
 
-  /* "ms2vec_corpusfile.pyx":249
+  /* "mssg_corpusfile.pyx":249
  * 
  *     cdef REAL_t progress = (cur_epoch + epoch_progress) / num_epochs
  *     cdef REAL_t next_alpha = start_alpha - (start_alpha - end_alpha) * progress             # <<<<<<<<<<<<<<
@@ -5891,7 +5885,7 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
  */
   __pyx_v_next_alpha = (__pyx_v_start_alpha - ((__pyx_v_start_alpha - __pyx_v_end_alpha) * __pyx_v_progress));
 
-  /* "ms2vec_corpusfile.pyx":250
+  /* "mssg_corpusfile.pyx":250
  *     cdef REAL_t progress = (cur_epoch + epoch_progress) / num_epochs
  *     cdef REAL_t next_alpha = start_alpha - (start_alpha - end_alpha) * progress
  *     return max(end_alpha, next_alpha)             # <<<<<<<<<<<<<<
@@ -5908,7 +5902,7 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
   __pyx_r = __pyx_t_4;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":236
+  /* "mssg_corpusfile.pyx":236
  * 
  * 
  * cdef REAL_t get_next_alpha(             # <<<<<<<<<<<<<<
@@ -5921,7 +5915,7 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":253
+/* "mssg_corpusfile.pyx":253
  * 
  * 
  * def train_epoch_sg(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
@@ -5930,10 +5924,10 @@ static __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_f_17ms2vec_corpusfile_get_next_a
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_3train_epoch_sg(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_2train_epoch_sg[] = "train_epoch_sg(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work, _neu1, compute_loss)\nTrain Skipgram model for one epoch by training on an input stream. This function is used only in multistream mode.\n\n    Called internally from :meth:`~gensim.models.word2vec.Word2Vec.train`.\n\n    Parameters\n    ----------\n    model : :class:`~gensim.models.word2vec.Word2Vec`\n        The Word2Vec model instance to train.\n    corpus_file : str\n        Path to corpus file.\n    _cur_epoch : int\n        Current epoch number. Used for calculating and decaying learning rate.\n    _work : np.ndarray\n        Private working memory for each worker.\n    _neu1 : np.ndarray\n        Private working memory for each worker.\n    compute_loss : bool\n        Whether or not the training loss should be computed in this batch.\n\n    Returns\n    -------\n    int\n        Number of words in the vocabulary actually used for training (They already existed in the vocabulary\n        and were not discarded by negative sampling).\n    ";
-static PyMethodDef __pyx_mdef_17ms2vec_corpusfile_3train_epoch_sg = {"train_epoch_sg", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_17ms2vec_corpusfile_3train_epoch_sg, METH_VARARGS|METH_KEYWORDS, __pyx_doc_17ms2vec_corpusfile_2train_epoch_sg};
-static PyObject *__pyx_pw_17ms2vec_corpusfile_3train_epoch_sg(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_15mssg_corpusfile_3train_epoch_sg(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_2train_epoch_sg[] = "train_epoch_sg(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work, _neu1, compute_loss)\nTrain Skipgram model for one epoch by training on an input stream. This function is used only in multistream mode.\n\n    Called internally from :meth:`~gensim.models.word2vec.Word2Vec.train`.\n\n    Parameters\n    ----------\n    model : :class:`~gensim.models.word2vec.Word2Vec`\n        The Word2Vec model instance to train.\n    corpus_file : str\n        Path to corpus file.\n    _cur_epoch : int\n        Current epoch number. Used for calculating and decaying learning rate.\n    _work : np.ndarray\n        Private working memory for each worker.\n    _neu1 : np.ndarray\n        Private working memory for each worker.\n    compute_loss : bool\n        Whether or not the training loss should be computed in this batch.\n\n    Returns\n    -------\n    int\n        Number of words in the vocabulary actually used for training (They already existed in the vocabulary\n        and were not discarded by negative sampling).\n    ";
+static PyMethodDef __pyx_mdef_15mssg_corpusfile_3train_epoch_sg = {"train_epoch_sg", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_15mssg_corpusfile_3train_epoch_sg, METH_VARARGS|METH_KEYWORDS, __pyx_doc_15mssg_corpusfile_2train_epoch_sg};
+static PyObject *__pyx_pw_15mssg_corpusfile_3train_epoch_sg(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_model = 0;
   PyObject *__pyx_v_corpus_file = 0;
   PyObject *__pyx_v_offset = 0;
@@ -6072,28 +6066,28 @@ static PyObject *__pyx_pw_17ms2vec_corpusfile_3train_epoch_sg(PyObject *__pyx_se
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("train_epoch_sg", 1, 10, 10, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 253, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.train_epoch_sg", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.train_epoch_sg", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(__pyx_self, __pyx_v_model, __pyx_v_corpus_file, __pyx_v_offset, __pyx_v__cython_vocab, __pyx_v__cur_epoch, __pyx_v__expected_examples, __pyx_v__expected_words, __pyx_v__work, __pyx_v__neu1, __pyx_v_compute_loss);
+  __pyx_r = __pyx_pf_15mssg_corpusfile_2train_epoch_sg(__pyx_self, __pyx_v_model, __pyx_v_corpus_file, __pyx_v_offset, __pyx_v__cython_vocab, __pyx_v__cur_epoch, __pyx_v__expected_examples, __pyx_v__expected_words, __pyx_v__work, __pyx_v__neu1, __pyx_v_compute_loss);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, CYTHON_UNUSED PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss) {
-  struct __pyx_t_12ms2vec_inner_Word2VecConfig __pyx_v_c;
+static PyObject *__pyx_pf_15mssg_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, CYTHON_UNUSED PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss) {
+  struct __pyx_t_10mssg_inner_Word2VecConfig __pyx_v_c;
   int __pyx_v_cur_epoch;
   int __pyx_v_num_epochs;
   PY_LONG_LONG __pyx_v_expected_examples;
   PY_LONG_LONG __pyx_v_expected_words;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_start_alpha;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_end_alpha;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v__alpha;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_input_stream = 0;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_vocab = 0;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_start_alpha;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_end_alpha;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v__alpha;
+  struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_input_stream = 0;
+  struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_vocab = 0;
   int __pyx_v_i;
   int __pyx_v_j;
   int __pyx_v_k;
@@ -6113,11 +6107,11 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   PY_LONG_LONG __pyx_t_3;
   int __pyx_t_4;
   PY_LONG_LONG __pyx_t_5;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_t_6;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_t_6;
   PyObject *__pyx_t_7 = NULL;
   int __pyx_t_8;
   std::vector<std::vector<std::string> >  __pyx_t_9;
-  __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_t_10;
+  __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_t_10;
   int __pyx_t_11;
   int __pyx_t_12;
   int __pyx_t_13;
@@ -6133,7 +6127,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("train_epoch_sg", 0);
 
-  /* "ms2vec_corpusfile.pyx":283
+  /* "mssg_corpusfile.pyx":283
  * 
  *     # For learning rate updates
  *     cdef int cur_epoch = _cur_epoch             # <<<<<<<<<<<<<<
@@ -6143,7 +6137,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v__cur_epoch); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 283, __pyx_L1_error)
   __pyx_v_cur_epoch = __pyx_t_1;
 
-  /* "ms2vec_corpusfile.pyx":284
+  /* "mssg_corpusfile.pyx":284
  *     # For learning rate updates
  *     cdef int cur_epoch = _cur_epoch
  *     cdef int num_epochs = model.epochs             # <<<<<<<<<<<<<<
@@ -6156,7 +6150,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_num_epochs = __pyx_t_1;
 
-  /* "ms2vec_corpusfile.pyx":285
+  /* "mssg_corpusfile.pyx":285
  *     cdef int cur_epoch = _cur_epoch
  *     cdef int num_epochs = model.epochs
  *     cdef long long expected_examples = (-1 if _expected_examples is None else _expected_examples)             # <<<<<<<<<<<<<<
@@ -6172,7 +6166,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   }
   __pyx_v_expected_examples = __pyx_t_3;
 
-  /* "ms2vec_corpusfile.pyx":286
+  /* "mssg_corpusfile.pyx":286
  *     cdef int num_epochs = model.epochs
  *     cdef long long expected_examples = (-1 if _expected_examples is None else _expected_examples)
  *     cdef long long expected_words = (-1 if _expected_words is None else _expected_words)             # <<<<<<<<<<<<<<
@@ -6188,7 +6182,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   }
   __pyx_v_expected_words = __pyx_t_3;
 
-  /* "ms2vec_corpusfile.pyx":287
+  /* "mssg_corpusfile.pyx":287
  *     cdef long long expected_examples = (-1 if _expected_examples is None else _expected_examples)
  *     cdef long long expected_words = (-1 if _expected_words is None else _expected_words)
  *     cdef REAL_t start_alpha = model.alpha             # <<<<<<<<<<<<<<
@@ -6201,7 +6195,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_start_alpha = __pyx_t_6;
 
-  /* "ms2vec_corpusfile.pyx":288
+  /* "mssg_corpusfile.pyx":288
  *     cdef long long expected_words = (-1 if _expected_words is None else _expected_words)
  *     cdef REAL_t start_alpha = model.alpha
  *     cdef REAL_t end_alpha = model.min_alpha             # <<<<<<<<<<<<<<
@@ -6214,7 +6208,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_end_alpha = __pyx_t_6;
 
-  /* "ms2vec_corpusfile.pyx":289
+  /* "mssg_corpusfile.pyx":289
  *     cdef REAL_t start_alpha = model.alpha
  *     cdef REAL_t end_alpha = model.min_alpha
  *     cdef REAL_t _alpha = get_alpha(model.alpha, end_alpha, cur_epoch, num_epochs)             # <<<<<<<<<<<<<<
@@ -6225,9 +6219,9 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_6 = __pyx_PyFloat_AsFloat(__pyx_t_2); if (unlikely((__pyx_t_6 == ((npy_float32)-1)) && PyErr_Occurred())) __PYX_ERR(1, 289, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v__alpha = __pyx_f_17ms2vec_corpusfile_get_alpha(__pyx_t_6, __pyx_v_end_alpha, __pyx_v_cur_epoch, __pyx_v_num_epochs);
+  __pyx_v__alpha = __pyx_f_15mssg_corpusfile_get_alpha(__pyx_t_6, __pyx_v_end_alpha, __pyx_v_cur_epoch, __pyx_v_num_epochs);
 
-  /* "ms2vec_corpusfile.pyx":291
+  /* "mssg_corpusfile.pyx":291
  *     cdef REAL_t _alpha = get_alpha(model.alpha, end_alpha, cur_epoch, num_epochs)
  * 
  *     cdef CythonLineSentence input_stream = CythonLineSentence(corpus_file, offset)             # <<<<<<<<<<<<<<
@@ -6242,26 +6236,26 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __Pyx_INCREF(__pyx_v_offset);
   __Pyx_GIVEREF(__pyx_v_offset);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_offset);
-  __pyx_t_7 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_17ms2vec_corpusfile_CythonLineSentence), __pyx_t_2, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_15mssg_corpusfile_CythonLineSentence), __pyx_t_2, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_input_stream = ((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_t_7);
+  __pyx_v_input_stream = ((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "ms2vec_corpusfile.pyx":292
+  /* "mssg_corpusfile.pyx":292
  * 
  *     cdef CythonLineSentence input_stream = CythonLineSentence(corpus_file, offset)
  *     cdef CythonVocab vocab = _cython_vocab             # <<<<<<<<<<<<<<
  * 
  *     cdef int i, j, k
  */
-  if (!(likely(((__pyx_v__cython_vocab) == Py_None) || likely(__Pyx_TypeTest(__pyx_v__cython_vocab, __pyx_ptype_17ms2vec_corpusfile_CythonVocab))))) __PYX_ERR(1, 292, __pyx_L1_error)
+  if (!(likely(((__pyx_v__cython_vocab) == Py_None) || likely(__Pyx_TypeTest(__pyx_v__cython_vocab, __pyx_ptype_15mssg_corpusfile_CythonVocab))))) __PYX_ERR(1, 292, __pyx_L1_error)
   __pyx_t_7 = __pyx_v__cython_vocab;
   __Pyx_INCREF(__pyx_t_7);
-  __pyx_v_vocab = ((struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)__pyx_t_7);
+  __pyx_v_vocab = ((struct __pyx_obj_15mssg_corpusfile_CythonVocab *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "ms2vec_corpusfile.pyx":295
+  /* "mssg_corpusfile.pyx":295
  * 
  *     cdef int i, j, k
  *     cdef int effective_words = 0, effective_sentences = 0             # <<<<<<<<<<<<<<
@@ -6271,7 +6265,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __pyx_v_effective_words = 0;
   __pyx_v_effective_sentences = 0;
 
-  /* "ms2vec_corpusfile.pyx":296
+  /* "mssg_corpusfile.pyx":296
  *     cdef int i, j, k
  *     cdef int effective_words = 0, effective_sentences = 0
  *     cdef long long total_sentences = 0             # <<<<<<<<<<<<<<
@@ -6280,7 +6274,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
   __pyx_v_total_sentences = 0;
 
-  /* "ms2vec_corpusfile.pyx":297
+  /* "mssg_corpusfile.pyx":297
  *     cdef int effective_words = 0, effective_sentences = 0
  *     cdef long long total_sentences = 0
  *     cdef long long total_effective_words = 0, total_words = 0             # <<<<<<<<<<<<<<
@@ -6290,7 +6284,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __pyx_v_total_effective_words = 0;
   __pyx_v_total_words = 0;
 
-  /* "ms2vec_corpusfile.pyx":300
+  /* "mssg_corpusfile.pyx":300
  *     cdef int sent_idx, idx_start, idx_end
  * 
  *     init_w2v_config(&c, model, _alpha, compute_loss, _work)             # <<<<<<<<<<<<<<
@@ -6299,12 +6293,12 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
   __pyx_t_7 = PyFloat_FromDouble(__pyx_v__alpha); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_2 = __pyx_f_12ms2vec_inner_init_w2v_config((&__pyx_v_c), __pyx_v_model, __pyx_t_7, __pyx_v_compute_loss, __pyx_v__work, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 300, __pyx_L1_error)
+  __pyx_t_2 = __pyx_f_10mssg_inner_init_w2v_config((&__pyx_v_c), __pyx_v_model, __pyx_t_7, __pyx_v_compute_loss, __pyx_v__work, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "ms2vec_corpusfile.pyx":304
+  /* "mssg_corpusfile.pyx":304
  *     cdef vector[vector[string]] sentences
  * 
  *     with nogil:             # <<<<<<<<<<<<<<
@@ -6319,16 +6313,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
       #endif
       /*try:*/ {
 
-        /* "ms2vec_corpusfile.pyx":305
+        /* "mssg_corpusfile.pyx":305
  * 
  *     with nogil:
  *         input_stream.reset()             # <<<<<<<<<<<<<<
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):
  *             effective_sentences = 0
  */
-        __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(__pyx_v_input_stream, 0);
+        __pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(__pyx_v_input_stream, 0);
 
-        /* "ms2vec_corpusfile.pyx":306
+        /* "mssg_corpusfile.pyx":306
  *     with nogil:
  *         input_stream.reset()
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):             # <<<<<<<<<<<<<<
@@ -6336,7 +6330,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  *             effective_words = 0
  */
         while (1) {
-          __pyx_t_8 = (__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(__pyx_v_input_stream, 0) != 0);
+          __pyx_t_8 = (__pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(__pyx_v_input_stream, 0) != 0);
           if (!__pyx_t_8) {
           } else {
             __pyx_t_4 = __pyx_t_8;
@@ -6348,7 +6342,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
           __pyx_t_8 = ((!__pyx_t_4) != 0);
           if (!__pyx_t_8) break;
 
-          /* "ms2vec_corpusfile.pyx":307
+          /* "mssg_corpusfile.pyx":307
  *         input_stream.reset()
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):
  *             effective_sentences = 0             # <<<<<<<<<<<<<<
@@ -6357,7 +6351,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
           __pyx_v_effective_sentences = 0;
 
-          /* "ms2vec_corpusfile.pyx":308
+          /* "mssg_corpusfile.pyx":308
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):
  *             effective_sentences = 0
  *             effective_words = 0             # <<<<<<<<<<<<<<
@@ -6366,35 +6360,35 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
           __pyx_v_effective_words = 0;
 
-          /* "ms2vec_corpusfile.pyx":310
+          /* "mssg_corpusfile.pyx":310
  *             effective_words = 0
  * 
  *             sentences = input_stream.next_batch()             # <<<<<<<<<<<<<<
  * 
  *             prepare_c_structures_for_batch(
  */
-          __pyx_t_9 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch(__pyx_v_input_stream, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 310, __pyx_L4_error)
+          __pyx_t_9 = __pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch(__pyx_v_input_stream, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 310, __pyx_L4_error)
           __pyx_v_sentences = __pyx_t_9;
 
-          /* "ms2vec_corpusfile.pyx":314
+          /* "mssg_corpusfile.pyx":314
  *             prepare_c_structures_for_batch(
  *                 sentences, c.sample, c.hs, c.window, &total_words, &effective_words, &effective_sentences,
  *                 &c.next_random, vocab.get_vocab_ptr(), c.sentence_idx, c.indexes,             # <<<<<<<<<<<<<<
  *                 c.codelens, c.codes, c.points, c.reduced_windows)
  * 
  */
-          __pyx_t_10 = __pyx_f_17ms2vec_corpusfile_11CythonVocab_get_vocab_ptr(__pyx_v_vocab); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 314, __pyx_L4_error)
+          __pyx_t_10 = __pyx_f_15mssg_corpusfile_11CythonVocab_get_vocab_ptr(__pyx_v_vocab); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 314, __pyx_L4_error)
 
-          /* "ms2vec_corpusfile.pyx":312
+          /* "mssg_corpusfile.pyx":312
  *             sentences = input_stream.next_batch()
  * 
  *             prepare_c_structures_for_batch(             # <<<<<<<<<<<<<<
  *                 sentences, c.sample, c.hs, c.window, &total_words, &effective_words, &effective_sentences,
  *                 &c.next_random, vocab.get_vocab_ptr(), c.sentence_idx, c.indexes,
  */
-          __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(__pyx_v_sentences, __pyx_v_c.sample, __pyx_v_c.hs, __pyx_v_c.window, (&__pyx_v_total_words), (&__pyx_v_effective_words), (&__pyx_v_effective_sentences), (&__pyx_v_c.next_random), __pyx_t_10, __pyx_v_c.sentence_idx, __pyx_v_c.indexes, __pyx_v_c.codelens, __pyx_v_c.codes, __pyx_v_c.points, __pyx_v_c.reduced_windows);
+          __pyx_f_15mssg_corpusfile_prepare_c_structures_for_batch(__pyx_v_sentences, __pyx_v_c.sample, __pyx_v_c.hs, __pyx_v_c.window, (&__pyx_v_total_words), (&__pyx_v_effective_words), (&__pyx_v_effective_sentences), (&__pyx_v_c.next_random), __pyx_t_10, __pyx_v_c.sentence_idx, __pyx_v_c.indexes, __pyx_v_c.codelens, __pyx_v_c.codes, __pyx_v_c.points, __pyx_v_c.reduced_windows);
 
-          /* "ms2vec_corpusfile.pyx":317
+          /* "mssg_corpusfile.pyx":317
  *                 c.codelens, c.codes, c.points, c.reduced_windows)
  * 
  *             for sent_idx in range(effective_sentences):             # <<<<<<<<<<<<<<
@@ -6406,7 +6400,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
           for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
             __pyx_v_sent_idx = __pyx_t_12;
 
-            /* "ms2vec_corpusfile.pyx":318
+            /* "mssg_corpusfile.pyx":318
  * 
  *             for sent_idx in range(effective_sentences):
  *                 idx_start = c.sentence_idx[sent_idx]             # <<<<<<<<<<<<<<
@@ -6415,7 +6409,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
             __pyx_v_idx_start = (__pyx_v_c.sentence_idx[__pyx_v_sent_idx]);
 
-            /* "ms2vec_corpusfile.pyx":319
+            /* "mssg_corpusfile.pyx":319
  *             for sent_idx in range(effective_sentences):
  *                 idx_start = c.sentence_idx[sent_idx]
  *                 idx_end = c.sentence_idx[sent_idx + 1]             # <<<<<<<<<<<<<<
@@ -6424,7 +6418,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
             __pyx_v_idx_end = (__pyx_v_c.sentence_idx[(__pyx_v_sent_idx + 1)]);
 
-            /* "ms2vec_corpusfile.pyx":320
+            /* "mssg_corpusfile.pyx":320
  *                 idx_start = c.sentence_idx[sent_idx]
  *                 idx_end = c.sentence_idx[sent_idx + 1]
  *                 for i in range(idx_start, idx_end):             # <<<<<<<<<<<<<<
@@ -6436,7 +6430,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
             for (__pyx_t_15 = __pyx_v_idx_start; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
               __pyx_v_i = __pyx_t_15;
 
-              /* "ms2vec_corpusfile.pyx":321
+              /* "mssg_corpusfile.pyx":321
  *                 idx_end = c.sentence_idx[sent_idx + 1]
  *                 for i in range(idx_start, idx_end):
  *                     j = i - c.window + c.reduced_windows[i]             # <<<<<<<<<<<<<<
@@ -6445,7 +6439,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
               __pyx_v_j = ((__pyx_v_i - __pyx_v_c.window) + (__pyx_v_c.reduced_windows[__pyx_v_i]));
 
-              /* "ms2vec_corpusfile.pyx":322
+              /* "mssg_corpusfile.pyx":322
  *                 for i in range(idx_start, idx_end):
  *                     j = i - c.window + c.reduced_windows[i]
  *                     if j < idx_start:             # <<<<<<<<<<<<<<
@@ -6455,7 +6449,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
               __pyx_t_8 = ((__pyx_v_j < __pyx_v_idx_start) != 0);
               if (__pyx_t_8) {
 
-                /* "ms2vec_corpusfile.pyx":323
+                /* "mssg_corpusfile.pyx":323
  *                     j = i - c.window + c.reduced_windows[i]
  *                     if j < idx_start:
  *                         j = idx_start             # <<<<<<<<<<<<<<
@@ -6464,7 +6458,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
                 __pyx_v_j = __pyx_v_idx_start;
 
-                /* "ms2vec_corpusfile.pyx":322
+                /* "mssg_corpusfile.pyx":322
  *                 for i in range(idx_start, idx_end):
  *                     j = i - c.window + c.reduced_windows[i]
  *                     if j < idx_start:             # <<<<<<<<<<<<<<
@@ -6473,7 +6467,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
               }
 
-              /* "ms2vec_corpusfile.pyx":324
+              /* "mssg_corpusfile.pyx":324
  *                     if j < idx_start:
  *                         j = idx_start
  *                     k = i + c.window + 1 - c.reduced_windows[i]             # <<<<<<<<<<<<<<
@@ -6482,7 +6476,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
               __pyx_v_k = (((__pyx_v_i + __pyx_v_c.window) + 1) - (__pyx_v_c.reduced_windows[__pyx_v_i]));
 
-              /* "ms2vec_corpusfile.pyx":325
+              /* "mssg_corpusfile.pyx":325
  *                         j = idx_start
  *                     k = i + c.window + 1 - c.reduced_windows[i]
  *                     if k > idx_end:             # <<<<<<<<<<<<<<
@@ -6492,7 +6486,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
               __pyx_t_8 = ((__pyx_v_k > __pyx_v_idx_end) != 0);
               if (__pyx_t_8) {
 
-                /* "ms2vec_corpusfile.pyx":326
+                /* "mssg_corpusfile.pyx":326
  *                     k = i + c.window + 1 - c.reduced_windows[i]
  *                     if k > idx_end:
  *                         k = idx_end             # <<<<<<<<<<<<<<
@@ -6501,7 +6495,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
                 __pyx_v_k = __pyx_v_idx_end;
 
-                /* "ms2vec_corpusfile.pyx":325
+                /* "mssg_corpusfile.pyx":325
  *                         j = idx_start
  *                     k = i + c.window + 1 - c.reduced_windows[i]
  *                     if k > idx_end:             # <<<<<<<<<<<<<<
@@ -6510,7 +6504,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
               }
 
-              /* "ms2vec_corpusfile.pyx":327
+              /* "mssg_corpusfile.pyx":327
  *                     if k > idx_end:
  *                         k = idx_end
  *                     for j in range(j, k):             # <<<<<<<<<<<<<<
@@ -6522,7 +6516,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
               for (__pyx_t_18 = __pyx_v_j; __pyx_t_18 < __pyx_t_17; __pyx_t_18+=1) {
                 __pyx_v_j = __pyx_t_18;
 
-                /* "ms2vec_corpusfile.pyx":328
+                /* "mssg_corpusfile.pyx":328
  *                         k = idx_end
  *                     for j in range(j, k):
  *                         if j == i:             # <<<<<<<<<<<<<<
@@ -6532,7 +6526,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
                 __pyx_t_8 = ((__pyx_v_j == __pyx_v_i) != 0);
                 if (__pyx_t_8) {
 
-                  /* "ms2vec_corpusfile.pyx":329
+                  /* "mssg_corpusfile.pyx":329
  *                     for j in range(j, k):
  *                         if j == i:
  *                             continue             # <<<<<<<<<<<<<<
@@ -6541,7 +6535,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
                   goto __pyx_L16_continue;
 
-                  /* "ms2vec_corpusfile.pyx":328
+                  /* "mssg_corpusfile.pyx":328
  *                         k = idx_end
  *                     for j in range(j, k):
  *                         if j == i:             # <<<<<<<<<<<<<<
@@ -6550,7 +6544,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
                 }
 
-                /* "ms2vec_corpusfile.pyx":330
+                /* "mssg_corpusfile.pyx":330
  *                         if j == i:
  *                             continue
  *                         if c.hs:             # <<<<<<<<<<<<<<
@@ -6560,16 +6554,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
                 __pyx_t_8 = (__pyx_v_c.hs != 0);
                 if (__pyx_t_8) {
 
-                  /* "ms2vec_corpusfile.pyx":331
+                  /* "mssg_corpusfile.pyx":331
  *                             continue
  *                         if c.hs:
  *                             w2v_fast_sentence_sg_hs(             # <<<<<<<<<<<<<<
  *                                 c.points[i], c.codes[i], c.codelens[i], c.syn0, c.syn1, c.size, c.indexes[j],
  *                                 c.alpha, c.work, c.words_lockf, c.words_lockf_len, c.compute_loss,
  */
-                  __pyx_f_12ms2vec_inner_w2v_fast_sentence_sg_hs((__pyx_v_c.points[__pyx_v_i]), (__pyx_v_c.codes[__pyx_v_i]), (__pyx_v_c.codelens[__pyx_v_i]), __pyx_v_c.syn0, __pyx_v_c.syn1, __pyx_v_c.size, (__pyx_v_c.indexes[__pyx_v_j]), __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
+                  __pyx_f_10mssg_inner_w2v_fast_sentence_sg_hs((__pyx_v_c.points[__pyx_v_i]), (__pyx_v_c.codes[__pyx_v_i]), (__pyx_v_c.codelens[__pyx_v_i]), __pyx_v_c.syn0, __pyx_v_c.syn1, __pyx_v_c.size, (__pyx_v_c.indexes[__pyx_v_j]), __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
 
-                  /* "ms2vec_corpusfile.pyx":330
+                  /* "mssg_corpusfile.pyx":330
  *                         if j == i:
  *                             continue
  *                         if c.hs:             # <<<<<<<<<<<<<<
@@ -6578,7 +6572,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
                 }
 
-                /* "ms2vec_corpusfile.pyx":335
+                /* "mssg_corpusfile.pyx":335
  *                                 c.alpha, c.work, c.words_lockf, c.words_lockf_len, c.compute_loss,
  *                                 &c.running_training_loss)
  *                         if c.negative:             # <<<<<<<<<<<<<<
@@ -6588,16 +6582,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
                 __pyx_t_8 = (__pyx_v_c.negative != 0);
                 if (__pyx_t_8) {
 
-                  /* "ms2vec_corpusfile.pyx":336
+                  /* "mssg_corpusfile.pyx":336
  *                                 &c.running_training_loss)
  *                         if c.negative:
  *                             c.next_random = w2v_fast_sentence_sg_neg(             # <<<<<<<<<<<<<<
  *                                 c.negative, c.cum_table, c.cum_table_len, c.syn0, c.syn1neg, c.size,
  *                                 c.indexes[i], c.indexes[j], c.alpha, c.work, c.next_random,
  */
-                  __pyx_v_c.next_random = __pyx_f_12ms2vec_inner_w2v_fast_sentence_sg_neg(__pyx_v_c.negative, __pyx_v_c.cum_table, __pyx_v_c.cum_table_len, __pyx_v_c.syn0, __pyx_v_c.syn1neg, __pyx_v_c.size, (__pyx_v_c.indexes[__pyx_v_i]), (__pyx_v_c.indexes[__pyx_v_j]), __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_c.next_random, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
+                  __pyx_v_c.next_random = __pyx_f_10mssg_inner_w2v_fast_sentence_sg_neg(__pyx_v_c.negative, __pyx_v_c.cum_table, __pyx_v_c.cum_table_len, __pyx_v_c.syn0, __pyx_v_c.syn1neg, __pyx_v_c.size, (__pyx_v_c.indexes[__pyx_v_i]), (__pyx_v_c.indexes[__pyx_v_j]), __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_c.next_random, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
 
-                  /* "ms2vec_corpusfile.pyx":335
+                  /* "mssg_corpusfile.pyx":335
  *                                 c.alpha, c.work, c.words_lockf, c.words_lockf_len, c.compute_loss,
  *                                 &c.running_training_loss)
  *                         if c.negative:             # <<<<<<<<<<<<<<
@@ -6610,7 +6604,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
             }
           }
 
-          /* "ms2vec_corpusfile.pyx":342
+          /* "mssg_corpusfile.pyx":342
  *                                 c.compute_loss, &c.running_training_loss)
  * 
  *             total_sentences += sentences.size()             # <<<<<<<<<<<<<<
@@ -6619,7 +6613,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
           __pyx_v_total_sentences = (__pyx_v_total_sentences + __pyx_v_sentences.size());
 
-          /* "ms2vec_corpusfile.pyx":343
+          /* "mssg_corpusfile.pyx":343
  * 
  *             total_sentences += sentences.size()
  *             total_effective_words += effective_words             # <<<<<<<<<<<<<<
@@ -6628,18 +6622,18 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
           __pyx_v_total_effective_words = (__pyx_v_total_effective_words + __pyx_v_effective_words);
 
-          /* "ms2vec_corpusfile.pyx":345
+          /* "mssg_corpusfile.pyx":345
  *             total_effective_words += effective_words
  * 
  *             c.alpha = get_next_alpha(             # <<<<<<<<<<<<<<
  *                 start_alpha, end_alpha, total_sentences, total_words,
  *                 expected_examples, expected_words, cur_epoch, num_epochs)
  */
-          __pyx_v_c.alpha = __pyx_f_17ms2vec_corpusfile_get_next_alpha(__pyx_v_start_alpha, __pyx_v_end_alpha, __pyx_v_total_sentences, __pyx_v_total_words, __pyx_v_expected_examples, __pyx_v_expected_words, __pyx_v_cur_epoch, __pyx_v_num_epochs);
+          __pyx_v_c.alpha = __pyx_f_15mssg_corpusfile_get_next_alpha(__pyx_v_start_alpha, __pyx_v_end_alpha, __pyx_v_total_sentences, __pyx_v_total_words, __pyx_v_expected_examples, __pyx_v_expected_words, __pyx_v_cur_epoch, __pyx_v_num_epochs);
         }
       }
 
-      /* "ms2vec_corpusfile.pyx":304
+      /* "mssg_corpusfile.pyx":304
  *     cdef vector[vector[string]] sentences
  * 
  *     with nogil:             # <<<<<<<<<<<<<<
@@ -6665,7 +6659,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
       }
   }
 
-  /* "ms2vec_corpusfile.pyx":349
+  /* "mssg_corpusfile.pyx":349
  *                 expected_examples, expected_words, cur_epoch, num_epochs)
  * 
  *     model.running_training_loss = c.running_training_loss             # <<<<<<<<<<<<<<
@@ -6677,7 +6671,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_model, __pyx_n_s_running_training_loss, __pyx_t_2) < 0) __PYX_ERR(1, 349, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "ms2vec_corpusfile.pyx":350
+  /* "mssg_corpusfile.pyx":350
  * 
  *     model.running_training_loss = c.running_training_loss
  *     return total_sentences, total_effective_words, total_words             # <<<<<<<<<<<<<<
@@ -6706,7 +6700,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __pyx_t_20 = 0;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":253
+  /* "mssg_corpusfile.pyx":253
  * 
  * 
  * def train_epoch_sg(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
@@ -6720,7 +6714,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_19);
   __Pyx_XDECREF(__pyx_t_20);
-  __Pyx_AddTraceback("ms2vec_corpusfile.train_epoch_sg", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.train_epoch_sg", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_input_stream);
@@ -6730,7 +6724,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "ms2vec_corpusfile.pyx":353
+/* "mssg_corpusfile.pyx":353
  * 
  * 
  * def train_epoch_cbow(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
@@ -6739,10 +6733,10 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_2train_epoch_sg(CYTHON_UNUSED PyOb
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17ms2vec_corpusfile_5train_epoch_cbow(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_17ms2vec_corpusfile_4train_epoch_cbow[] = "train_epoch_cbow(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work, _neu1, compute_loss)\nTrain CBOW model for one epoch by training on an input stream. This function is used only in multistream mode.\n\n    Called internally from :meth:`~gensim.models.word2vec.Word2Vec.train`.\n\n    Parameters\n    ----------\n    model : :class:`~gensim.models.word2vec.Word2Vec`\n        The Word2Vec model instance to train.\n    corpus_file : str\n        Path to corpus file.\n    _cur_epoch : int\n        Current epoch number. Used for calculating and decaying learning rate.\n    _work : np.ndarray\n        Private working memory for each worker.\n    _neu1 : np.ndarray\n        Private working memory for each worker.\n    compute_loss : bool\n        Whether or not the training loss should be computed in this batch.\n\n    Returns\n    -------\n    int\n        Number of words in the vocabulary actually used for training (They already existed in the vocabulary\n        and were not discarded by negative sampling).\n    ";
-static PyMethodDef __pyx_mdef_17ms2vec_corpusfile_5train_epoch_cbow = {"train_epoch_cbow", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_17ms2vec_corpusfile_5train_epoch_cbow, METH_VARARGS|METH_KEYWORDS, __pyx_doc_17ms2vec_corpusfile_4train_epoch_cbow};
-static PyObject *__pyx_pw_17ms2vec_corpusfile_5train_epoch_cbow(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_15mssg_corpusfile_5train_epoch_cbow(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_15mssg_corpusfile_4train_epoch_cbow[] = "train_epoch_cbow(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work, _neu1, compute_loss)\nTrain CBOW model for one epoch by training on an input stream. This function is used only in multistream mode.\n\n    Called internally from :meth:`~gensim.models.word2vec.Word2Vec.train`.\n\n    Parameters\n    ----------\n    model : :class:`~gensim.models.word2vec.Word2Vec`\n        The Word2Vec model instance to train.\n    corpus_file : str\n        Path to corpus file.\n    _cur_epoch : int\n        Current epoch number. Used for calculating and decaying learning rate.\n    _work : np.ndarray\n        Private working memory for each worker.\n    _neu1 : np.ndarray\n        Private working memory for each worker.\n    compute_loss : bool\n        Whether or not the training loss should be computed in this batch.\n\n    Returns\n    -------\n    int\n        Number of words in the vocabulary actually used for training (They already existed in the vocabulary\n        and were not discarded by negative sampling).\n    ";
+static PyMethodDef __pyx_mdef_15mssg_corpusfile_5train_epoch_cbow = {"train_epoch_cbow", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_15mssg_corpusfile_5train_epoch_cbow, METH_VARARGS|METH_KEYWORDS, __pyx_doc_15mssg_corpusfile_4train_epoch_cbow};
+static PyObject *__pyx_pw_15mssg_corpusfile_5train_epoch_cbow(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_model = 0;
   PyObject *__pyx_v_corpus_file = 0;
   PyObject *__pyx_v_offset = 0;
@@ -6881,28 +6875,28 @@ static PyObject *__pyx_pw_17ms2vec_corpusfile_5train_epoch_cbow(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("train_epoch_cbow", 1, 10, 10, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 353, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("ms2vec_corpusfile.train_epoch_cbow", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.train_epoch_cbow", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(__pyx_self, __pyx_v_model, __pyx_v_corpus_file, __pyx_v_offset, __pyx_v__cython_vocab, __pyx_v__cur_epoch, __pyx_v__expected_examples, __pyx_v__expected_words, __pyx_v__work, __pyx_v__neu1, __pyx_v_compute_loss);
+  __pyx_r = __pyx_pf_15mssg_corpusfile_4train_epoch_cbow(__pyx_self, __pyx_v_model, __pyx_v_corpus_file, __pyx_v_offset, __pyx_v__cython_vocab, __pyx_v__cur_epoch, __pyx_v__expected_examples, __pyx_v__expected_words, __pyx_v__work, __pyx_v__neu1, __pyx_v_compute_loss);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss) {
-  struct __pyx_t_12ms2vec_inner_Word2VecConfig __pyx_v_c;
+static PyObject *__pyx_pf_15mssg_corpusfile_4train_epoch_cbow(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_model, PyObject *__pyx_v_corpus_file, PyObject *__pyx_v_offset, PyObject *__pyx_v__cython_vocab, PyObject *__pyx_v__cur_epoch, PyObject *__pyx_v__expected_examples, PyObject *__pyx_v__expected_words, PyObject *__pyx_v__work, PyObject *__pyx_v__neu1, PyObject *__pyx_v_compute_loss) {
+  struct __pyx_t_10mssg_inner_Word2VecConfig __pyx_v_c;
   int __pyx_v_cur_epoch;
   int __pyx_v_num_epochs;
   PY_LONG_LONG __pyx_v_expected_examples;
   PY_LONG_LONG __pyx_v_expected_words;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_start_alpha;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v_end_alpha;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_v__alpha;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *__pyx_v_input_stream = 0;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *__pyx_v_vocab = 0;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_start_alpha;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v_end_alpha;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_v__alpha;
+  struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *__pyx_v_input_stream = 0;
+  struct __pyx_obj_15mssg_corpusfile_CythonVocab *__pyx_v_vocab = 0;
   int __pyx_v_i;
   int __pyx_v_j;
   int __pyx_v_k;
@@ -6922,12 +6916,12 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   PY_LONG_LONG __pyx_t_3;
   int __pyx_t_4;
   PY_LONG_LONG __pyx_t_5;
-  __pyx_t_17ms2vec_corpusfile_REAL_t __pyx_t_6;
+  __pyx_t_15mssg_corpusfile_REAL_t __pyx_t_6;
   PyObject *__pyx_t_7 = NULL;
-  struct __pyx_opt_args_12ms2vec_inner_init_w2v_config __pyx_t_8;
+  struct __pyx_opt_args_10mssg_inner_init_w2v_config __pyx_t_8;
   int __pyx_t_9;
   std::vector<std::vector<std::string> >  __pyx_t_10;
-  __pyx_t_17ms2vec_corpusfile_cvocab_t *__pyx_t_11;
+  __pyx_t_15mssg_corpusfile_cvocab_t *__pyx_t_11;
   int __pyx_t_12;
   int __pyx_t_13;
   int __pyx_t_14;
@@ -6940,7 +6934,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("train_epoch_cbow", 0);
 
-  /* "ms2vec_corpusfile.pyx":383
+  /* "mssg_corpusfile.pyx":383
  * 
  *     # For learning rate updates
  *     cdef int cur_epoch = _cur_epoch             # <<<<<<<<<<<<<<
@@ -6950,7 +6944,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v__cur_epoch); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 383, __pyx_L1_error)
   __pyx_v_cur_epoch = __pyx_t_1;
 
-  /* "ms2vec_corpusfile.pyx":384
+  /* "mssg_corpusfile.pyx":384
  *     # For learning rate updates
  *     cdef int cur_epoch = _cur_epoch
  *     cdef int num_epochs = model.epochs             # <<<<<<<<<<<<<<
@@ -6963,7 +6957,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_num_epochs = __pyx_t_1;
 
-  /* "ms2vec_corpusfile.pyx":385
+  /* "mssg_corpusfile.pyx":385
  *     cdef int cur_epoch = _cur_epoch
  *     cdef int num_epochs = model.epochs
  *     cdef long long expected_examples = (-1 if _expected_examples is None else _expected_examples)             # <<<<<<<<<<<<<<
@@ -6979,7 +6973,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   }
   __pyx_v_expected_examples = __pyx_t_3;
 
-  /* "ms2vec_corpusfile.pyx":386
+  /* "mssg_corpusfile.pyx":386
  *     cdef int num_epochs = model.epochs
  *     cdef long long expected_examples = (-1 if _expected_examples is None else _expected_examples)
  *     cdef long long expected_words = (-1 if _expected_words is None else _expected_words)             # <<<<<<<<<<<<<<
@@ -6995,7 +6989,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   }
   __pyx_v_expected_words = __pyx_t_3;
 
-  /* "ms2vec_corpusfile.pyx":387
+  /* "mssg_corpusfile.pyx":387
  *     cdef long long expected_examples = (-1 if _expected_examples is None else _expected_examples)
  *     cdef long long expected_words = (-1 if _expected_words is None else _expected_words)
  *     cdef REAL_t start_alpha = model.alpha             # <<<<<<<<<<<<<<
@@ -7008,7 +7002,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_start_alpha = __pyx_t_6;
 
-  /* "ms2vec_corpusfile.pyx":388
+  /* "mssg_corpusfile.pyx":388
  *     cdef long long expected_words = (-1 if _expected_words is None else _expected_words)
  *     cdef REAL_t start_alpha = model.alpha
  *     cdef REAL_t end_alpha = model.min_alpha             # <<<<<<<<<<<<<<
@@ -7021,7 +7015,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_end_alpha = __pyx_t_6;
 
-  /* "ms2vec_corpusfile.pyx":389
+  /* "mssg_corpusfile.pyx":389
  *     cdef REAL_t start_alpha = model.alpha
  *     cdef REAL_t end_alpha = model.min_alpha
  *     cdef REAL_t _alpha = get_alpha(model.alpha, end_alpha, cur_epoch, num_epochs)             # <<<<<<<<<<<<<<
@@ -7032,9 +7026,9 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_6 = __pyx_PyFloat_AsFloat(__pyx_t_2); if (unlikely((__pyx_t_6 == ((npy_float32)-1)) && PyErr_Occurred())) __PYX_ERR(1, 389, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v__alpha = __pyx_f_17ms2vec_corpusfile_get_alpha(__pyx_t_6, __pyx_v_end_alpha, __pyx_v_cur_epoch, __pyx_v_num_epochs);
+  __pyx_v__alpha = __pyx_f_15mssg_corpusfile_get_alpha(__pyx_t_6, __pyx_v_end_alpha, __pyx_v_cur_epoch, __pyx_v_num_epochs);
 
-  /* "ms2vec_corpusfile.pyx":391
+  /* "mssg_corpusfile.pyx":391
  *     cdef REAL_t _alpha = get_alpha(model.alpha, end_alpha, cur_epoch, num_epochs)
  * 
  *     cdef CythonLineSentence input_stream = CythonLineSentence(corpus_file, offset)             # <<<<<<<<<<<<<<
@@ -7049,26 +7043,26 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_INCREF(__pyx_v_offset);
   __Pyx_GIVEREF(__pyx_v_offset);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_offset);
-  __pyx_t_7 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_17ms2vec_corpusfile_CythonLineSentence), __pyx_t_2, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 391, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_15mssg_corpusfile_CythonLineSentence), __pyx_t_2, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_input_stream = ((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)__pyx_t_7);
+  __pyx_v_input_stream = ((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "ms2vec_corpusfile.pyx":392
+  /* "mssg_corpusfile.pyx":392
  * 
  *     cdef CythonLineSentence input_stream = CythonLineSentence(corpus_file, offset)
  *     cdef CythonVocab vocab = _cython_vocab             # <<<<<<<<<<<<<<
  * 
  *     cdef int i, j, k
  */
-  if (!(likely(((__pyx_v__cython_vocab) == Py_None) || likely(__Pyx_TypeTest(__pyx_v__cython_vocab, __pyx_ptype_17ms2vec_corpusfile_CythonVocab))))) __PYX_ERR(1, 392, __pyx_L1_error)
+  if (!(likely(((__pyx_v__cython_vocab) == Py_None) || likely(__Pyx_TypeTest(__pyx_v__cython_vocab, __pyx_ptype_15mssg_corpusfile_CythonVocab))))) __PYX_ERR(1, 392, __pyx_L1_error)
   __pyx_t_7 = __pyx_v__cython_vocab;
   __Pyx_INCREF(__pyx_t_7);
-  __pyx_v_vocab = ((struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)__pyx_t_7);
+  __pyx_v_vocab = ((struct __pyx_obj_15mssg_corpusfile_CythonVocab *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "ms2vec_corpusfile.pyx":395
+  /* "mssg_corpusfile.pyx":395
  * 
  *     cdef int i, j, k
  *     cdef int effective_words = 0, effective_sentences = 0             # <<<<<<<<<<<<<<
@@ -7078,7 +7072,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __pyx_v_effective_words = 0;
   __pyx_v_effective_sentences = 0;
 
-  /* "ms2vec_corpusfile.pyx":396
+  /* "mssg_corpusfile.pyx":396
  *     cdef int i, j, k
  *     cdef int effective_words = 0, effective_sentences = 0
  *     cdef long long total_sentences = 0             # <<<<<<<<<<<<<<
@@ -7087,7 +7081,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
   __pyx_v_total_sentences = 0;
 
-  /* "ms2vec_corpusfile.pyx":397
+  /* "mssg_corpusfile.pyx":397
  *     cdef int effective_words = 0, effective_sentences = 0
  *     cdef long long total_sentences = 0
  *     cdef long long total_effective_words = 0, total_words = 0             # <<<<<<<<<<<<<<
@@ -7097,7 +7091,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __pyx_v_total_effective_words = 0;
   __pyx_v_total_words = 0;
 
-  /* "ms2vec_corpusfile.pyx":400
+  /* "mssg_corpusfile.pyx":400
  *     cdef int sent_idx, idx_start, idx_end
  * 
  *     init_w2v_config(&c, model, _alpha, compute_loss, _work, _neu1)             # <<<<<<<<<<<<<<
@@ -7108,12 +7102,12 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_8.__pyx_n = 1;
   __pyx_t_8._neu1 = __pyx_v__neu1;
-  __pyx_t_2 = __pyx_f_12ms2vec_inner_init_w2v_config((&__pyx_v_c), __pyx_v_model, __pyx_t_7, __pyx_v_compute_loss, __pyx_v__work, &__pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 400, __pyx_L1_error)
+  __pyx_t_2 = __pyx_f_10mssg_inner_init_w2v_config((&__pyx_v_c), __pyx_v_model, __pyx_t_7, __pyx_v_compute_loss, __pyx_v__work, &__pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 400, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "ms2vec_corpusfile.pyx":404
+  /* "mssg_corpusfile.pyx":404
  *     cdef vector[vector[string]] sentences
  * 
  *     with nogil:             # <<<<<<<<<<<<<<
@@ -7128,16 +7122,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
       #endif
       /*try:*/ {
 
-        /* "ms2vec_corpusfile.pyx":405
+        /* "mssg_corpusfile.pyx":405
  * 
  *     with nogil:
  *         input_stream.reset()             # <<<<<<<<<<<<<<
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):
  *             effective_sentences = 0
  */
-        __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset(__pyx_v_input_stream, 0);
+        __pyx_f_15mssg_corpusfile_18CythonLineSentence_reset(__pyx_v_input_stream, 0);
 
-        /* "ms2vec_corpusfile.pyx":406
+        /* "mssg_corpusfile.pyx":406
  *     with nogil:
  *         input_stream.reset()
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):             # <<<<<<<<<<<<<<
@@ -7145,7 +7139,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  *             effective_words = 0
  */
         while (1) {
-          __pyx_t_9 = (__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof(__pyx_v_input_stream, 0) != 0);
+          __pyx_t_9 = (__pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof(__pyx_v_input_stream, 0) != 0);
           if (!__pyx_t_9) {
           } else {
             __pyx_t_4 = __pyx_t_9;
@@ -7157,7 +7151,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
           __pyx_t_9 = ((!__pyx_t_4) != 0);
           if (!__pyx_t_9) break;
 
-          /* "ms2vec_corpusfile.pyx":407
+          /* "mssg_corpusfile.pyx":407
  *         input_stream.reset()
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):
  *             effective_sentences = 0             # <<<<<<<<<<<<<<
@@ -7166,7 +7160,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
           __pyx_v_effective_sentences = 0;
 
-          /* "ms2vec_corpusfile.pyx":408
+          /* "mssg_corpusfile.pyx":408
  *         while not (input_stream.is_eof() or total_words > expected_words / c.workers):
  *             effective_sentences = 0
  *             effective_words = 0             # <<<<<<<<<<<<<<
@@ -7175,35 +7169,35 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
           __pyx_v_effective_words = 0;
 
-          /* "ms2vec_corpusfile.pyx":410
+          /* "mssg_corpusfile.pyx":410
  *             effective_words = 0
  * 
  *             sentences = input_stream.next_batch()             # <<<<<<<<<<<<<<
  * 
  *             prepare_c_structures_for_batch(
  */
-          __pyx_t_10 = __pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch(__pyx_v_input_stream, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 410, __pyx_L4_error)
+          __pyx_t_10 = __pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch(__pyx_v_input_stream, 0); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 410, __pyx_L4_error)
           __pyx_v_sentences = __pyx_t_10;
 
-          /* "ms2vec_corpusfile.pyx":414
+          /* "mssg_corpusfile.pyx":414
  *             prepare_c_structures_for_batch(
  *                 sentences, c.sample, c.hs, c.window, &total_words, &effective_words,
  *                 &effective_sentences, &c.next_random, vocab.get_vocab_ptr(), c.sentence_idx,             # <<<<<<<<<<<<<<
  *                 c.indexes, c.codelens, c.codes, c.points, c.reduced_windows)
  * 
  */
-          __pyx_t_11 = __pyx_f_17ms2vec_corpusfile_11CythonVocab_get_vocab_ptr(__pyx_v_vocab); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 414, __pyx_L4_error)
+          __pyx_t_11 = __pyx_f_15mssg_corpusfile_11CythonVocab_get_vocab_ptr(__pyx_v_vocab); if (unlikely(__Pyx_ErrOccurredWithGIL())) __PYX_ERR(1, 414, __pyx_L4_error)
 
-          /* "ms2vec_corpusfile.pyx":412
+          /* "mssg_corpusfile.pyx":412
  *             sentences = input_stream.next_batch()
  * 
  *             prepare_c_structures_for_batch(             # <<<<<<<<<<<<<<
  *                 sentences, c.sample, c.hs, c.window, &total_words, &effective_words,
  *                 &effective_sentences, &c.next_random, vocab.get_vocab_ptr(), c.sentence_idx,
  */
-          __pyx_f_17ms2vec_corpusfile_prepare_c_structures_for_batch(__pyx_v_sentences, __pyx_v_c.sample, __pyx_v_c.hs, __pyx_v_c.window, (&__pyx_v_total_words), (&__pyx_v_effective_words), (&__pyx_v_effective_sentences), (&__pyx_v_c.next_random), __pyx_t_11, __pyx_v_c.sentence_idx, __pyx_v_c.indexes, __pyx_v_c.codelens, __pyx_v_c.codes, __pyx_v_c.points, __pyx_v_c.reduced_windows);
+          __pyx_f_15mssg_corpusfile_prepare_c_structures_for_batch(__pyx_v_sentences, __pyx_v_c.sample, __pyx_v_c.hs, __pyx_v_c.window, (&__pyx_v_total_words), (&__pyx_v_effective_words), (&__pyx_v_effective_sentences), (&__pyx_v_c.next_random), __pyx_t_11, __pyx_v_c.sentence_idx, __pyx_v_c.indexes, __pyx_v_c.codelens, __pyx_v_c.codes, __pyx_v_c.points, __pyx_v_c.reduced_windows);
 
-          /* "ms2vec_corpusfile.pyx":417
+          /* "mssg_corpusfile.pyx":417
  *                 c.indexes, c.codelens, c.codes, c.points, c.reduced_windows)
  * 
  *             for sent_idx in range(effective_sentences):             # <<<<<<<<<<<<<<
@@ -7215,7 +7209,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
           for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
             __pyx_v_sent_idx = __pyx_t_13;
 
-            /* "ms2vec_corpusfile.pyx":418
+            /* "mssg_corpusfile.pyx":418
  * 
  *             for sent_idx in range(effective_sentences):
  *                 idx_start = c.sentence_idx[sent_idx]             # <<<<<<<<<<<<<<
@@ -7224,7 +7218,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
             __pyx_v_idx_start = (__pyx_v_c.sentence_idx[__pyx_v_sent_idx]);
 
-            /* "ms2vec_corpusfile.pyx":419
+            /* "mssg_corpusfile.pyx":419
  *             for sent_idx in range(effective_sentences):
  *                 idx_start = c.sentence_idx[sent_idx]
  *                 idx_end = c.sentence_idx[sent_idx + 1]             # <<<<<<<<<<<<<<
@@ -7233,7 +7227,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
             __pyx_v_idx_end = (__pyx_v_c.sentence_idx[(__pyx_v_sent_idx + 1)]);
 
-            /* "ms2vec_corpusfile.pyx":420
+            /* "mssg_corpusfile.pyx":420
  *                 idx_start = c.sentence_idx[sent_idx]
  *                 idx_end = c.sentence_idx[sent_idx + 1]
  *                 for i in range(idx_start, idx_end):             # <<<<<<<<<<<<<<
@@ -7245,7 +7239,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
             for (__pyx_t_16 = __pyx_v_idx_start; __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
               __pyx_v_i = __pyx_t_16;
 
-              /* "ms2vec_corpusfile.pyx":421
+              /* "mssg_corpusfile.pyx":421
  *                 idx_end = c.sentence_idx[sent_idx + 1]
  *                 for i in range(idx_start, idx_end):
  *                     j = i - c.window + c.reduced_windows[i]             # <<<<<<<<<<<<<<
@@ -7254,7 +7248,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
               __pyx_v_j = ((__pyx_v_i - __pyx_v_c.window) + (__pyx_v_c.reduced_windows[__pyx_v_i]));
 
-              /* "ms2vec_corpusfile.pyx":422
+              /* "mssg_corpusfile.pyx":422
  *                 for i in range(idx_start, idx_end):
  *                     j = i - c.window + c.reduced_windows[i]
  *                     if j < idx_start:             # <<<<<<<<<<<<<<
@@ -7264,7 +7258,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
               __pyx_t_9 = ((__pyx_v_j < __pyx_v_idx_start) != 0);
               if (__pyx_t_9) {
 
-                /* "ms2vec_corpusfile.pyx":423
+                /* "mssg_corpusfile.pyx":423
  *                     j = i - c.window + c.reduced_windows[i]
  *                     if j < idx_start:
  *                         j = idx_start             # <<<<<<<<<<<<<<
@@ -7273,7 +7267,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
                 __pyx_v_j = __pyx_v_idx_start;
 
-                /* "ms2vec_corpusfile.pyx":422
+                /* "mssg_corpusfile.pyx":422
  *                 for i in range(idx_start, idx_end):
  *                     j = i - c.window + c.reduced_windows[i]
  *                     if j < idx_start:             # <<<<<<<<<<<<<<
@@ -7282,7 +7276,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
               }
 
-              /* "ms2vec_corpusfile.pyx":424
+              /* "mssg_corpusfile.pyx":424
  *                     if j < idx_start:
  *                         j = idx_start
  *                     k = i + c.window + 1 - c.reduced_windows[i]             # <<<<<<<<<<<<<<
@@ -7291,7 +7285,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
               __pyx_v_k = (((__pyx_v_i + __pyx_v_c.window) + 1) - (__pyx_v_c.reduced_windows[__pyx_v_i]));
 
-              /* "ms2vec_corpusfile.pyx":425
+              /* "mssg_corpusfile.pyx":425
  *                         j = idx_start
  *                     k = i + c.window + 1 - c.reduced_windows[i]
  *                     if k > idx_end:             # <<<<<<<<<<<<<<
@@ -7301,7 +7295,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
               __pyx_t_9 = ((__pyx_v_k > __pyx_v_idx_end) != 0);
               if (__pyx_t_9) {
 
-                /* "ms2vec_corpusfile.pyx":426
+                /* "mssg_corpusfile.pyx":426
  *                     k = i + c.window + 1 - c.reduced_windows[i]
  *                     if k > idx_end:
  *                         k = idx_end             # <<<<<<<<<<<<<<
@@ -7310,7 +7304,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
                 __pyx_v_k = __pyx_v_idx_end;
 
-                /* "ms2vec_corpusfile.pyx":425
+                /* "mssg_corpusfile.pyx":425
  *                         j = idx_start
  *                     k = i + c.window + 1 - c.reduced_windows[i]
  *                     if k > idx_end:             # <<<<<<<<<<<<<<
@@ -7319,7 +7313,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
               }
 
-              /* "ms2vec_corpusfile.pyx":427
+              /* "mssg_corpusfile.pyx":427
  *                     if k > idx_end:
  *                         k = idx_end
  *                     if c.hs:             # <<<<<<<<<<<<<<
@@ -7329,16 +7323,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
               __pyx_t_9 = (__pyx_v_c.hs != 0);
               if (__pyx_t_9) {
 
-                /* "ms2vec_corpusfile.pyx":428
+                /* "mssg_corpusfile.pyx":428
  *                         k = idx_end
  *                     if c.hs:
  *                         w2v_fast_sentence_cbow_hs(             # <<<<<<<<<<<<<<
  *                             c.points[i], c.codes[i], c.codelens, c.neu1, c.syn0, c.syn1, c.size, c.indexes, c.alpha,
  *                             c.work, i, j, k, c.cbow_mean, c.words_lockf, c.words_lockf_len, c.compute_loss,
  */
-                __pyx_f_12ms2vec_inner_w2v_fast_sentence_cbow_hs((__pyx_v_c.points[__pyx_v_i]), (__pyx_v_c.codes[__pyx_v_i]), __pyx_v_c.codelens, __pyx_v_c.neu1, __pyx_v_c.syn0, __pyx_v_c.syn1, __pyx_v_c.size, __pyx_v_c.indexes, __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_i, __pyx_v_j, __pyx_v_k, __pyx_v_c.cbow_mean, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
+                __pyx_f_10mssg_inner_w2v_fast_sentence_cbow_hs((__pyx_v_c.points[__pyx_v_i]), (__pyx_v_c.codes[__pyx_v_i]), __pyx_v_c.codelens, __pyx_v_c.neu1, __pyx_v_c.syn0, __pyx_v_c.syn1, __pyx_v_c.size, __pyx_v_c.indexes, __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_i, __pyx_v_j, __pyx_v_k, __pyx_v_c.cbow_mean, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
 
-                /* "ms2vec_corpusfile.pyx":427
+                /* "mssg_corpusfile.pyx":427
  *                     if k > idx_end:
  *                         k = idx_end
  *                     if c.hs:             # <<<<<<<<<<<<<<
@@ -7347,7 +7341,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
               }
 
-              /* "ms2vec_corpusfile.pyx":433
+              /* "mssg_corpusfile.pyx":433
  *                             &c.running_training_loss)
  * 
  *                     if c.negative:             # <<<<<<<<<<<<<<
@@ -7357,16 +7351,16 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
               __pyx_t_9 = (__pyx_v_c.negative != 0);
               if (__pyx_t_9) {
 
-                /* "ms2vec_corpusfile.pyx":434
+                /* "mssg_corpusfile.pyx":434
  * 
  *                     if c.negative:
  *                         c.next_random = w2v_fast_sentence_cbow_neg(             # <<<<<<<<<<<<<<
  *                             c.negative, c.cum_table, c.cum_table_len, c.codelens, c.neu1, c.syn0,
  *                             c.syn1neg, c.size, c.indexes, c.alpha, c.work, i, j, k, c.cbow_mean,
  */
-                __pyx_v_c.next_random = __pyx_f_12ms2vec_inner_w2v_fast_sentence_cbow_neg(__pyx_v_c.negative, __pyx_v_c.cum_table, __pyx_v_c.cum_table_len, __pyx_v_c.codelens, __pyx_v_c.neu1, __pyx_v_c.syn0, __pyx_v_c.syn1neg, __pyx_v_c.size, __pyx_v_c.indexes, __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_i, __pyx_v_j, __pyx_v_k, __pyx_v_c.cbow_mean, __pyx_v_c.next_random, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
+                __pyx_v_c.next_random = __pyx_f_10mssg_inner_w2v_fast_sentence_cbow_neg(__pyx_v_c.negative, __pyx_v_c.cum_table, __pyx_v_c.cum_table_len, __pyx_v_c.codelens, __pyx_v_c.neu1, __pyx_v_c.syn0, __pyx_v_c.syn1neg, __pyx_v_c.size, __pyx_v_c.indexes, __pyx_v_c.alpha, __pyx_v_c.work, __pyx_v_i, __pyx_v_j, __pyx_v_k, __pyx_v_c.cbow_mean, __pyx_v_c.next_random, __pyx_v_c.words_lockf, __pyx_v_c.words_lockf_len, __pyx_v_c.compute_loss, (&__pyx_v_c.running_training_loss));
 
-                /* "ms2vec_corpusfile.pyx":433
+                /* "mssg_corpusfile.pyx":433
  *                             &c.running_training_loss)
  * 
  *                     if c.negative:             # <<<<<<<<<<<<<<
@@ -7377,7 +7371,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
             }
           }
 
-          /* "ms2vec_corpusfile.pyx":440
+          /* "mssg_corpusfile.pyx":440
  *                             &c.running_training_loss)
  * 
  *             total_sentences += sentences.size()             # <<<<<<<<<<<<<<
@@ -7386,7 +7380,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
           __pyx_v_total_sentences = (__pyx_v_total_sentences + __pyx_v_sentences.size());
 
-          /* "ms2vec_corpusfile.pyx":441
+          /* "mssg_corpusfile.pyx":441
  * 
  *             total_sentences += sentences.size()
  *             total_effective_words += effective_words             # <<<<<<<<<<<<<<
@@ -7395,18 +7389,18 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
  */
           __pyx_v_total_effective_words = (__pyx_v_total_effective_words + __pyx_v_effective_words);
 
-          /* "ms2vec_corpusfile.pyx":443
+          /* "mssg_corpusfile.pyx":443
  *             total_effective_words += effective_words
  * 
  *             c.alpha = get_next_alpha(             # <<<<<<<<<<<<<<
  *                 start_alpha, end_alpha, total_sentences, total_words,
  *                 expected_examples, expected_words, cur_epoch, num_epochs)
  */
-          __pyx_v_c.alpha = __pyx_f_17ms2vec_corpusfile_get_next_alpha(__pyx_v_start_alpha, __pyx_v_end_alpha, __pyx_v_total_sentences, __pyx_v_total_words, __pyx_v_expected_examples, __pyx_v_expected_words, __pyx_v_cur_epoch, __pyx_v_num_epochs);
+          __pyx_v_c.alpha = __pyx_f_15mssg_corpusfile_get_next_alpha(__pyx_v_start_alpha, __pyx_v_end_alpha, __pyx_v_total_sentences, __pyx_v_total_words, __pyx_v_expected_examples, __pyx_v_expected_words, __pyx_v_cur_epoch, __pyx_v_num_epochs);
         }
       }
 
-      /* "ms2vec_corpusfile.pyx":404
+      /* "mssg_corpusfile.pyx":404
  *     cdef vector[vector[string]] sentences
  * 
  *     with nogil:             # <<<<<<<<<<<<<<
@@ -7432,7 +7426,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
       }
   }
 
-  /* "ms2vec_corpusfile.pyx":447
+  /* "mssg_corpusfile.pyx":447
  *                 expected_examples, expected_words, cur_epoch, num_epochs)
  * 
  *     model.running_training_loss = c.running_training_loss             # <<<<<<<<<<<<<<
@@ -7444,7 +7438,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_model, __pyx_n_s_running_training_loss, __pyx_t_2) < 0) __PYX_ERR(1, 447, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "ms2vec_corpusfile.pyx":448
+  /* "mssg_corpusfile.pyx":448
  * 
  *     model.running_training_loss = c.running_training_loss
  *     return total_sentences, total_effective_words, total_words             # <<<<<<<<<<<<<<
@@ -7473,7 +7467,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __pyx_t_18 = 0;
   goto __pyx_L0;
 
-  /* "ms2vec_corpusfile.pyx":353
+  /* "mssg_corpusfile.pyx":353
  * 
  * 
  * def train_epoch_cbow(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
@@ -7487,7 +7481,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("ms2vec_corpusfile.train_epoch_cbow", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mssg_corpusfile.train_epoch_cbow", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_input_stream);
@@ -7497,7 +7491,7 @@ static PyObject *__pyx_pf_17ms2vec_corpusfile_4train_epoch_cbow(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":735
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -7514,7 +7508,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":736
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":736
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -7528,7 +7522,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":735
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -7547,7 +7541,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":738
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -7564,7 +7558,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":739
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":739
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -7578,7 +7572,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":738
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -7597,7 +7591,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":741
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -7614,7 +7608,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":742
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":742
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -7628,7 +7622,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":741
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -7647,7 +7641,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":744
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -7664,7 +7658,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":745
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":745
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -7678,7 +7672,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":744
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -7697,7 +7691,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":747
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -7714,7 +7708,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":748
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":748
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -7728,7 +7722,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":747
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -7747,7 +7741,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":750
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -7761,7 +7755,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":751
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":751
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -7771,7 +7765,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":752
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":752
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -7783,7 +7777,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":751
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":751
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -7792,7 +7786,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":754
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":754
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -7806,7 +7800,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":750
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -7821,7 +7815,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":929
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":931
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -7833,7 +7827,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":930
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":932
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -7842,7 +7836,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":931
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":933
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -7851,7 +7845,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":929
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":931
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -7863,7 +7857,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":933
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":935
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -7878,7 +7872,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":934
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":936
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -7887,7 +7881,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":935
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":937
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -7897,7 +7891,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":936
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":938
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -7908,7 +7902,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":935
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":937
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -7917,7 +7911,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":937
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":939
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -7929,7 +7923,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":933
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":935
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -7944,7 +7938,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":941
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":943
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -7968,7 +7962,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":942
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":944
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7984,16 +7978,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":943
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":945
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 943, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 945, __pyx_L3_error)
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":942
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":944
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8007,7 +8001,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":944
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":946
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8017,28 +8011,28 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(3, 944, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(3, 946, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":945
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":947
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(3, 945, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(3, 947, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(3, 945, __pyx_L5_except_error)
+      __PYX_ERR(3, 947, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":942
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":944
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8053,7 +8047,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":941
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":943
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -8076,7 +8070,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":947
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":949
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -8100,7 +8094,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":948
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":950
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8116,16 +8110,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":949
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":951
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 949, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 951, __pyx_L3_error)
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":948
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":950
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8139,7 +8133,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":950
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":952
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8149,28 +8143,28 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(3, 950, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(3, 952, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":951
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":953
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(3, 951, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(3, 953, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(3, 951, __pyx_L5_except_error)
+      __PYX_ERR(3, 953, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":948
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":950
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8185,7 +8179,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":947
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":949
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -8208,7 +8202,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":953
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":955
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -8232,7 +8226,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":954
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":956
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8248,16 +8242,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":955
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":957
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 955, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(3, 957, __pyx_L3_error)
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":954
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":956
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8271,7 +8265,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":956
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":958
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8281,28 +8275,28 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(3, 956, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(3, 958, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":957
+      /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":959
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef extern from *:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(3, 957, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(3, 959, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(3, 957, __pyx_L5_except_error)
+      __PYX_ERR(3, 959, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":954
+    /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":956
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8317,7 +8311,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":953
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":955
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -8340,7 +8334,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":967
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":969
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -8353,7 +8347,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":979
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":981
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -8363,7 +8357,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":967
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":969
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -8377,7 +8371,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":982
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":984
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -8390,7 +8384,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":994
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":996
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -8400,7 +8394,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":982
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":984
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -8414,7 +8408,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":997
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":999
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -8425,7 +8419,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1004
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1006
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -8435,7 +8429,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":997
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":999
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -8448,7 +8442,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1007
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1009
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -8459,7 +8453,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1011
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1013
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -8469,7 +8463,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1007
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1009
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -8482,7 +8476,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1014
+/* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1016
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -8493,7 +8487,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1018
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1020
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -8501,7 +8495,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":1014
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":1016
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -9071,31 +9065,31 @@ static PyObject *__pyx_convert_vector_to_py_std_3a__3a_vector_3c_std_3a__3a_stri
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonLineSentence __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence;
+static struct __pyx_vtabstruct_15mssg_corpusfile_CythonLineSentence __pyx_vtable_15mssg_corpusfile_CythonLineSentence;
 
-static PyObject *__pyx_tp_new_17ms2vec_corpusfile_CythonLineSentence(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *p;
+static PyObject *__pyx_tp_new_15mssg_corpusfile_CythonLineSentence(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *p;
   PyObject *o;
   o = (*t->tp_alloc)(t, 0);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)o);
-  p->__pyx_vtab = __pyx_vtabptr_17ms2vec_corpusfile_CythonLineSentence;
+  p = ((struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)o);
+  p->__pyx_vtab = __pyx_vtabptr_15mssg_corpusfile_CythonLineSentence;
   new((void*)&(p->buf_data)) std::vector<std::vector<std::string> > ();
   p->source = ((PyObject*)Py_None); Py_INCREF(Py_None);
-  if (unlikely(__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_1__cinit__(o, a, k) < 0)) goto bad;
+  if (unlikely(__pyx_pw_15mssg_corpusfile_18CythonLineSentence_1__cinit__(o, a, k) < 0)) goto bad;
   return o;
   bad:
   Py_DECREF(o); o = 0;
   return NULL;
 }
 
-static void __pyx_tp_dealloc_17ms2vec_corpusfile_CythonLineSentence(PyObject *o) {
-  struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *p = (struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *)o;
+static void __pyx_tp_dealloc_15mssg_corpusfile_CythonLineSentence(PyObject *o) {
+  struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *p = (struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *)o;
   {
     PyObject *etype, *eval, *etb;
     PyErr_Fetch(&etype, &eval, &etb);
     __Pyx_SET_REFCNT(o, Py_REFCNT(o) + 1);
-    __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_5__dealloc__(o);
+    __pyx_pw_15mssg_corpusfile_18CythonLineSentence_5__dealloc__(o);
     __Pyx_SET_REFCNT(o, Py_REFCNT(o) - 1);
     PyErr_Restore(etype, eval, etb);
   }
@@ -9104,40 +9098,26 @@ static void __pyx_tp_dealloc_17ms2vec_corpusfile_CythonLineSentence(PyObject *o)
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static PyObject *__pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_source(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_1__get__(o);
+static PyObject *__pyx_getprop_15mssg_corpusfile_18CythonLineSentence_source(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_1__get__(o);
 }
 
-static int __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_source(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_source(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_3__set__(o, v);
+    return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_3__set__(o, v);
   }
   else {
-    return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6source_5__del__(o);
+    return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6source_5__del__(o);
   }
 }
 
-static PyObject *__pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_max_sentence_length(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_1__get__(o);
+static PyObject *__pyx_getprop_15mssg_corpusfile_18CythonLineSentence_max_sentence_length(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_1__get__(o);
 }
 
-static int __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_max_sentence_length(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_max_sentence_length(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_19max_sentence_length_3__set__(o, v);
-  }
-  else {
-    PyErr_SetString(PyExc_NotImplementedError, "__del__");
-    return -1;
-  }
-}
-
-static PyObject *__pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_max_words_in_batch(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_1__get__(o);
-}
-
-static int __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_max_words_in_batch(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
-  if (v) {
-    return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_18max_words_in_batch_3__set__(o, v);
+    return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_19max_sentence_length_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -9145,13 +9125,13 @@ static int __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_max_words_in_b
   }
 }
 
-static PyObject *__pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_offset(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6offset_1__get__(o);
+static PyObject *__pyx_getprop_15mssg_corpusfile_18CythonLineSentence_max_words_in_batch(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_1__get__(o);
 }
 
-static int __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_offset(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_max_words_in_batch(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_6offset_3__set__(o, v);
+    return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_18max_words_in_batch_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -9159,31 +9139,45 @@ static int __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_offset(PyObjec
   }
 }
 
-static PyMethodDef __pyx_methods_17ms2vec_corpusfile_CythonLineSentence[] = {
-  {"is_eof", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_7is_eof, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_6is_eof},
-  {"read_sentence", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_9read_sentence, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_8read_sentence},
-  {"_read_chunked_sentence", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_11_read_chunked_sentence, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_10_read_chunked_sentence},
-  {"_chunk_sentence", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_13_chunk_sentence, METH_O, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_12_chunk_sentence},
-  {"reset", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_15reset, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_14reset},
-  {"__reduce__", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_20__reduce__, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_19__reduce__},
-  {"next_batch", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_22next_batch, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_18CythonLineSentence_21next_batch},
+static PyObject *__pyx_getprop_15mssg_corpusfile_18CythonLineSentence_offset(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6offset_1__get__(o);
+}
+
+static int __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_offset(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+  if (v) {
+    return __pyx_pw_15mssg_corpusfile_18CythonLineSentence_6offset_3__set__(o, v);
+  }
+  else {
+    PyErr_SetString(PyExc_NotImplementedError, "__del__");
+    return -1;
+  }
+}
+
+static PyMethodDef __pyx_methods_15mssg_corpusfile_CythonLineSentence[] = {
+  {"is_eof", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_7is_eof, METH_NOARGS, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_6is_eof},
+  {"read_sentence", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_9read_sentence, METH_NOARGS, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_8read_sentence},
+  {"_read_chunked_sentence", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_11_read_chunked_sentence, METH_NOARGS, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_10_read_chunked_sentence},
+  {"_chunk_sentence", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_13_chunk_sentence, METH_O, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_12_chunk_sentence},
+  {"reset", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_15reset, METH_NOARGS, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_14reset},
+  {"__reduce__", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_20__reduce__, METH_NOARGS, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_19__reduce__},
+  {"next_batch", (PyCFunction)__pyx_pw_15mssg_corpusfile_18CythonLineSentence_22next_batch, METH_NOARGS, __pyx_doc_15mssg_corpusfile_18CythonLineSentence_21next_batch},
   {0, 0, 0, 0}
 };
 
-static struct PyGetSetDef __pyx_getsets_17ms2vec_corpusfile_CythonLineSentence[] = {
-  {(char *)"source", __pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_source, __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_source, (char *)"source: bytes", 0},
-  {(char *)"max_sentence_length", __pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_max_sentence_length, __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_max_sentence_length, (char *)"max_sentence_length: 'size_t'", 0},
-  {(char *)"max_words_in_batch", __pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_max_words_in_batch, __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_max_words_in_batch, (char *)"max_words_in_batch: 'size_t'", 0},
-  {(char *)"offset", __pyx_getprop_17ms2vec_corpusfile_18CythonLineSentence_offset, __pyx_setprop_17ms2vec_corpusfile_18CythonLineSentence_offset, (char *)"offset: 'size_t'", 0},
+static struct PyGetSetDef __pyx_getsets_15mssg_corpusfile_CythonLineSentence[] = {
+  {(char *)"source", __pyx_getprop_15mssg_corpusfile_18CythonLineSentence_source, __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_source, (char *)"source: bytes", 0},
+  {(char *)"max_sentence_length", __pyx_getprop_15mssg_corpusfile_18CythonLineSentence_max_sentence_length, __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_max_sentence_length, (char *)"max_sentence_length: 'size_t'", 0},
+  {(char *)"max_words_in_batch", __pyx_getprop_15mssg_corpusfile_18CythonLineSentence_max_words_in_batch, __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_max_words_in_batch, (char *)"max_words_in_batch: 'size_t'", 0},
+  {(char *)"offset", __pyx_getprop_15mssg_corpusfile_18CythonLineSentence_offset, __pyx_setprop_15mssg_corpusfile_18CythonLineSentence_offset, (char *)"offset: 'size_t'", 0},
   {0, 0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonLineSentence = {
+static PyTypeObject __pyx_type_15mssg_corpusfile_CythonLineSentence = {
   PyVarObject_HEAD_INIT(0, 0)
-  "ms2vec_corpusfile.CythonLineSentence", /*tp_name*/
-  sizeof(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence), /*tp_basicsize*/
+  "mssg_corpusfile.CythonLineSentence", /*tp_name*/
+  sizeof(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_17ms2vec_corpusfile_CythonLineSentence, /*tp_dealloc*/
+  __pyx_tp_dealloc_15mssg_corpusfile_CythonLineSentence, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -9214,19 +9208,19 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonLineSentence = {
   0, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
-  __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_17__iter__, /*tp_iter*/
+  __pyx_pw_15mssg_corpusfile_18CythonLineSentence_17__iter__, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_17ms2vec_corpusfile_CythonLineSentence, /*tp_methods*/
+  __pyx_methods_15mssg_corpusfile_CythonLineSentence, /*tp_methods*/
   0, /*tp_members*/
-  __pyx_getsets_17ms2vec_corpusfile_CythonLineSentence, /*tp_getset*/
+  __pyx_getsets_15mssg_corpusfile_CythonLineSentence, /*tp_getset*/
   0, /*tp_base*/
   0, /*tp_dict*/
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_17ms2vec_corpusfile_18CythonLineSentence_3__init__, /*tp_init*/
+  __pyx_pw_15mssg_corpusfile_18CythonLineSentence_3__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_17ms2vec_corpusfile_CythonLineSentence, /*tp_new*/
+  __pyx_tp_new_15mssg_corpusfile_CythonLineSentence, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -9246,58 +9240,58 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonLineSentence = {
   0, /*tp_print*/
   #endif
 };
-static struct __pyx_vtabstruct_17ms2vec_corpusfile_CythonVocab __pyx_vtable_17ms2vec_corpusfile_CythonVocab;
+static struct __pyx_vtabstruct_15mssg_corpusfile_CythonVocab __pyx_vtable_15mssg_corpusfile_CythonVocab;
 
-static PyObject *__pyx_tp_new_17ms2vec_corpusfile_CythonVocab(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *p;
+static PyObject *__pyx_tp_new_15mssg_corpusfile_CythonVocab(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_15mssg_corpusfile_CythonVocab *p;
   PyObject *o;
   o = (*t->tp_alloc)(t, 0);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)o);
-  p->__pyx_vtab = __pyx_vtabptr_17ms2vec_corpusfile_CythonVocab;
-  new((void*)&(p->vocab)) __pyx_t_17ms2vec_corpusfile_cvocab_t();
+  p = ((struct __pyx_obj_15mssg_corpusfile_CythonVocab *)o);
+  p->__pyx_vtab = __pyx_vtabptr_15mssg_corpusfile_CythonVocab;
+  new((void*)&(p->vocab)) __pyx_t_15mssg_corpusfile_cvocab_t();
   p->subword_arrays = Py_None; Py_INCREF(Py_None);
   return o;
 }
 
-static void __pyx_tp_dealloc_17ms2vec_corpusfile_CythonVocab(PyObject *o) {
-  struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *p = (struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)o;
+static void __pyx_tp_dealloc_15mssg_corpusfile_CythonVocab(PyObject *o) {
+  struct __pyx_obj_15mssg_corpusfile_CythonVocab *p = (struct __pyx_obj_15mssg_corpusfile_CythonVocab *)o;
   PyObject_GC_UnTrack(o);
   __Pyx_call_destructor(p->vocab);
   Py_CLEAR(p->subword_arrays);
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static int __pyx_tp_traverse_17ms2vec_corpusfile_CythonVocab(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_15mssg_corpusfile_CythonVocab(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *p = (struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)o;
+  struct __pyx_obj_15mssg_corpusfile_CythonVocab *p = (struct __pyx_obj_15mssg_corpusfile_CythonVocab *)o;
   if (p->subword_arrays) {
     e = (*v)(p->subword_arrays, a); if (e) return e;
   }
   return 0;
 }
 
-static int __pyx_tp_clear_17ms2vec_corpusfile_CythonVocab(PyObject *o) {
+static int __pyx_tp_clear_15mssg_corpusfile_CythonVocab(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *p = (struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *)o;
+  struct __pyx_obj_15mssg_corpusfile_CythonVocab *p = (struct __pyx_obj_15mssg_corpusfile_CythonVocab *)o;
   tmp = ((PyObject*)p->subword_arrays);
   p->subword_arrays = Py_None; Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   return 0;
 }
 
-static PyMethodDef __pyx_methods_17ms2vec_corpusfile_CythonVocab[] = {
-  {"__reduce_cython__", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_11CythonVocab_3__reduce_cython__, METH_NOARGS, __pyx_doc_17ms2vec_corpusfile_11CythonVocab_2__reduce_cython__},
-  {"__setstate_cython__", (PyCFunction)__pyx_pw_17ms2vec_corpusfile_11CythonVocab_5__setstate_cython__, METH_O, __pyx_doc_17ms2vec_corpusfile_11CythonVocab_4__setstate_cython__},
+static PyMethodDef __pyx_methods_15mssg_corpusfile_CythonVocab[] = {
+  {"__reduce_cython__", (PyCFunction)__pyx_pw_15mssg_corpusfile_11CythonVocab_3__reduce_cython__, METH_NOARGS, __pyx_doc_15mssg_corpusfile_11CythonVocab_2__reduce_cython__},
+  {"__setstate_cython__", (PyCFunction)__pyx_pw_15mssg_corpusfile_11CythonVocab_5__setstate_cython__, METH_O, __pyx_doc_15mssg_corpusfile_11CythonVocab_4__setstate_cython__},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonVocab = {
+static PyTypeObject __pyx_type_15mssg_corpusfile_CythonVocab = {
   PyVarObject_HEAD_INIT(0, 0)
-  "ms2vec_corpusfile.CythonVocab", /*tp_name*/
-  sizeof(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab), /*tp_basicsize*/
+  "mssg_corpusfile.CythonVocab", /*tp_name*/
+  sizeof(struct __pyx_obj_15mssg_corpusfile_CythonVocab), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_17ms2vec_corpusfile_CythonVocab, /*tp_dealloc*/
+  __pyx_tp_dealloc_15mssg_corpusfile_CythonVocab, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -9324,13 +9318,13 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonVocab = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "CythonVocab(wv, hs=0, fasttext=0)", /*tp_doc*/
-  __pyx_tp_traverse_17ms2vec_corpusfile_CythonVocab, /*tp_traverse*/
-  __pyx_tp_clear_17ms2vec_corpusfile_CythonVocab, /*tp_clear*/
+  __pyx_tp_traverse_15mssg_corpusfile_CythonVocab, /*tp_traverse*/
+  __pyx_tp_clear_15mssg_corpusfile_CythonVocab, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_17ms2vec_corpusfile_CythonVocab, /*tp_methods*/
+  __pyx_methods_15mssg_corpusfile_CythonVocab, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -9338,9 +9332,9 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonVocab = {
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_17ms2vec_corpusfile_11CythonVocab_1__init__, /*tp_init*/
+  __pyx_pw_15mssg_corpusfile_11CythonVocab_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_17ms2vec_corpusfile_CythonVocab, /*tp_new*/
+  __pyx_tp_new_15mssg_corpusfile_CythonVocab, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -9361,57 +9355,57 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile_CythonVocab = {
   #endif
 };
 
-static struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *__pyx_freelist_17ms2vec_corpusfile___pyx_scope_struct____iter__[8];
-static int __pyx_freecount_17ms2vec_corpusfile___pyx_scope_struct____iter__ = 0;
+static struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *__pyx_freelist_15mssg_corpusfile___pyx_scope_struct____iter__[8];
+static int __pyx_freecount_15mssg_corpusfile___pyx_scope_struct____iter__ = 0;
 
-static PyObject *__pyx_tp_new_17ms2vec_corpusfile___pyx_scope_struct____iter__(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *p;
+static PyObject *__pyx_tp_new_15mssg_corpusfile___pyx_scope_struct____iter__(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *p;
   PyObject *o;
-  if (CYTHON_COMPILING_IN_CPYTHON && likely((__pyx_freecount_17ms2vec_corpusfile___pyx_scope_struct____iter__ > 0) & (t->tp_basicsize == sizeof(struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__)))) {
-    o = (PyObject*)__pyx_freelist_17ms2vec_corpusfile___pyx_scope_struct____iter__[--__pyx_freecount_17ms2vec_corpusfile___pyx_scope_struct____iter__];
-    memset(o, 0, sizeof(struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__));
+  if (CYTHON_COMPILING_IN_CPYTHON && likely((__pyx_freecount_15mssg_corpusfile___pyx_scope_struct____iter__ > 0) & (t->tp_basicsize == sizeof(struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__)))) {
+    o = (PyObject*)__pyx_freelist_15mssg_corpusfile___pyx_scope_struct____iter__[--__pyx_freecount_15mssg_corpusfile___pyx_scope_struct____iter__];
+    memset(o, 0, sizeof(struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__));
     (void) PyObject_INIT(o, t);
     PyObject_GC_Track(o);
   } else {
     o = (*t->tp_alloc)(t, 0);
     if (unlikely(!o)) return 0;
   }
-  p = ((struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)o);
+  p = ((struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)o);
   new((void*)&(p->__pyx_v_chunk)) std::vector<std::string> ();
   new((void*)&(p->__pyx_v_chunked_sentence)) std::vector<std::vector<std::string> > ();
   new((void*)&(p->__pyx_t_0)) std::vector<std::vector<std::string> > ::iterator();
   return o;
 }
 
-static void __pyx_tp_dealloc_17ms2vec_corpusfile___pyx_scope_struct____iter__(PyObject *o) {
-  struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *p = (struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)o;
+static void __pyx_tp_dealloc_15mssg_corpusfile___pyx_scope_struct____iter__(PyObject *o) {
+  struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *p = (struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)o;
   PyObject_GC_UnTrack(o);
   __Pyx_call_destructor(p->__pyx_v_chunk);
   __Pyx_call_destructor(p->__pyx_v_chunked_sentence);
   __Pyx_call_destructor(p->__pyx_t_0);
   Py_CLEAR(p->__pyx_v_self);
-  if (CYTHON_COMPILING_IN_CPYTHON && ((__pyx_freecount_17ms2vec_corpusfile___pyx_scope_struct____iter__ < 8) & (Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__)))) {
-    __pyx_freelist_17ms2vec_corpusfile___pyx_scope_struct____iter__[__pyx_freecount_17ms2vec_corpusfile___pyx_scope_struct____iter__++] = ((struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)o);
+  if (CYTHON_COMPILING_IN_CPYTHON && ((__pyx_freecount_15mssg_corpusfile___pyx_scope_struct____iter__ < 8) & (Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__)))) {
+    __pyx_freelist_15mssg_corpusfile___pyx_scope_struct____iter__[__pyx_freecount_15mssg_corpusfile___pyx_scope_struct____iter__++] = ((struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)o);
   } else {
     (*Py_TYPE(o)->tp_free)(o);
   }
 }
 
-static int __pyx_tp_traverse_17ms2vec_corpusfile___pyx_scope_struct____iter__(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_15mssg_corpusfile___pyx_scope_struct____iter__(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *p = (struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__ *)o;
+  struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *p = (struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__ *)o;
   if (p->__pyx_v_self) {
     e = (*v)(((PyObject *)p->__pyx_v_self), a); if (e) return e;
   }
   return 0;
 }
 
-static PyTypeObject __pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__ = {
+static PyTypeObject __pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__ = {
   PyVarObject_HEAD_INIT(0, 0)
-  "ms2vec_corpusfile.__pyx_scope_struct____iter__", /*tp_name*/
-  sizeof(struct __pyx_obj_17ms2vec_corpusfile___pyx_scope_struct____iter__), /*tp_basicsize*/
+  "mssg_corpusfile.__pyx_scope_struct____iter__", /*tp_name*/
+  sizeof(struct __pyx_obj_15mssg_corpusfile___pyx_scope_struct____iter__), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_17ms2vec_corpusfile___pyx_scope_struct____iter__, /*tp_dealloc*/
+  __pyx_tp_dealloc_15mssg_corpusfile___pyx_scope_struct____iter__, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -9438,7 +9432,7 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__ 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_17ms2vec_corpusfile___pyx_scope_struct____iter__, /*tp_traverse*/
+  __pyx_tp_traverse_15mssg_corpusfile___pyx_scope_struct____iter__, /*tp_traverse*/
   0, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
@@ -9454,7 +9448,7 @@ static PyTypeObject __pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__ 
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_17ms2vec_corpusfile___pyx_scope_struct____iter__, /*tp_new*/
+  __pyx_tp_new_15mssg_corpusfile___pyx_scope_struct____iter__, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -9482,17 +9476,17 @@ static PyMethodDef __pyx_methods[] = {
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /*proto*/
-static int __pyx_pymod_exec_ms2vec_corpusfile(PyObject* module); /*proto*/
+static int __pyx_pymod_exec_mssg_corpusfile(PyObject* module); /*proto*/
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
-  {Py_mod_exec, (void*)__pyx_pymod_exec_ms2vec_corpusfile},
+  {Py_mod_exec, (void*)__pyx_pymod_exec_mssg_corpusfile},
   {0, NULL}
 };
 #endif
 
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
-    "ms2vec_corpusfile",
+    "mssg_corpusfile",
     __pyx_k_Optimized_cython_functions_for_f, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
@@ -9571,8 +9565,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_max_sentence_length, __pyx_k_max_sentence_length, sizeof(__pyx_k_max_sentence_length), 0, 0, 1, 1},
   {&__pyx_n_s_min_alpha, __pyx_k_min_alpha, sizeof(__pyx_k_min_alpha), 0, 0, 1, 1},
   {&__pyx_n_s_model, __pyx_k_model, sizeof(__pyx_k_model), 0, 0, 1, 1},
-  {&__pyx_n_s_ms2vec_corpusfile, __pyx_k_ms2vec_corpusfile, sizeof(__pyx_k_ms2vec_corpusfile), 0, 0, 1, 1},
-  {&__pyx_kp_s_ms2vec_ms2vec_corpusfile_pyx, __pyx_k_ms2vec_ms2vec_corpusfile_pyx, sizeof(__pyx_k_ms2vec_ms2vec_corpusfile_pyx), 0, 0, 1, 0},
+  {&__pyx_n_s_mssg_corpusfile, __pyx_k_mssg_corpusfile, sizeof(__pyx_k_mssg_corpusfile), 0, 0, 1, 1},
+  {&__pyx_kp_s_mssg_mssg_corpusfile_pyx, __pyx_k_mssg_mssg_corpusfile_pyx, sizeof(__pyx_k_mssg_mssg_corpusfile_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
   {&__pyx_n_s_neu1, __pyx_k_neu1, sizeof(__pyx_k_neu1), 0, 0, 1, 1},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
@@ -9615,7 +9609,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 2, __pyx_L1_error)
   __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(1, 113, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(3, 945, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(3, 947, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -9644,29 +9638,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":945
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":947
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(3, 945, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(3, 947, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../../../.pyenv/versions/3.9.0/lib/python3.9/site-packages/numpy/__init__.pxd":951
+  /* "../../../../../.pyenv/versions/anaconda3-2021.11/lib/python3.9/site-packages/numpy/__init__.pxd":953
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(3, 951, __pyx_L1_error)
+  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(3, 953, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "ms2vec_corpusfile.pyx":69
+  /* "mssg_corpusfile.pyx":69
  * 
  * 
  * def rebuild_cython_line_sentence(source, max_sentence_length):             # <<<<<<<<<<<<<<
@@ -9676,9 +9670,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__5 = PyTuple_Pack(2, __pyx_n_s_source, __pyx_n_s_max_sentence_length); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(1, 69, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ms2vec_ms2vec_corpusfile_pyx, __pyx_n_s_rebuild_cython_line_sentence, 69, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(1, 69, __pyx_L1_error)
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mssg_mssg_corpusfile_pyx, __pyx_n_s_rebuild_cython_line_sentence, 69, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(1, 69, __pyx_L1_error)
 
-  /* "ms2vec_corpusfile.pyx":253
+  /* "mssg_corpusfile.pyx":253
  * 
  * 
  * def train_epoch_sg(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
@@ -9688,9 +9682,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__7 = PyTuple_Pack(32, __pyx_n_s_model, __pyx_n_s_corpus_file, __pyx_n_s_offset, __pyx_n_s_cython_vocab, __pyx_n_s_cur_epoch, __pyx_n_s_expected_examples, __pyx_n_s_expected_words, __pyx_n_s_work, __pyx_n_s_neu1, __pyx_n_s_compute_loss, __pyx_n_s_c, __pyx_n_s_cur_epoch_2, __pyx_n_s_num_epochs, __pyx_n_s_expected_examples_2, __pyx_n_s_expected_words_2, __pyx_n_s_start_alpha, __pyx_n_s_end_alpha, __pyx_n_s_alpha_2, __pyx_n_s_input_stream, __pyx_n_s_vocab, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_k, __pyx_n_s_effective_words, __pyx_n_s_effective_sentences, __pyx_n_s_total_sentences, __pyx_n_s_total_effective_words, __pyx_n_s_total_words, __pyx_n_s_sent_idx, __pyx_n_s_idx_start, __pyx_n_s_idx_end, __pyx_n_s_sentences); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(1, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
-  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(10, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ms2vec_ms2vec_corpusfile_pyx, __pyx_n_s_train_epoch_sg, 253, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(1, 253, __pyx_L1_error)
+  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(10, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mssg_mssg_corpusfile_pyx, __pyx_n_s_train_epoch_sg, 253, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(1, 253, __pyx_L1_error)
 
-  /* "ms2vec_corpusfile.pyx":353
+  /* "mssg_corpusfile.pyx":353
  * 
  * 
  * def train_epoch_cbow(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
@@ -9700,7 +9694,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__9 = PyTuple_Pack(32, __pyx_n_s_model, __pyx_n_s_corpus_file, __pyx_n_s_offset, __pyx_n_s_cython_vocab, __pyx_n_s_cur_epoch, __pyx_n_s_expected_examples, __pyx_n_s_expected_words, __pyx_n_s_work, __pyx_n_s_neu1, __pyx_n_s_compute_loss, __pyx_n_s_c, __pyx_n_s_cur_epoch_2, __pyx_n_s_num_epochs, __pyx_n_s_expected_examples_2, __pyx_n_s_expected_words_2, __pyx_n_s_start_alpha, __pyx_n_s_end_alpha, __pyx_n_s_alpha_2, __pyx_n_s_input_stream, __pyx_n_s_vocab, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_k, __pyx_n_s_effective_words, __pyx_n_s_effective_sentences, __pyx_n_s_total_sentences, __pyx_n_s_total_effective_words, __pyx_n_s_total_words, __pyx_n_s_sent_idx, __pyx_n_s_idx_start, __pyx_n_s_idx_end, __pyx_n_s_sentences); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(1, 353, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
-  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(10, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ms2vec_ms2vec_corpusfile_pyx, __pyx_n_s_train_epoch_cbow, 353, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(1, 353, __pyx_L1_error)
+  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(10, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mssg_mssg_corpusfile_pyx, __pyx_n_s_train_epoch_cbow, 353, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(1, 353, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -9749,8 +9743,8 @@ static int __Pyx_modinit_function_export_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_function_export_code", 0);
   /*--- Function export code ---*/
-  if (__Pyx_ExportFunction("get_alpha", (void (*)(void))__pyx_f_17ms2vec_corpusfile_get_alpha, "__pyx_t_17ms2vec_corpusfile_REAL_t (__pyx_t_17ms2vec_corpusfile_REAL_t, __pyx_t_17ms2vec_corpusfile_REAL_t, int, int)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ExportFunction("get_next_alpha", (void (*)(void))__pyx_f_17ms2vec_corpusfile_get_next_alpha, "__pyx_t_17ms2vec_corpusfile_REAL_t (__pyx_t_17ms2vec_corpusfile_REAL_t, __pyx_t_17ms2vec_corpusfile_REAL_t, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, int, int)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ExportFunction("get_alpha", (void (*)(void))__pyx_f_15mssg_corpusfile_get_alpha, "__pyx_t_15mssg_corpusfile_REAL_t (__pyx_t_15mssg_corpusfile_REAL_t, __pyx_t_15mssg_corpusfile_REAL_t, int, int)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ExportFunction("get_next_alpha", (void (*)(void))__pyx_f_15mssg_corpusfile_get_next_alpha, "__pyx_t_15mssg_corpusfile_REAL_t (__pyx_t_15mssg_corpusfile_REAL_t, __pyx_t_15mssg_corpusfile_REAL_t, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, PY_LONG_LONG, int, int)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -9765,44 +9759,44 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_17ms2vec_corpusfile_CythonLineSentence = &__pyx_vtable_17ms2vec_corpusfile_CythonLineSentence;
-  __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence.is_eof = (bool (*)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_is_eof;
-  __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence.read_sentence = (std::vector<std::string>  (*)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_read_sentence;
-  __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence._read_chunked_sentence = (std::vector<std::vector<std::string> >  (*)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_17ms2vec_corpusfile_18CythonLineSentence__read_chunked_sentence;
-  __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence._chunk_sentence = (std::vector<std::vector<std::string> >  (*)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, std::vector<std::string> , int __pyx_skip_dispatch))__pyx_f_17ms2vec_corpusfile_18CythonLineSentence__chunk_sentence;
-  __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence.reset = (void (*)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_reset;
-  __pyx_vtable_17ms2vec_corpusfile_CythonLineSentence.next_batch = (std::vector<std::vector<std::string> >  (*)(struct __pyx_obj_17ms2vec_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_17ms2vec_corpusfile_18CythonLineSentence_next_batch;
-  if (PyType_Ready(&__pyx_type_17ms2vec_corpusfile_CythonLineSentence) < 0) __PYX_ERR(1, 81, __pyx_L1_error)
+  __pyx_vtabptr_15mssg_corpusfile_CythonLineSentence = &__pyx_vtable_15mssg_corpusfile_CythonLineSentence;
+  __pyx_vtable_15mssg_corpusfile_CythonLineSentence.is_eof = (bool (*)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_15mssg_corpusfile_18CythonLineSentence_is_eof;
+  __pyx_vtable_15mssg_corpusfile_CythonLineSentence.read_sentence = (std::vector<std::string>  (*)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_15mssg_corpusfile_18CythonLineSentence_read_sentence;
+  __pyx_vtable_15mssg_corpusfile_CythonLineSentence._read_chunked_sentence = (std::vector<std::vector<std::string> >  (*)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_15mssg_corpusfile_18CythonLineSentence__read_chunked_sentence;
+  __pyx_vtable_15mssg_corpusfile_CythonLineSentence._chunk_sentence = (std::vector<std::vector<std::string> >  (*)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, std::vector<std::string> , int __pyx_skip_dispatch))__pyx_f_15mssg_corpusfile_18CythonLineSentence__chunk_sentence;
+  __pyx_vtable_15mssg_corpusfile_CythonLineSentence.reset = (void (*)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_15mssg_corpusfile_18CythonLineSentence_reset;
+  __pyx_vtable_15mssg_corpusfile_CythonLineSentence.next_batch = (std::vector<std::vector<std::string> >  (*)(struct __pyx_obj_15mssg_corpusfile_CythonLineSentence *, int __pyx_skip_dispatch))__pyx_f_15mssg_corpusfile_18CythonLineSentence_next_batch;
+  if (PyType_Ready(&__pyx_type_15mssg_corpusfile_CythonLineSentence) < 0) __PYX_ERR(1, 81, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_17ms2vec_corpusfile_CythonLineSentence.tp_print = 0;
+  __pyx_type_15mssg_corpusfile_CythonLineSentence.tp_print = 0;
   #endif
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_17ms2vec_corpusfile_CythonLineSentence.tp_dictoffset && __pyx_type_17ms2vec_corpusfile_CythonLineSentence.tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_type_17ms2vec_corpusfile_CythonLineSentence.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_15mssg_corpusfile_CythonLineSentence.tp_dictoffset && __pyx_type_15mssg_corpusfile_CythonLineSentence.tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_type_15mssg_corpusfile_CythonLineSentence.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
-  if (__Pyx_SetVtable(__pyx_type_17ms2vec_corpusfile_CythonLineSentence.tp_dict, __pyx_vtabptr_17ms2vec_corpusfile_CythonLineSentence) < 0) __PYX_ERR(1, 81, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CythonLineSentence, (PyObject *)&__pyx_type_17ms2vec_corpusfile_CythonLineSentence) < 0) __PYX_ERR(1, 81, __pyx_L1_error)
-  __pyx_ptype_17ms2vec_corpusfile_CythonLineSentence = &__pyx_type_17ms2vec_corpusfile_CythonLineSentence;
-  __pyx_vtabptr_17ms2vec_corpusfile_CythonVocab = &__pyx_vtable_17ms2vec_corpusfile_CythonVocab;
-  __pyx_vtable_17ms2vec_corpusfile_CythonVocab.get_vocab_ptr = (__pyx_t_17ms2vec_corpusfile_cvocab_t *(*)(struct __pyx_obj_17ms2vec_corpusfile_CythonVocab *))__pyx_f_17ms2vec_corpusfile_11CythonVocab_get_vocab_ptr;
-  if (PyType_Ready(&__pyx_type_17ms2vec_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_15mssg_corpusfile_CythonLineSentence.tp_dict, __pyx_vtabptr_15mssg_corpusfile_CythonLineSentence) < 0) __PYX_ERR(1, 81, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CythonLineSentence, (PyObject *)&__pyx_type_15mssg_corpusfile_CythonLineSentence) < 0) __PYX_ERR(1, 81, __pyx_L1_error)
+  __pyx_ptype_15mssg_corpusfile_CythonLineSentence = &__pyx_type_15mssg_corpusfile_CythonLineSentence;
+  __pyx_vtabptr_15mssg_corpusfile_CythonVocab = &__pyx_vtable_15mssg_corpusfile_CythonVocab;
+  __pyx_vtable_15mssg_corpusfile_CythonVocab.get_vocab_ptr = (__pyx_t_15mssg_corpusfile_cvocab_t *(*)(struct __pyx_obj_15mssg_corpusfile_CythonVocab *))__pyx_f_15mssg_corpusfile_11CythonVocab_get_vocab_ptr;
+  if (PyType_Ready(&__pyx_type_15mssg_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_17ms2vec_corpusfile_CythonVocab.tp_print = 0;
+  __pyx_type_15mssg_corpusfile_CythonVocab.tp_print = 0;
   #endif
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_17ms2vec_corpusfile_CythonVocab.tp_dictoffset && __pyx_type_17ms2vec_corpusfile_CythonVocab.tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_type_17ms2vec_corpusfile_CythonVocab.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_15mssg_corpusfile_CythonVocab.tp_dictoffset && __pyx_type_15mssg_corpusfile_CythonVocab.tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_type_15mssg_corpusfile_CythonVocab.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
-  if (__Pyx_SetVtable(__pyx_type_17ms2vec_corpusfile_CythonVocab.tp_dict, __pyx_vtabptr_17ms2vec_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CythonVocab, (PyObject *)&__pyx_type_17ms2vec_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_17ms2vec_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
-  __pyx_ptype_17ms2vec_corpusfile_CythonVocab = &__pyx_type_17ms2vec_corpusfile_CythonVocab;
-  if (PyType_Ready(&__pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__) < 0) __PYX_ERR(1, 126, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_15mssg_corpusfile_CythonVocab.tp_dict, __pyx_vtabptr_15mssg_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CythonVocab, (PyObject *)&__pyx_type_15mssg_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_15mssg_corpusfile_CythonVocab) < 0) __PYX_ERR(1, 40, __pyx_L1_error)
+  __pyx_ptype_15mssg_corpusfile_CythonVocab = &__pyx_type_15mssg_corpusfile_CythonVocab;
+  if (PyType_Ready(&__pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__) < 0) __PYX_ERR(1, 126, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__.tp_print = 0;
+  __pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__.tp_print = 0;
   #endif
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__.tp_dictoffset && __pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__.tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__.tp_dictoffset && __pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__.tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
-  __pyx_ptype_17ms2vec_corpusfile___pyx_scope_struct____iter__ = &__pyx_type_17ms2vec_corpusfile___pyx_scope_struct____iter__;
+  __pyx_ptype_15mssg_corpusfile___pyx_scope_struct____iter__ = &__pyx_type_15mssg_corpusfile___pyx_scope_struct____iter__;
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -9878,17 +9872,17 @@ static int __Pyx_modinit_variable_import_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_variable_import_code", 0);
   /*--- Variable import code ---*/
-  __pyx_t_1 = PyImport_ImportModule("ms2vec_inner"); if (!__pyx_t_1) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("mssg_inner"); if (!__pyx_t_1) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "scopy", (void **)&__pyx_vp_12ms2vec_inner_scopy, "__pyx_t_12ms2vec_inner_scopy_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "saxpy", (void **)&__pyx_vp_12ms2vec_inner_saxpy, "__pyx_t_12ms2vec_inner_saxpy_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "sdot", (void **)&__pyx_vp_12ms2vec_inner_sdot, "__pyx_t_12ms2vec_inner_sdot_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "dsdot", (void **)&__pyx_vp_12ms2vec_inner_dsdot, "__pyx_t_12ms2vec_inner_dsdot_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "snrm2", (void **)&__pyx_vp_12ms2vec_inner_snrm2, "__pyx_t_12ms2vec_inner_snrm2_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "sscal", (void **)&__pyx_vp_12ms2vec_inner_sscal, "__pyx_t_12ms2vec_inner_sscal_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "EXP_TABLE", (void **)&__pyx_vp_12ms2vec_inner_EXP_TABLE, "__pyx_t_12ms2vec_inner_REAL_t [0x3E8]") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "our_dot", (void **)&__pyx_vp_12ms2vec_inner_our_dot, "__pyx_t_12ms2vec_inner_our_dot_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportVoidPtr(__pyx_t_1, "our_saxpy", (void **)&__pyx_vp_12ms2vec_inner_our_saxpy, "__pyx_t_12ms2vec_inner_our_saxpy_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "scopy", (void **)&__pyx_vp_10mssg_inner_scopy, "__pyx_t_10mssg_inner_scopy_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "saxpy", (void **)&__pyx_vp_10mssg_inner_saxpy, "__pyx_t_10mssg_inner_saxpy_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "sdot", (void **)&__pyx_vp_10mssg_inner_sdot, "__pyx_t_10mssg_inner_sdot_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "dsdot", (void **)&__pyx_vp_10mssg_inner_dsdot, "__pyx_t_10mssg_inner_dsdot_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "snrm2", (void **)&__pyx_vp_10mssg_inner_snrm2, "__pyx_t_10mssg_inner_snrm2_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "sscal", (void **)&__pyx_vp_10mssg_inner_sscal, "__pyx_t_10mssg_inner_sscal_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "EXP_TABLE", (void **)&__pyx_vp_10mssg_inner_EXP_TABLE, "__pyx_t_10mssg_inner_REAL_t [0x3E8]") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "our_dot", (void **)&__pyx_vp_10mssg_inner_our_dot, "__pyx_t_10mssg_inner_our_dot_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportVoidPtr(__pyx_t_1, "our_saxpy", (void **)&__pyx_vp_10mssg_inner_our_saxpy, "__pyx_t_10mssg_inner_our_saxpy_ptr") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -9906,14 +9900,14 @@ static int __Pyx_modinit_function_import_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_function_import_code", 0);
   /*--- Function import code ---*/
-  __pyx_t_1 = PyImport_ImportModule("ms2vec_inner"); if (!__pyx_t_1) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("mssg_inner"); if (!__pyx_t_1) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (__Pyx_ImportFunction(__pyx_t_1, "random_int32", (void (**)(void))&__pyx_f_12ms2vec_inner_random_int32, "unsigned PY_LONG_LONG (unsigned PY_LONG_LONG *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_sg_hs", (void (**)(void))&__pyx_f_12ms2vec_inner_w2v_fast_sentence_sg_hs, "void (__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int const , __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_sg_neg", (void (**)(void))&__pyx_f_12ms2vec_inner_w2v_fast_sentence_sg_neg, "unsigned PY_LONG_LONG (int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_5numpy_uint32_t const , __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, unsigned PY_LONG_LONG, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_cbow_hs", (void (**)(void))&__pyx_f_12ms2vec_inner_w2v_fast_sentence_cbow_hs, "void (__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, int, int, int, int, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_cbow_neg", (void (**)(void))&__pyx_f_12ms2vec_inner_w2v_fast_sentence_cbow_neg, "unsigned PY_LONG_LONG (int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, int *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_12ms2vec_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_12ms2vec_inner_REAL_t const , __pyx_t_12ms2vec_inner_REAL_t *, int, int, int, int, unsigned PY_LONG_LONG, __pyx_t_12ms2vec_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_12ms2vec_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
-  if (__Pyx_ImportFunction(__pyx_t_1, "init_w2v_config", (void (**)(void))&__pyx_f_12ms2vec_inner_init_w2v_config, "PyObject *(struct __pyx_t_12ms2vec_inner_Word2VecConfig *, PyObject *, PyObject *, PyObject *, PyObject *, struct __pyx_opt_args_12ms2vec_inner_init_w2v_config *__pyx_optional_args)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "random_int32", (void (**)(void))&__pyx_f_10mssg_inner_random_int32, "unsigned PY_LONG_LONG (unsigned PY_LONG_LONG *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_sg_hs", (void (**)(void))&__pyx_f_10mssg_inner_w2v_fast_sentence_sg_hs, "void (__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int const , __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_sg_neg", (void (**)(void))&__pyx_f_10mssg_inner_w2v_fast_sentence_sg_neg, "unsigned PY_LONG_LONG (int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const , __pyx_t_5numpy_uint32_t const , __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, unsigned PY_LONG_LONG, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_cbow_hs", (void (**)(void))&__pyx_f_10mssg_inner_w2v_fast_sentence_cbow_hs, "void (__pyx_t_5numpy_uint32_t const *, __pyx_t_5numpy_uint8_t const *, int *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, int, int, int, int, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "w2v_fast_sentence_cbow_neg", (void (**)(void))&__pyx_f_10mssg_inner_w2v_fast_sentence_cbow_neg, "unsigned PY_LONG_LONG (int const , __pyx_t_5numpy_uint32_t *, unsigned PY_LONG_LONG, int *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_10mssg_inner_REAL_t *, int const , __pyx_t_5numpy_uint32_t const *, __pyx_t_10mssg_inner_REAL_t const , __pyx_t_10mssg_inner_REAL_t *, int, int, int, int, unsigned PY_LONG_LONG, __pyx_t_10mssg_inner_REAL_t *, __pyx_t_5numpy_uint32_t const , int const , __pyx_t_10mssg_inner_REAL_t *)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "init_w2v_config", (void (**)(void))&__pyx_f_10mssg_inner_init_w2v_config, "PyObject *(struct __pyx_t_10mssg_inner_Word2VecConfig *, PyObject *, PyObject *, PyObject *, PyObject *, struct __pyx_opt_args_10mssg_inner_init_w2v_config *__pyx_optional_args)") < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -9942,11 +9936,11 @@ static int __Pyx_modinit_function_import_code(void) {
 
 
 #if PY_MAJOR_VERSION < 3
-__Pyx_PyMODINIT_FUNC initms2vec_corpusfile(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC initms2vec_corpusfile(void)
+__Pyx_PyMODINIT_FUNC initmssg_corpusfile(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC initmssg_corpusfile(void)
 #else
-__Pyx_PyMODINIT_FUNC PyInit_ms2vec_corpusfile(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC PyInit_ms2vec_corpusfile(void)
+__Pyx_PyMODINIT_FUNC PyInit_mssg_corpusfile(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC PyInit_mssg_corpusfile(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
   return PyModuleDef_Init(&__pyx_moduledef);
@@ -10013,7 +10007,7 @@ bad:
 }
 
 
-static CYTHON_SMALL_CODE int __pyx_pymod_exec_ms2vec_corpusfile(PyObject *__pyx_pyinit_module)
+static CYTHON_SMALL_CODE int __pyx_pymod_exec_mssg_corpusfile(PyObject *__pyx_pyinit_module)
 #endif
 #endif
 {
@@ -10026,7 +10020,7 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_ms2vec_corpusfile(PyObject *__pyx_
   #if CYTHON_PEP489_MULTI_PHASE_INIT
   if (__pyx_m) {
     if (__pyx_m == __pyx_pyinit_module) return 0;
-    PyErr_SetString(PyExc_RuntimeError, "Module 'ms2vec_corpusfile' has already been imported. Re-initialisation is not supported.");
+    PyErr_SetString(PyExc_RuntimeError, "Module 'mssg_corpusfile' has already been imported. Re-initialisation is not supported.");
     return -1;
   }
   #elif PY_MAJOR_VERSION >= 3
@@ -10041,7 +10035,7 @@ if (!__Pyx_RefNanny) {
       Py_FatalError("failed to import 'refnanny' module");
 }
 #endif
-  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_ms2vec_corpusfile(void)", 0);
+  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_mssg_corpusfile(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #ifdef __Pxy_PyFrame_Initialize_Offsets
   __Pxy_PyFrame_Initialize_Offsets();
@@ -10078,7 +10072,7 @@ if (!__Pyx_RefNanny) {
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("ms2vec_corpusfile", __pyx_methods, __pyx_k_Optimized_cython_functions_for_f, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("mssg_corpusfile", __pyx_methods, __pyx_k_Optimized_cython_functions_for_f, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -10096,14 +10090,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_ms2vec_corpusfile) {
+  if (__pyx_module_is_main_mssg_corpusfile) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(1, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "ms2vec_corpusfile")) {
-      if (unlikely(PyDict_SetItemString(modules, "ms2vec_corpusfile", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "mssg_corpusfile")) {
+      if (unlikely(PyDict_SetItemString(modules, "mssg_corpusfile", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -10124,7 +10118,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
 
-  /* "ms2vec_corpusfile.pyx":15
+  /* "mssg_corpusfile.pyx":15
  * 
  * import cython
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -10136,7 +10130,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 15, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "ms2vec_corpusfile.pyx":17
+  /* "mssg_corpusfile.pyx":17
  * import numpy as np
  * 
  * from gensim.utils import any2utf8             # <<<<<<<<<<<<<<
@@ -10157,7 +10151,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "ms2vec_corpusfile.pyx":18
+  /* "mssg_corpusfile.pyx":18
  * 
  * from gensim.utils import any2utf8
  * from six import iteritems             # <<<<<<<<<<<<<<
@@ -10178,50 +10172,50 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "ms2vec_corpusfile.pyx":69
+  /* "mssg_corpusfile.pyx":69
  * 
  * 
  * def rebuild_cython_line_sentence(source, max_sentence_length):             # <<<<<<<<<<<<<<
  *     return CythonLineSentence(source, max_sentence_length=max_sentence_length)
  * 
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_17ms2vec_corpusfile_1rebuild_cython_line_sentence, NULL, __pyx_n_s_ms2vec_corpusfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 69, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_15mssg_corpusfile_1rebuild_cython_line_sentence, NULL, __pyx_n_s_mssg_corpusfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 69, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_rebuild_cython_line_sentence, __pyx_t_1) < 0) __PYX_ERR(1, 69, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "ms2vec_corpusfile.pyx":253
+  /* "mssg_corpusfile.pyx":253
  * 
  * 
  * def train_epoch_sg(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
  *                    _neu1, compute_loss):
  *     """Train Skipgram model for one epoch by training on an input stream. This function is used only in multistream mode.
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_17ms2vec_corpusfile_3train_epoch_sg, NULL, __pyx_n_s_ms2vec_corpusfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 253, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_15mssg_corpusfile_3train_epoch_sg, NULL, __pyx_n_s_mssg_corpusfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_train_epoch_sg, __pyx_t_1) < 0) __PYX_ERR(1, 253, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "ms2vec_corpusfile.pyx":353
+  /* "mssg_corpusfile.pyx":353
  * 
  * 
  * def train_epoch_cbow(model, corpus_file, offset, _cython_vocab, _cur_epoch, _expected_examples, _expected_words, _work,             # <<<<<<<<<<<<<<
  *                      _neu1, compute_loss):
  *     """Train CBOW model for one epoch by training on an input stream. This function is used only in multistream mode.
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_17ms2vec_corpusfile_5train_epoch_cbow, NULL, __pyx_n_s_ms2vec_corpusfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 353, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_15mssg_corpusfile_5train_epoch_cbow, NULL, __pyx_n_s_mssg_corpusfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 353, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_train_epoch_cbow, __pyx_t_1) < 0) __PYX_ERR(1, 353, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "ms2vec_corpusfile.pyx":451
+  /* "mssg_corpusfile.pyx":451
  * 
  * 
  * CORPUSFILE_VERSION = 1             # <<<<<<<<<<<<<<
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_CORPUSFILE_VERSION, __pyx_int_1) < 0) __PYX_ERR(1, 451, __pyx_L1_error)
 
-  /* "ms2vec_corpusfile.pyx":1
+  /* "mssg_corpusfile.pyx":1
  * #!/usr/bin/env cython             # <<<<<<<<<<<<<<
  * # distutils: language = c++
  * # cython: boundscheck=False
@@ -10247,11 +10241,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init ms2vec_corpusfile", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init mssg_corpusfile", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init ms2vec_corpusfile");
+    PyErr_SetString(PyExc_ImportError, "init mssg_corpusfile");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

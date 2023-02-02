@@ -15,8 +15,8 @@ import numpy as np
 
 # from gensim.models.word2vec import LineSentence # normal な gensim からもどちらからでも読み込める
 # コーパスの順序等については，LineSentence の中身をいじる方が良いかもしれない
-from ms2vec.ms2vec import LineSentence
-from ms2vec.ms2vec import MSSG
+from mssg.mssg import LineSentence
+from mssg.mssg import MSSG
 
 import gensim
 

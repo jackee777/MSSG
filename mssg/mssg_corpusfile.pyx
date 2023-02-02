@@ -23,7 +23,7 @@ from libcpp.string cimport string
 from libcpp.vector cimport vector
 from libcpp cimport bool as bool_t
 
-from ms2vec_inner cimport (
+from mssg_inner cimport (
     w2v_fast_sentence_sg_hs,
     w2v_fast_sentence_sg_neg,
     w2v_fast_sentence_cbow_hs,

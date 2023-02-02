@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+mssg/mssg_corpusfile.cpp
+mssg/mssg_inner.cpp
+mssg.egg-info/PKG-INFO
+mssg.egg-info/SOURCES.txt
+mssg.egg-info/dependency_links.txt
+mssg.egg-info/top_level.txt

@@ -206,7 +206,7 @@ from sklearn.cluster import KMeans
 logger = logging.getLogger(__name__)
 
 try:
-    from ms2vec_inner import (  # noqa: F401
+    from mssg_inner import (  # noqa: F401
         train_batch_sg,
         train_batch_cbow,
         score_sentence_sg,
@@ -218,7 +218,7 @@ except ImportError:
     raise utils.NO_CYTHON
 
 try:
-    from ms2vec_corpusfile import train_epoch_sg, train_epoch_cbow, CORPUSFILE_VERSION
+    from mssg_corpusfile import train_epoch_sg, train_epoch_cbow, CORPUSFILE_VERSION
 except ImportError:
     # file-based word2vec is not supported
     CORPUSFILE_VERSION = -1
@@ -247,7 +247,7 @@ class MSSG(utils.SaveLoad):
             sg=0, hs=0, negative=5, ns_exponent=0.75, cbow_mean=1, hashfxn=hash, epochs=5, null_word=0,
             trim_rule=None, sorted_vocab=1, batch_words=MAX_WORDS_IN_BATCH, compute_loss=False, callbacks=(),
             comment=None, max_final_vocab=None, skip_oov=True, delimiter="--", 
-            min_sensecount=100, sense_num=3, clustering_method="simple_kmeans", 
+            min_sensecount=100, sense_num=3, clustering_method="dynamic_kmeans", 
             np_value=-1, global_initialize="random", cluster_initialize="zeros", 
             analysis_logfile="analysis.log", pretrained_path=None, pretrained_topn=50
         ):

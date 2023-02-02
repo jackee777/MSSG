@@ -3,16 +3,16 @@ from Cython.Build import cythonize
 import numpy as np
 
 ext_modules = [
-    Extension('ms2vec_inner',
+    Extension('mssg_inner',
               sources=[
-                  'ms2vec/ms2vec_inner.pyx'],
+                  'mssg/mssg_inner.pyx'],
               include_dirs=[np.get_include()],
               language='c++',
 #               compiler_directives={'language_level': "3"}
               ),
-    Extension('ms2vec_corpusfile',
+    Extension('mssg_corpusfile',
               sources=[
-                  'ms2vec/ms2vec_corpusfile.pyx'],
+                  'mssg/mssg_corpusfile.pyx'],
               include_dirs=[np.get_include()],
               language='c++'
               )
@@ -20,7 +20,7 @@ ext_modules = [
 
 
 setup(
-    name="ms2vec",
+    name="mssg",
     version="0.2.0",
     ext_modules=cythonize(ext_modules),#, language_level = 3),
     include_dirs=[np.get_include()],
